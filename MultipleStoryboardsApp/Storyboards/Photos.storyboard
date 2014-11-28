@@ -1,7 +1,54 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="pRF-hS-tvI">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
-    <scenes/>
+    <scenes>
+        <!--Галерея фоточек-->
+        <scene sceneID="hVt-W7-dFR">
+            <objects>
+                <viewController id="pRF-hS-tvI" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cuZ-DG-Hnd"/>
+                        <viewControllerLayoutGuide type="bottom" id="8gj-5g-VgM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3tG-yR-1kG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Галерея фоточек" id="i3M-gF-1VN"/>
+                    <connections>
+                        <segue destination="kvN-Cd-S3O" kind="push" id="DFo-ry-0gO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mku-zm-DQJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="939.19999999999993" y="-66.266666666666666"/>
+        </scene>
+        <!--Фоточка-->
+        <scene sceneID="rRU-jC-uzG">
+            <objects>
+                <viewController id="kvN-Cd-S3O" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xeU-0s-1sd"/>
+                        <viewControllerLayoutGuide type="bottom" id="uaE-nD-zf9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1Kh-dy-CZG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Фоточка" id="zuQ-o4-9kG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xED-xj-28g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1466" y="-67"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
 </document>

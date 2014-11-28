@@ -19,6 +19,7 @@
 		9F7673131A2875A80026E606 /* BestCat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7673121A2875A80026E606 /* BestCat.storyboard */; };
 		9F7673151A2875B30026E606 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7673141A2875B30026E606 /* Settings.storyboard */; };
 		9F7673171A2875C40026E606 /* Photos.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7673161A2875C40026E606 /* Photos.storyboard */; };
+		9F76731A1A28776A0026E606 /* MSATabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7673191A28776A0026E606 /* MSATabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		9F7673121A2875A80026E606 /* BestCat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BestCat.storyboard; sourceTree = "<group>"; };
 		9F7673141A2875B30026E606 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		9F7673161A2875C40026E606 /* Photos.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Photos.storyboard; sourceTree = "<group>"; };
+		9F7673181A28776A0026E606 /* MSATabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSATabBarController.h; sourceTree = "<group>"; };
+		9F7673191A28776A0026E606 /* MSATabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSATabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 				9F76730D1A2875830026E606 /* Storyboards */,
 				9F7672E31A286A7F0026E606 /* AppDelegate.h */,
 				9F7672E41A286A7F0026E606 /* AppDelegate.m */,
+				9F7673181A28776A0026E606 /* MSATabBarController.h */,
+				9F7673191A28776A0026E606 /* MSATabBarController.m */,
 				9F7672E61A286A7F0026E606 /* ViewController.h */,
 				9F7672E71A286A7F0026E606 /* ViewController.m */,
 				9F7673051A286AE70026E606 /* MSALinkedStoryboardSegue.h */,
@@ -252,6 +257,7 @@
 			files = (
 				9F7672E81A286A7F0026E606 /* ViewController.m in Sources */,
 				9F7672E51A286A7F0026E606 /* AppDelegate.m in Sources */,
+				9F76731A1A28776A0026E606 /* MSATabBarController.m in Sources */,
 				9F7672E21A286A7F0026E606 /* main.m in Sources */,
 				9F7673071A286AE70026E606 /* MSALinkedStoryboardSegue.m in Sources */,
 			);
