@@ -12,6 +12,7 @@
 
 @interface MSABreedsAssembly : TyphoonAssembly
 
+- (UINavigationController *)breedsNavigationController;
 - (MSABreedsTableViewController *)breedsTableViewController;
 
 @end

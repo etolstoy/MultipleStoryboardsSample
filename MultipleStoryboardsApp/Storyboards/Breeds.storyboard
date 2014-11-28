@@ -30,7 +30,7 @@
                         <userDefinedRuntimeAttribute type="string" keyPath="typhoonKey" value="breedsTableViewController"/>
                     </userDefinedRuntimeAttributes>
                     <connections>
-                        <segue destination="AlW-aw-Tlq" kind="push" id="Yer-KS-316"/>
+                        <segue destination="AlW-aw-Tlq" kind="push" identifier="breedDetailSegue" id="Yer-KS-316"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cAJ-az-3Qh" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -65,6 +65,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="typhoonKey" value="breedsNavigationController"/>
+                    </userDefinedRuntimeAttributes>
                     <connections>
                         <segue destination="XdZ-CX-t2D" kind="relationship" relationship="rootViewController" id="x4Q-N9-ZyO"/>
                     </connections>

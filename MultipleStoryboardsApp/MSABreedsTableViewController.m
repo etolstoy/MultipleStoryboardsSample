@@ -9,6 +9,7 @@
 #import "MSABreedsTableViewController.h"
 #import "BreedsProtocol.h"
 #import "MSACatBreed.h"
+#import "MSABreedsRouter.h"
 
 static NSString *const BreedCellIdentifier = @"BreedCell";
 
@@ -40,7 +41,6 @@ static NSString *const BreedCellIdentifier = @"BreedCell";
     return [self.breedsArray count];
 }
 
-
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:BreedCellIdentifier forIndexPath:indexPath];
     
@@ -51,16 +51,12 @@ static NSString *const BreedCellIdentifier = @"BreedCell";
     return cell;
 }
 
-
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    [_breedsRouter showBreedViewControllerFromSourceController:self
+                                                  withCatBreed:self.breedsArray[indexPath.row]];
 }
-*/
+
 
 @end
