@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  MultipleStoryboardsApp
+//
+//  Created by Egor Tolstoy on 11/28/14.
+//  Copyright (c) 2014 etolstoy. All rights reserved.
+//
+
+#ifndef MultipleStoryboardsApp_PrefixHeader_pch
+#define MultipleStoryboardsApp_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
