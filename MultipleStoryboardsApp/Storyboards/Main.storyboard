@@ -7,13 +7,16 @@
         <!--Tab Bar Controller-->
         <scene sceneID="Qk2-Jr-hJR">
             <objects>
-                <tabBarController id="xqc-UP-NHN" customClass="MSATabBarController" sceneMemberID="viewController">
+                <tabBarController id="xqc-UP-NHN" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="oqf-VO-4OZ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="typhoonKey" value="tabBarController"/>
+                    </userDefinedRuntimeAttributes>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wdf-eb-Zzt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

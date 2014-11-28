@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76CE2F0D0B44BBBE961A6953 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D3841BCECF9BF5FEFF1EDC /* libPods.a */; };
 		9F7672E21A286A7F0026E606 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7672E11A286A7F0026E606 /* main.m */; };
 		9F7672E51A286A7F0026E606 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7672E41A286A7F0026E606 /* AppDelegate.m */; };
 		9F7672E81A286A7F0026E606 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7672E71A286A7F0026E606 /* ViewController.m */; };
@@ -20,6 +21,7 @@
 		9F7673151A2875B30026E606 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7673141A2875B30026E606 /* Settings.storyboard */; };
 		9F7673171A2875C40026E606 /* Photos.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7673161A2875C40026E606 /* Photos.storyboard */; };
 		9F76731A1A28776A0026E606 /* MSATabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7673191A28776A0026E606 /* MSATabBarController.m */; };
+		9F76731D1A287AEC0026E606 /* MSAApplicationAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F76731C1A287AEC0026E606 /* MSAApplicationAssembly.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57FADD0C02FD1A9735EF3B85 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		9F7672DC1A286A7F0026E606 /* MultipleStoryboardsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleStoryboardsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7672E01A286A7F0026E606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F7672E11A286A7F0026E606 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -55,6 +58,10 @@
 		9F7673161A2875C40026E606 /* Photos.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Photos.storyboard; sourceTree = "<group>"; };
 		9F7673181A28776A0026E606 /* MSATabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSATabBarController.h; sourceTree = "<group>"; };
 		9F7673191A28776A0026E606 /* MSATabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSATabBarController.m; sourceTree = "<group>"; };
+		9F76731B1A287AEC0026E606 /* MSAApplicationAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAApplicationAssembly.h; sourceTree = "<group>"; };
+		9F76731C1A287AEC0026E606 /* MSAApplicationAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAApplicationAssembly.m; sourceTree = "<group>"; };
+		C2D3841BCECF9BF5FEFF1EDC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3136D3FAA1C7F01B7DC3FB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76CE2F0D0B44BBBE961A6953 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A5553CDBB7C31E709BA6F48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57FADD0C02FD1A9735EF3B85 /* Pods.debug.xcconfig */,
+				CD3136D3FAA1C7F01B7DC3FB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9F7672D31A286A7F0026E606 = {
 			isa = PBXGroup;
 			children = (
 				9F7672DE1A286A7F0026E606 /* MultipleStoryboardsApp */,
 				9F7672F81A286A7F0026E606 /* MultipleStoryboardsAppTests */,
 				9F7672DD1A286A7F0026E606 /* Products */,
+				5A5553CDBB7C31E709BA6F48 /* Pods */,
+				C1DF46171F68219EE2ACBEC7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				9F76730D1A2875830026E606 /* Storyboards */,
+				9F76731B1A287AEC0026E606 /* MSAApplicationAssembly.h */,
+				9F76731C1A287AEC0026E606 /* MSAApplicationAssembly.m */,
 				9F7672E31A286A7F0026E606 /* AppDelegate.h */,
 				9F7672E41A286A7F0026E606 /* AppDelegate.m */,
 				9F7673181A28776A0026E606 /* MSATabBarController.h */,
@@ -151,6 +172,14 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
+		C1DF46171F68219EE2ACBEC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2D3841BCECF9BF5FEFF1EDC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F7672FF1A286A7F0026E606 /* Build configuration list for PBXNativeTarget "MultipleStoryboardsApp" */;
 			buildPhases = (
+				58D630A2E96F8AE09B7F38C1 /* Check Pods Manifest.lock */,
 				9F7672D81A286A7F0026E606 /* Sources */,
 				9F7672D91A286A7F0026E606 /* Frameworks */,
 				9F7672DA1A286A7F0026E606 /* Resources */,
+				94CC88565E9DDDAAE56E428D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +281,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		58D630A2E96F8AE09B7F38C1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		94CC88565E9DDDAAE56E428D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9F7672D81A286A7F0026E606 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -257,6 +321,7 @@
 			files = (
 				9F7672E81A286A7F0026E606 /* ViewController.m in Sources */,
 				9F7672E51A286A7F0026E606 /* AppDelegate.m in Sources */,
+				9F76731D1A287AEC0026E606 /* MSAApplicationAssembly.m in Sources */,
 				9F76731A1A28776A0026E606 /* MSATabBarController.m in Sources */,
 				9F7672E21A286A7F0026E606 /* main.m in Sources */,
 				9F7673071A286AE70026E606 /* MSALinkedStoryboardSegue.m in Sources */,
@@ -371,6 +436,7 @@
 		};
 		9F7673001A286A7F0026E606 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57FADD0C02FD1A9735EF3B85 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = MultipleStoryboardsApp/PrefixHeader.pch;
@@ -382,6 +448,7 @@
 		};
 		9F7673011A286A7F0026E606 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD3136D3FAA1C7F01B7DC3FB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = MultipleStoryboardsApp/PrefixHeader.pch;
@@ -444,6 +511,7 @@
 				9F7673011A286A7F0026E606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F7673021A286A7F0026E606 /* Build configuration list for PBXNativeTarget "MultipleStoryboardsAppTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +520,7 @@
 				9F7673041A286A7F0026E606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
