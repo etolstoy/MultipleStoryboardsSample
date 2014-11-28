@@ -32,7 +32,8 @@
 	</array>
 	<key>TyphoonInitialAssemblies</key>
 	<array>
-		<string>MSAApplicationAssembly</string>
+		<string>MSAMainAssembly</string>
+		<string>MSABreedsAssembly</string>
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>

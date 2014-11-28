@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 etolstoy. All rights reserved.
 //
 
-#import "MSAApplicationAssembly.h"
+#import "MSAMainAssembly.h"
 
 static NSString *const MSABreedsStoryboardIdentifier = @"Breeds";
 static NSString *const MSABestCatStoryboardIdentifier = @"BestCat";
 static NSString *const MSASettingsStoryboardIdentifier = @"Settings";
 
-@implementation MSAApplicationAssembly
+@implementation MSAMainAssembly
 
 - (UITabBarController *)tabBarController {
     return [TyphoonDefinition withClass:[UITabBarController class] configuration:^(TyphoonDefinition *definition) {

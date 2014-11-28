@@ -8,7 +8,7 @@
 
 #import "TyphoonAssembly.h"
 
-@interface MSAApplicationAssembly : TyphoonAssembly
+@interface MSAMainAssembly : TyphoonAssembly
 
 - (UITabBarController *)tabBarController;
 

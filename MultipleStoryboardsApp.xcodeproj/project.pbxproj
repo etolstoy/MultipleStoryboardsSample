@@ -10,7 +10,6 @@
 		76CE2F0D0B44BBBE961A6953 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D3841BCECF9BF5FEFF1EDC /* libPods.a */; };
 		9F7672E21A286A7F0026E606 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7672E11A286A7F0026E606 /* main.m */; };
 		9F7672E51A286A7F0026E606 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7672E41A286A7F0026E606 /* AppDelegate.m */; };
-		9F7672E81A286A7F0026E606 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7672E71A286A7F0026E606 /* ViewController.m */; };
 		9F7672ED1A286A7F0026E606 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7672EC1A286A7F0026E606 /* Images.xcassets */; };
 		9F7672F01A286A7F0026E606 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F7672EE1A286A7F0026E606 /* LaunchScreen.xib */; };
 		9F7672FC1A286A7F0026E606 /* MultipleStoryboardsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7672FB1A286A7F0026E606 /* MultipleStoryboardsAppTests.m */; };
@@ -20,8 +19,11 @@
 		9F7673131A2875A80026E606 /* BestCat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7673121A2875A80026E606 /* BestCat.storyboard */; };
 		9F7673151A2875B30026E606 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7673141A2875B30026E606 /* Settings.storyboard */; };
 		9F7673171A2875C40026E606 /* Photos.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7673161A2875C40026E606 /* Photos.storyboard */; };
-		9F76731A1A28776A0026E606 /* MSATabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7673191A28776A0026E606 /* MSATabBarController.m */; };
-		9F76731D1A287AEC0026E606 /* MSAApplicationAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F76731C1A287AEC0026E606 /* MSAApplicationAssembly.m */; };
+		9F76731D1A287AEC0026E606 /* MSAMainAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F76731C1A287AEC0026E606 /* MSAMainAssembly.m */; };
+		9F7673201A288CF30026E606 /* MSABreedsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F76731F1A288CF30026E606 /* MSABreedsTableViewController.m */; };
+		9F7673231A288DAF0026E606 /* MSACatBreed.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7673221A288DAF0026E606 /* MSACatBreed.m */; };
+		9F7673271A288EBA0026E606 /* MSAOfflineBreedsClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7673261A288EBA0026E606 /* MSAOfflineBreedsClient.m */; };
+		9F76732A1A2892790026E606 /* MSABreedsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7673291A2892790026E606 /* MSABreedsAssembly.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +43,6 @@
 		9F7672E11A286A7F0026E606 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9F7672E31A286A7F0026E606 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F7672E41A286A7F0026E606 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9F7672E61A286A7F0026E606 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9F7672E71A286A7F0026E606 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9F7672EC1A286A7F0026E606 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9F7672EF1A286A7F0026E606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9F7672F51A286A7F0026E606 /* MultipleStoryboardsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipleStoryboardsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,10 +56,17 @@
 		9F7673121A2875A80026E606 /* BestCat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BestCat.storyboard; sourceTree = "<group>"; };
 		9F7673141A2875B30026E606 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		9F7673161A2875C40026E606 /* Photos.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Photos.storyboard; sourceTree = "<group>"; };
-		9F7673181A28776A0026E606 /* MSATabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSATabBarController.h; sourceTree = "<group>"; };
-		9F7673191A28776A0026E606 /* MSATabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSATabBarController.m; sourceTree = "<group>"; };
-		9F76731B1A287AEC0026E606 /* MSAApplicationAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAApplicationAssembly.h; sourceTree = "<group>"; };
-		9F76731C1A287AEC0026E606 /* MSAApplicationAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAApplicationAssembly.m; sourceTree = "<group>"; };
+		9F76731B1A287AEC0026E606 /* MSAMainAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAMainAssembly.h; sourceTree = "<group>"; };
+		9F76731C1A287AEC0026E606 /* MSAMainAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAMainAssembly.m; sourceTree = "<group>"; };
+		9F76731E1A288CF30026E606 /* MSABreedsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsTableViewController.h; sourceTree = "<group>"; };
+		9F76731F1A288CF30026E606 /* MSABreedsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsTableViewController.m; sourceTree = "<group>"; };
+		9F7673211A288DAF0026E606 /* MSACatBreed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSACatBreed.h; sourceTree = "<group>"; };
+		9F7673221A288DAF0026E606 /* MSACatBreed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSACatBreed.m; sourceTree = "<group>"; };
+		9F7673241A288E170026E606 /* BreedsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreedsProtocol.h; sourceTree = "<group>"; };
+		9F7673251A288EBA0026E606 /* MSAOfflineBreedsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAOfflineBreedsClient.h; sourceTree = "<group>"; };
+		9F7673261A288EBA0026E606 /* MSAOfflineBreedsClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAOfflineBreedsClient.m; sourceTree = "<group>"; };
+		9F7673281A2892790026E606 /* MSABreedsAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsAssembly.h; sourceTree = "<group>"; };
+		9F7673291A2892790026E606 /* MSABreedsAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsAssembly.m; sourceTree = "<group>"; };
 		C2D3841BCECF9BF5FEFF1EDC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD3136D3FAA1C7F01B7DC3FB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,17 +123,21 @@
 			isa = PBXGroup;
 			children = (
 				9F76730D1A2875830026E606 /* Storyboards */,
-				9F76731B1A287AEC0026E606 /* MSAApplicationAssembly.h */,
-				9F76731C1A287AEC0026E606 /* MSAApplicationAssembly.m */,
+				9F76731B1A287AEC0026E606 /* MSAMainAssembly.h */,
+				9F76731C1A287AEC0026E606 /* MSAMainAssembly.m */,
+				9F7673281A2892790026E606 /* MSABreedsAssembly.h */,
+				9F7673291A2892790026E606 /* MSABreedsAssembly.m */,
+				9F7673241A288E170026E606 /* BreedsProtocol.h */,
+				9F7673251A288EBA0026E606 /* MSAOfflineBreedsClient.h */,
+				9F7673261A288EBA0026E606 /* MSAOfflineBreedsClient.m */,
+				9F76731E1A288CF30026E606 /* MSABreedsTableViewController.h */,
+				9F76731F1A288CF30026E606 /* MSABreedsTableViewController.m */,
+				9F7673211A288DAF0026E606 /* MSACatBreed.h */,
+				9F7673221A288DAF0026E606 /* MSACatBreed.m */,
 				9F7672E31A286A7F0026E606 /* AppDelegate.h */,
 				9F7672E41A286A7F0026E606 /* AppDelegate.m */,
-				9F7673181A28776A0026E606 /* MSATabBarController.h */,
-				9F7673191A28776A0026E606 /* MSATabBarController.m */,
-				9F7672E61A286A7F0026E606 /* ViewController.h */,
-				9F7672E71A286A7F0026E606 /* ViewController.m */,
 				9F7673051A286AE70026E606 /* MSALinkedStoryboardSegue.h */,
 				9F7673061A286AE70026E606 /* MSALinkedStoryboardSegue.m */,
-				9F7673081A286B010026E606 /* PrefixHeader.pch */,
 				9F7672EC1A286A7F0026E606 /* Images.xcassets */,
 				9F7672EE1A286A7F0026E606 /* LaunchScreen.xib */,
 				9F7672DF1A286A7F0026E606 /* Supporting Files */,
@@ -137,6 +148,7 @@
 		9F7672DF1A286A7F0026E606 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9F7673081A286B010026E606 /* PrefixHeader.pch */,
 				9F7672E01A286A7F0026E606 /* Info.plist */,
 				9F7672E11A286A7F0026E606 /* main.m */,
 			);
@@ -319,11 +331,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F7672E81A286A7F0026E606 /* ViewController.m in Sources */,
 				9F7672E51A286A7F0026E606 /* AppDelegate.m in Sources */,
-				9F76731D1A287AEC0026E606 /* MSAApplicationAssembly.m in Sources */,
-				9F76731A1A28776A0026E606 /* MSATabBarController.m in Sources */,
+				9F76731D1A287AEC0026E606 /* MSAMainAssembly.m in Sources */,
+				9F7673271A288EBA0026E606 /* MSAOfflineBreedsClient.m in Sources */,
+				9F7673201A288CF30026E606 /* MSABreedsTableViewController.m in Sources */,
+				9F76732A1A2892790026E606 /* MSABreedsAssembly.m in Sources */,
 				9F7672E21A286A7F0026E606 /* main.m in Sources */,
+				9F7673231A288DAF0026E606 /* MSACatBreed.m in Sources */,
 				9F7673071A286AE70026E606 /* MSALinkedStoryboardSegue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
