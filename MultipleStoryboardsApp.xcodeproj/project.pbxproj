@@ -43,6 +43,7 @@
 		9F7672FB1A286A7F0026E606 /* MultipleStoryboardsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultipleStoryboardsAppTests.m; sourceTree = "<group>"; };
 		9F7673051A286AE70026E606 /* MSALinkedStoryboardSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSALinkedStoryboardSegue.h; sourceTree = "<group>"; };
 		9F7673061A286AE70026E606 /* MSALinkedStoryboardSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSALinkedStoryboardSegue.m; sourceTree = "<group>"; };
+		9F7673081A286B010026E606 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +92,7 @@
 				9F7672E91A286A7F0026E606 /* Main.storyboard */,
 				9F7673051A286AE70026E606 /* MSALinkedStoryboardSegue.h */,
 				9F7673061A286AE70026E606 /* MSALinkedStoryboardSegue.m */,
+				9F7673081A286B010026E606 /* PrefixHeader.pch */,
 				9F7672EC1A286A7F0026E606 /* Images.xcassets */,
 				9F7672EE1A286A7F0026E606 /* LaunchScreen.xib */,
 				9F7672DF1A286A7F0026E606 /* Supporting Files */,
@@ -349,6 +351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = MultipleStoryboardsApp/PrefixHeader.pch;
 				INFOPLIST_FILE = MultipleStoryboardsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,6 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = MultipleStoryboardsApp/PrefixHeader.pch;
 				INFOPLIST_FILE = MultipleStoryboardsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
