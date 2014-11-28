@@ -14,6 +14,7 @@
 		9F7672ED1A286A7F0026E606 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7672EC1A286A7F0026E606 /* Images.xcassets */; };
 		9F7672F01A286A7F0026E606 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F7672EE1A286A7F0026E606 /* LaunchScreen.xib */; };
 		9F7672FC1A286A7F0026E606 /* MultipleStoryboardsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7672FB1A286A7F0026E606 /* MultipleStoryboardsAppTests.m */; };
+		9F7673071A286AE70026E606 /* MSALinkedStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7673061A286AE70026E606 /* MSALinkedStoryboardSegue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		9F7672F51A286A7F0026E606 /* MultipleStoryboardsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipleStoryboardsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7672FA1A286A7F0026E606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F7672FB1A286A7F0026E606 /* MultipleStoryboardsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultipleStoryboardsAppTests.m; sourceTree = "<group>"; };
+		9F7673051A286AE70026E606 /* MSALinkedStoryboardSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSALinkedStoryboardSegue.h; sourceTree = "<group>"; };
+		9F7673061A286AE70026E606 /* MSALinkedStoryboardSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSALinkedStoryboardSegue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				9F7672E61A286A7F0026E606 /* ViewController.h */,
 				9F7672E71A286A7F0026E606 /* ViewController.m */,
 				9F7672E91A286A7F0026E606 /* Main.storyboard */,
+				9F7673051A286AE70026E606 /* MSALinkedStoryboardSegue.h */,
+				9F7673061A286AE70026E606 /* MSALinkedStoryboardSegue.m */,
 				9F7672EC1A286A7F0026E606 /* Images.xcassets */,
 				9F7672EE1A286A7F0026E606 /* LaunchScreen.xib */,
 				9F7672DF1A286A7F0026E606 /* Supporting Files */,
@@ -222,6 +227,7 @@
 				9F7672E81A286A7F0026E606 /* ViewController.m in Sources */,
 				9F7672E51A286A7F0026E606 /* AppDelegate.m in Sources */,
 				9F7672E21A286A7F0026E606 /* main.m in Sources */,
+				9F7673071A286AE70026E606 /* MSALinkedStoryboardSegue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

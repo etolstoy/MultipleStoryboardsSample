@@ -10,4 +10,6 @@
 
 @interface MSALinkedStoryboardSegue : UIStoryboardSegue
 
++ (UIViewController *)sceneNamed:(NSString *)identifier;
+
 @end
