@@ -55,11 +55,11 @@
             </objects>
             <point key="canvasLocation" x="822" y="-460"/>
         </scene>
-        <!--Tab 2-->
+        <!--Лучший кот-->
         <scene sceneID="h5a-yz-gqC">
             <objects>
                 <navigationController id="RDK-2y-v4s" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Tab 2" id="VoK-KS-pbn"/>
+                    <tabBarItem key="tabBarItem" title="Лучший кот" id="VoK-KS-pbn"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="4jD-nJ-31l">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -143,11 +143,11 @@
             </objects>
             <point key="canvasLocation" x="1275" y="931"/>
         </scene>
-        <!--Tab 3-->
+        <!--Настройки-->
         <scene sceneID="qfO-ps-oTT">
             <objects>
                 <navigationController id="CSF-VZ-Ze8" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Tab 3" id="LTF-S4-Vvb"/>
+                    <tabBarItem key="tabBarItem" title="Настройки" id="LTF-S4-Vvb"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="E4F-jD-KZS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -223,11 +223,11 @@
             </objects>
             <point key="canvasLocation" x="2263" y="-70"/>
         </scene>
-        <!--Tab 1-->
+        <!--Породы-->
         <scene sceneID="1G7-Zv-VVD">
             <objects>
                 <navigationController id="uDE-Pi-6RU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Tab 1" id="JC9-a1-lrs"/>
+                    <tabBarItem key="tabBarItem" title="Породы" id="JC9-a1-lrs"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="e9k-8G-GW7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
