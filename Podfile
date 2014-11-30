@@ -1,1 +1,2 @@
 pod 'Typhoon'
+pod 'AFNetworking'
