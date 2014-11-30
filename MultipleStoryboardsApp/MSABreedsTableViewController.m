@@ -54,7 +54,7 @@ static NSString *const BreedCellIdentifier = @"BreedCell";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    [_breedsRouter showBreedViewControllerFromSourceController:self
+    [(MSABreedsRouter *)self.router showBreedViewControllerFromSourceController:self
                                                   withCatBreed:self.breedsArray[indexPath.row]];
 }
 

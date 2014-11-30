@@ -28,6 +28,7 @@
 		9F7673341A2895CC0026E606 /* MSABreedsRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7673331A2895CC0026E606 /* MSABreedsRouter.m */; };
 		9F7673371A28BB0B0026E606 /* MSABaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7673361A28BB0B0026E606 /* MSABaseViewController.m */; };
 		9FFA81EB1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFA81EA1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m */; };
+		9FFA81EE1A2B80EA00E07F66 /* MSABaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFA81ED1A2B80EA00E07F66 /* MSABaseTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,8 @@
 		9F7673361A28BB0B0026E606 /* MSABaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABaseViewController.m; sourceTree = "<group>"; };
 		9FFA81E91A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAJsonGeneratorBreedsClient.h; sourceTree = "<group>"; };
 		9FFA81EA1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAJsonGeneratorBreedsClient.m; sourceTree = "<group>"; };
+		9FFA81EC1A2B80EA00E07F66 /* MSABaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABaseTableViewController.h; sourceTree = "<group>"; };
+		9FFA81ED1A2B80EA00E07F66 /* MSABaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABaseTableViewController.m; sourceTree = "<group>"; };
 		C2D3841BCECF9BF5FEFF1EDC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD3136D3FAA1C7F01B7DC3FB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -151,6 +154,8 @@
 				9F7672DF1A286A7F0026E606 /* Supporting Files */,
 				9F7673351A28BB0B0026E606 /* MSABaseViewController.h */,
 				9F7673361A28BB0B0026E606 /* MSABaseViewController.m */,
+				9FFA81EC1A2B80EA00E07F66 /* MSABaseTableViewController.h */,
+				9FFA81ED1A2B80EA00E07F66 /* MSABaseTableViewController.m */,
 			);
 			path = MultipleStoryboardsApp;
 			sourceTree = "<group>";
@@ -367,6 +372,7 @@
 				9F7673311A2895B70026E606 /* MSARouter.m in Sources */,
 				9F7673271A288EBA0026E606 /* MSAOfflineBreedsClient.m in Sources */,
 				9F7673201A288CF30026E606 /* MSABreedsTableViewController.m in Sources */,
+				9FFA81EE1A2B80EA00E07F66 /* MSABaseTableViewController.m in Sources */,
 				9F76732A1A2892790026E606 /* MSABreedsAssembly.m in Sources */,
 				9F7672E21A286A7F0026E606 /* main.m in Sources */,
 				9F7673231A288DAF0026E606 /* MSACatBreed.m in Sources */,

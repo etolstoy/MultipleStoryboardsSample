@@ -9,6 +9,7 @@
 #import "MSABreedsAssembly.h"
 #import "MSABreedsTableViewController.h"
 #import "MSAOfflineBreedsClient.h"
+#import "MSAJsonGeneratorBreedsClient.h"
 #import "MSABreedsRouter.h"
 
 @implementation MSABreedsAssembly
@@ -19,7 +20,7 @@
 
 - (MSABreedsTableViewController *)breedsTableViewController {
     return [TyphoonDefinition withClass:[MSABreedsTableViewController class] configuration:^(TyphoonDefinition *definition) {
-        [definition injectProperty:@selector(breedsProvider) with:[MSAOfflineBreedsClient new]];
+        [definition injectProperty:@selector(breedsProvider) with:[MSAJsonGeneratorBreedsClient new]];
         [definition injectProperty:@selector(router) with:[self breedsRouter]];
     }];
 }
