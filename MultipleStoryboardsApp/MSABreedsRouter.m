@@ -8,6 +8,7 @@
 
 #import "MSABreedsRouter.h"
 #import "MSARoutingProtocol.h"
+#import "MSABreedsDetailViewController.h"
 #import "UIViewController+Routing.h"
 
 static NSString *const BreedDetailSegueIdentifier = @"breedDetailSegue";
@@ -40,6 +41,8 @@ static NSString *const BreedDetailSegueUserInfoKey = @"breedDetailSegueUserInfo"
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     MSACatBreed *catBreed = [[segue.sourceViewController segueUserInfo:segue] objectForKey:BreedDetailSegueUserInfoKey];
     
+    MSABreedsDetailViewController *destinationViewController = segue.destinationViewController;
+    destinationViewController.catBreed = catBreed;
 }
 
 @end

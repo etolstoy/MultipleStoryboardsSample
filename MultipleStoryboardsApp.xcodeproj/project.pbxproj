@@ -27,6 +27,7 @@
 		9F7673311A2895B70026E606 /* MSARouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7673301A2895B70026E606 /* MSARouter.m */; };
 		9F7673341A2895CC0026E606 /* MSABreedsRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7673331A2895CC0026E606 /* MSABreedsRouter.m */; };
 		9FA9E0F11A2C5D3300AA7F75 /* UIViewController+Routing.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E0F01A2C5D3300AA7F75 /* UIViewController+Routing.m */; };
+		9FA9E0F41A2C656400AA7F75 /* MSABreedsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E0F31A2C656400AA7F75 /* MSABreedsDetailViewController.m */; };
 		9FFA81EB1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFA81EA1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +79,8 @@
 		9FA9E0EE1A2C4B6700AA7F75 /* MSARoutingProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSARoutingProtocol.h; sourceTree = "<group>"; };
 		9FA9E0EF1A2C5D3300AA7F75 /* UIViewController+Routing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Routing.h"; sourceTree = "<group>"; };
 		9FA9E0F01A2C5D3300AA7F75 /* UIViewController+Routing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Routing.m"; sourceTree = "<group>"; };
+		9FA9E0F21A2C656400AA7F75 /* MSABreedsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsDetailViewController.h; sourceTree = "<group>"; };
+		9FA9E0F31A2C656400AA7F75 /* MSABreedsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsDetailViewController.m; sourceTree = "<group>"; };
 		9FFA81E91A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAJsonGeneratorBreedsClient.h; sourceTree = "<group>"; };
 		9FFA81EA1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAJsonGeneratorBreedsClient.m; sourceTree = "<group>"; };
 		C2D3841BCECF9BF5FEFF1EDC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -210,6 +213,8 @@
 				9F76731F1A288CF30026E606 /* MSABreedsTableViewController.m */,
 				9F7673321A2895CC0026E606 /* MSABreedsRouter.h */,
 				9F7673331A2895CC0026E606 /* MSABreedsRouter.m */,
+				9FA9E0F21A2C656400AA7F75 /* MSABreedsDetailViewController.h */,
+				9FA9E0F31A2C656400AA7F75 /* MSABreedsDetailViewController.m */,
 			);
 			name = "Breeds User Story";
 			sourceTree = "<group>";
@@ -370,6 +375,7 @@
 				9FA9E0F11A2C5D3300AA7F75 /* UIViewController+Routing.m in Sources */,
 				9F7673201A288CF30026E606 /* MSABreedsTableViewController.m in Sources */,
 				9F76732A1A2892790026E606 /* MSABreedsAssembly.m in Sources */,
+				9FA9E0F41A2C656400AA7F75 /* MSABreedsDetailViewController.m in Sources */,
 				9F7672E21A286A7F0026E606 /* main.m in Sources */,
 				9F7673231A288DAF0026E606 /* MSACatBreed.m in Sources */,
 				9F7673071A286AE70026E606 /* MSALinkedStoryboardSegue.m in Sources */,
