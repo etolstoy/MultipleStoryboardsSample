@@ -9,10 +9,15 @@
 #import "MSABreedsRouter.h"
 #import "MSARoutingProtocol.h"
 #import "MSABreedsDetailViewController.h"
+#import "MSAPhotoGalleryViewController.h"
 #import "UIViewController+Routing.h"
+#import "MSAPhotosAssembly.h"
 
 static NSString *const BreedDetailSegueIdentifier = @"breedDetailSegue";
+static NSString *const BreedPhotosSegueIdentifier = @"MSAPhotoGalleryViewController@Photos";
+
 static NSString *const BreedDetailSegueUserInfoKey = @"breedDetailSegueUserInfo";
+static NSString *const BreedPhotosSegueUserInfoKey = @"breedPhotosSegueUserInfo";
 
 @class MSACatBreed;
 
@@ -31,6 +36,22 @@ static NSString *const BreedDetailSegueUserInfoKey = @"breedDetailSegueUserInfo"
     return self;
 }
 
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:BreedDetailSegueIdentifier]) {
+        MSACatBreed *catBreed = [[segue.sourceViewController segueUserInfo:segue] objectForKey:BreedDetailSegueUserInfoKey];
+        
+        MSABreedsDetailViewController *destinationViewController = segue.destinationViewController;
+        destinationViewController.catBreed = catBreed;
+        destinationViewController.router = self;
+    } else if ([segue.identifier isEqualToString:BreedPhotosSegueIdentifier]) {
+        MSACatBreed *catBreed = [[segue.sourceViewController segueUserInfo:segue] objectForKey:BreedPhotosSegueUserInfoKey];
+        
+        MSAPhotoGalleryViewController *destinationViewController = segue.destinationViewController;
+        destinationViewController.catBreed = catBreed;
+        destinationViewController.router = [self.photosAssembly photosRouterWithNavigationController:self.mainNavigationController];
+    }
+}
+
 - (void)showBreedViewControllerFromSourceController:(UIViewController *)sourceController
                                        withCatBreed:(MSACatBreed *)catBreed {
     [sourceController performSegueWithIdentifier:BreedDetailSegueIdentifier
@@ -38,11 +59,11 @@ static NSString *const BreedDetailSegueUserInfoKey = @"breedDetailSegueUserInfo"
                                         userInfo:@{BreedDetailSegueUserInfoKey : catBreed}];
 }
 
--(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    MSACatBreed *catBreed = [[segue.sourceViewController segueUserInfo:segue] objectForKey:BreedDetailSegueUserInfoKey];
-    
-    MSABreedsDetailViewController *destinationViewController = segue.destinationViewController;
-    destinationViewController.catBreed = catBreed;
+- (void)showPhotosViewControllerFromSourceController:(UIViewController *)sourceController
+                                        withCatBreed:(MSACatBreed *)catBreed {
+    [sourceController performSegueWithIdentifier:BreedPhotosSegueIdentifier
+                                          sender:self
+                                        userInfo:@{BreedPhotosSegueUserInfoKey : catBreed}];
 }
 
 @end

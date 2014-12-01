@@ -41,8 +41,8 @@ static NSString *const BreedDescriptionKey = @"breedDescriptionKey";
     
     NSMutableArray *result = [@[] mutableCopy];
     for (NSDictionary *breedDictionary in breedsArray) {
-        [result addObject:[[MSACatBreed alloc] initWithBreedName:breedDictionary[BreedNameKey]
-                                                breedDescription:breedDictionary[BreedDescriptionKey]]];
+//        [result addObject:[[MSACatBreed alloc] initWithBreedName:breedDictionary[BreedNameKey]
+//                                                breedDescription:breedDictionary[BreedDescriptionKey]]];
     }
     
     completion([result copy], nil);

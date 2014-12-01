@@ -8,6 +8,8 @@
 
 #import "MSABreedsDetailViewController.h"
 #import "MSACatBreed.h"
+#import "MSABreedsRouter.h"
+#import "UIViewController+Routing.h"
 
 @interface MSABreedsDetailViewController ()
 
@@ -22,6 +24,11 @@
     
     self.navigationItem.title = self.catBreed.breedName;
     self.breedDetailTextView.text = self.catBreed.breedDescription;
+}
+
+- (IBAction)showPicturesButtonClicked:(id)sender {
+    [(MSABreedsRouter *)self.router showPhotosViewControllerFromSourceController:self
+                                                                    withCatBreed:self.catBreed];
 }
 
 @end

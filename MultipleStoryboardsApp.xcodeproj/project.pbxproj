@@ -28,6 +28,11 @@
 		9F7673341A2895CC0026E606 /* MSABreedsRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7673331A2895CC0026E606 /* MSABreedsRouter.m */; };
 		9FA9E0F11A2C5D3300AA7F75 /* UIViewController+Routing.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E0F01A2C5D3300AA7F75 /* UIViewController+Routing.m */; };
 		9FA9E0F41A2C656400AA7F75 /* MSABreedsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E0F31A2C656400AA7F75 /* MSABreedsDetailViewController.m */; };
+		9FA9E0F71A2C6C3E00AA7F75 /* MSAPhotoGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E0F61A2C6C3E00AA7F75 /* MSAPhotoGalleryViewController.m */; };
+		9FA9E0FB1A2C6C9D00AA7F75 /* MSAPhotosRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E0FA1A2C6C9D00AA7F75 /* MSAPhotosRouter.m */; };
+		9FA9E0FE1A2C6CF200AA7F75 /* MSAPhotosAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E0FD1A2C6CF200AA7F75 /* MSAPhotosAssembly.m */; };
+		9FA9E1011A2C8A8400AA7F75 /* MSAPhotoGalleryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1001A2C8A8400AA7F75 /* MSAPhotoGalleryCollectionViewCell.m */; };
+		9FA9E1041A2C8DC200AA7F75 /* MSAPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1031A2C8DC200AA7F75 /* MSAPhotoViewController.m */; };
 		9FFA81EB1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFA81EA1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m */; };
 /* End PBXBuildFile section */
 
@@ -60,7 +65,7 @@
 		9F7673101A28759B0026E606 /* Breeds.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Breeds.storyboard; path = Storyboards/Breeds.storyboard; sourceTree = "<group>"; };
 		9F7673121A2875A80026E606 /* BestCat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BestCat.storyboard; sourceTree = "<group>"; };
 		9F7673141A2875B30026E606 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
-		9F7673161A2875C40026E606 /* Photos.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Photos.storyboard; sourceTree = "<group>"; };
+		9F7673161A2875C40026E606 /* Photos.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Photos.storyboard; path = Storyboards/Photos.storyboard; sourceTree = "<group>"; };
 		9F76731B1A287AEC0026E606 /* MSAMainAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAMainAssembly.h; sourceTree = "<group>"; };
 		9F76731C1A287AEC0026E606 /* MSAMainAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAMainAssembly.m; sourceTree = "<group>"; };
 		9F76731E1A288CF30026E606 /* MSABreedsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsTableViewController.h; sourceTree = "<group>"; };
@@ -81,6 +86,16 @@
 		9FA9E0F01A2C5D3300AA7F75 /* UIViewController+Routing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Routing.m"; sourceTree = "<group>"; };
 		9FA9E0F21A2C656400AA7F75 /* MSABreedsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsDetailViewController.h; sourceTree = "<group>"; };
 		9FA9E0F31A2C656400AA7F75 /* MSABreedsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsDetailViewController.m; sourceTree = "<group>"; };
+		9FA9E0F51A2C6C3E00AA7F75 /* MSAPhotoGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotoGalleryViewController.h; sourceTree = "<group>"; };
+		9FA9E0F61A2C6C3E00AA7F75 /* MSAPhotoGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotoGalleryViewController.m; sourceTree = "<group>"; };
+		9FA9E0F91A2C6C9D00AA7F75 /* MSAPhotosRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotosRouter.h; sourceTree = "<group>"; };
+		9FA9E0FA1A2C6C9D00AA7F75 /* MSAPhotosRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotosRouter.m; sourceTree = "<group>"; };
+		9FA9E0FC1A2C6CF200AA7F75 /* MSAPhotosAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotosAssembly.h; sourceTree = "<group>"; };
+		9FA9E0FD1A2C6CF200AA7F75 /* MSAPhotosAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotosAssembly.m; sourceTree = "<group>"; };
+		9FA9E0FF1A2C8A8400AA7F75 /* MSAPhotoGalleryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotoGalleryCollectionViewCell.h; sourceTree = "<group>"; };
+		9FA9E1001A2C8A8400AA7F75 /* MSAPhotoGalleryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotoGalleryCollectionViewCell.m; sourceTree = "<group>"; };
+		9FA9E1021A2C8DC100AA7F75 /* MSAPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotoViewController.h; sourceTree = "<group>"; };
+		9FA9E1031A2C8DC200AA7F75 /* MSAPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotoViewController.m; sourceTree = "<group>"; };
 		9FFA81E91A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAJsonGeneratorBreedsClient.h; sourceTree = "<group>"; };
 		9FFA81EA1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAJsonGeneratorBreedsClient.m; sourceTree = "<group>"; };
 		C2D3841BCECF9BF5FEFF1EDC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +155,7 @@
 			children = (
 				9F76730D1A2875830026E606 /* Storyboards */,
 				9F76732B1A2895420026E606 /* Breeds User Story */,
+				9FA9E0F81A2C6C5300AA7F75 /* Photos User Story */,
 				9F7673211A288DAF0026E606 /* MSACatBreed.h */,
 				9F7673221A288DAF0026E606 /* MSACatBreed.m */,
 				9F76732F1A2895B70026E606 /* MSARouter.h */,
@@ -193,7 +209,6 @@
 				9F76730E1A2875830026E606 /* Main.storyboard */,
 				9F7673121A2875A80026E606 /* BestCat.storyboard */,
 				9F7673141A2875B30026E606 /* Settings.storyboard */,
-				9F7673161A2875C40026E606 /* Photos.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -217,6 +232,24 @@
 				9FA9E0F31A2C656400AA7F75 /* MSABreedsDetailViewController.m */,
 			);
 			name = "Breeds User Story";
+			sourceTree = "<group>";
+		};
+		9FA9E0F81A2C6C5300AA7F75 /* Photos User Story */ = {
+			isa = PBXGroup;
+			children = (
+				9F7673161A2875C40026E606 /* Photos.storyboard */,
+				9FA9E0FC1A2C6CF200AA7F75 /* MSAPhotosAssembly.h */,
+				9FA9E0FD1A2C6CF200AA7F75 /* MSAPhotosAssembly.m */,
+				9FA9E0F91A2C6C9D00AA7F75 /* MSAPhotosRouter.h */,
+				9FA9E0FA1A2C6C9D00AA7F75 /* MSAPhotosRouter.m */,
+				9FA9E0F51A2C6C3E00AA7F75 /* MSAPhotoGalleryViewController.h */,
+				9FA9E0F61A2C6C3E00AA7F75 /* MSAPhotoGalleryViewController.m */,
+				9FA9E0FF1A2C8A8400AA7F75 /* MSAPhotoGalleryCollectionViewCell.h */,
+				9FA9E1001A2C8A8400AA7F75 /* MSAPhotoGalleryCollectionViewCell.m */,
+				9FA9E1021A2C8DC100AA7F75 /* MSAPhotoViewController.h */,
+				9FA9E1031A2C8DC200AA7F75 /* MSAPhotoViewController.m */,
+			);
+			name = "Photos User Story";
 			sourceTree = "<group>";
 		};
 		C1DF46171F68219EE2ACBEC7 /* Frameworks */ = {
@@ -366,19 +399,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FA9E0F71A2C6C3E00AA7F75 /* MSAPhotoGalleryViewController.m in Sources */,
 				9F7672E51A286A7F0026E606 /* AppDelegate.m in Sources */,
 				9F7673341A2895CC0026E606 /* MSABreedsRouter.m in Sources */,
 				9F76731D1A287AEC0026E606 /* MSAMainAssembly.m in Sources */,
 				9FFA81EB1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m in Sources */,
 				9F7673311A2895B70026E606 /* MSARouter.m in Sources */,
 				9F7673271A288EBA0026E606 /* MSAOfflineBreedsClient.m in Sources */,
+				9FA9E1011A2C8A8400AA7F75 /* MSAPhotoGalleryCollectionViewCell.m in Sources */,
 				9FA9E0F11A2C5D3300AA7F75 /* UIViewController+Routing.m in Sources */,
+				9FA9E1041A2C8DC200AA7F75 /* MSAPhotoViewController.m in Sources */,
 				9F7673201A288CF30026E606 /* MSABreedsTableViewController.m in Sources */,
 				9F76732A1A2892790026E606 /* MSABreedsAssembly.m in Sources */,
 				9FA9E0F41A2C656400AA7F75 /* MSABreedsDetailViewController.m in Sources */,
 				9F7672E21A286A7F0026E606 /* main.m in Sources */,
+				9FA9E0FE1A2C6CF200AA7F75 /* MSAPhotosAssembly.m in Sources */,
 				9F7673231A288DAF0026E606 /* MSACatBreed.m in Sources */,
 				9F7673071A286AE70026E606 /* MSALinkedStoryboardSegue.m in Sources */,
+				9FA9E0FB1A2C6C9D00AA7F75 /* MSAPhotosRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

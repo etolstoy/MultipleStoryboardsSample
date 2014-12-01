@@ -11,9 +11,11 @@
 @interface MSACatBreed : NSObject
 
 - (instancetype)initWithBreedName:(NSString *)breedName
-                 breedDescription:(NSString *)breedDescription;
+                 breedDescription:(NSString *)breedDescription
+                    breedPictures:(NSArray *)breedPictures;
 
 @property (strong, nonatomic) NSString *breedName;
 @property (strong, nonatomic) NSString *breedDescription;
+@property (strong, nonatomic) NSArray *breedPictures;
 
 @end

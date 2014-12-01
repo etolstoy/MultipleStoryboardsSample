@@ -7,7 +7,7 @@
         <!--Галерея фоточек-->
         <scene sceneID="hVt-W7-dFR">
             <objects>
-                <viewController id="pRF-hS-tvI" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MSAPhotoGalleryViewController" id="pRF-hS-tvI" customClass="MSAPhotoGalleryViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cuZ-DG-Hnd"/>
                         <viewControllerLayoutGuide type="bottom" id="8gj-5g-VgM"/>
@@ -15,11 +15,46 @@
                     <view key="view" contentMode="scaleToFill" id="3tG-yR-1kG">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ka8-CP-nZt">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="RXr-1B-WdT">
+                                    <size key="itemSize" width="100" height="100"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PhotoCell" id="Xyn-ph-hys" customClass="MSAPhotoGalleryCollectionViewCell">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xbp-P3-2dI">
+                                                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <connections>
+                                            <outlet property="photoImageView" destination="xbp-P3-2dI" id="d2E-TC-q05"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="pRF-hS-tvI" id="Ql3-XD-tjg"/>
+                                    <outlet property="delegate" destination="pRF-hS-tvI" id="8Rb-aW-cGf"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Галерея фоточек" id="i3M-gF-1VN"/>
                     <connections>
-                        <segue destination="kvN-Cd-S3O" kind="push" id="DFo-ry-0gO"/>
+                        <segue destination="kvN-Cd-S3O" kind="push" identifier="photoViewSegue" id="DFo-ry-0gO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mku-zm-DQJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -29,7 +64,7 @@
         <!--Фоточка-->
         <scene sceneID="rRU-jC-uzG">
             <objects>
-                <viewController id="kvN-Cd-S3O" sceneMemberID="viewController">
+                <viewController id="kvN-Cd-S3O" customClass="MSAPhotoViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xeU-0s-1sd"/>
                         <viewControllerLayoutGuide type="bottom" id="uaE-nD-zf9"/>
@@ -37,9 +72,17 @@
                     <view key="view" contentMode="scaleToFill" id="1Kh-dy-CZG">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hrB-gq-Jgr">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Фоточка" id="zuQ-o4-9kG"/>
+                    <connections>
+                        <outlet property="photoImageView" destination="hrB-gq-Jgr" id="X7R-d7-875"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xED-xj-28g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

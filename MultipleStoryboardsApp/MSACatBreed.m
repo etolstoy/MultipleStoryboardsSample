@@ -11,10 +11,12 @@
 @implementation MSACatBreed
 
 - (instancetype)initWithBreedName:(NSString *)breedName
-                 breedDescription:(NSString *)breedDescription {
+                 breedDescription:(NSString *)breedDescription
+                    breedPictures:(NSArray *)breedPictures {
     if (self = [super init]) {
         self.breedName = breedName;
         self.breedDescription = breedDescription;
+        self.breedPictures = breedPictures;
     }
     
     return self;

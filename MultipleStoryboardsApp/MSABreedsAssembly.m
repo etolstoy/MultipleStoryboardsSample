@@ -13,6 +13,8 @@
 #import "MSABreedsRouter.h"
 #import "MSARoutingProtocol.h"
 #import "UIViewController+Routing.h"
+#import "MSABreedsDetailViewController.h"
+#import "MSAPhotosAssembly.h"
 
 @implementation MSABreedsAssembly
 
@@ -27,8 +29,25 @@
     }];
 }
 
+- (MSABreedsDetailViewController *)breedsDetailViewController {
+    return [TyphoonDefinition withClass:[MSABreedsDetailViewController class] configuration:^(TyphoonDefinition *definition) {
+        [definition injectProperty:@selector(router) with:[self breedsRouter]];
+    }];
+}
+
 - (MSABreedsRouter *)breedsRouter {
+    return [TyphoonDefinition withClass:[MSABreedsRouter class] configuration:^(TyphoonDefinition *definition) {
+        [definition useInitializer:@selector(initWithNavigationController:) parameters:^(TyphoonMethod *initializer) {
+            [initializer injectParameterWith:[self breedsNavigationController]];
+        }];
+        [definition injectProperty:@selector(photosAssembly) with:[self photosAssembly]];
+
+    }];
     return [[MSABreedsRouter alloc] initWithNavigationController:[self breedsNavigationController]];
+}
+
+- (MSAPhotosAssembly *)photosAssembly {
+    return [TyphoonDefinition withClass:[MSAPhotosAssembly class]];
 }
 
 @end

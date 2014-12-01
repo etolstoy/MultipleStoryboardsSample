@@ -9,10 +9,12 @@
 #import "TyphoonAssembly.h"
 
 @class MSABreedsTableViewController;
+@class MSABreedsDetailViewController;
 
 @interface MSABreedsAssembly : TyphoonAssembly
 
 - (UINavigationController *)breedsNavigationController;
 - (MSABreedsTableViewController *)breedsTableViewController;
+- (MSABreedsDetailViewController *)breedsDetailViewController;
 
 @end
