@@ -15,11 +15,19 @@
 #import "UIViewController+Routing.h"
 #import "MSABreedsDetailViewController.h"
 #import "MSAPhotosAssembly.h"
+#import "MSAMainAssembly.h"
+#import "MSABreedsNavigationController.h"
+
+@interface MSABreedsAssembly ()
+
+@property(nonatomic, strong, readonly) MSAMainAssembly *mainAssembly;
+
+@end
 
 @implementation MSABreedsAssembly
 
-- (UINavigationController *)breedsNavigationController {
-    return [TyphoonDefinition withClass:[UINavigationController class]];
+- (MSABreedsNavigationController *)breedsNavigationController {
+    return [TyphoonDefinition withClass:[MSABreedsNavigationController class]];
 }
 
 - (MSABreedsTableViewController *)breedsTableViewController {
@@ -40,14 +48,13 @@
         [definition useInitializer:@selector(initWithNavigationController:) parameters:^(TyphoonMethod *initializer) {
             [initializer injectParameterWith:[self breedsNavigationController]];
         }];
-        [definition injectProperty:@selector(photosAssembly) with:[self photosAssembly]];
+        [definition injectProperty:@selector(photosAssembly) with:[_mainAssembly photosAssembly]];
 
     }];
-    return [[MSABreedsRouter alloc] initWithNavigationController:[self breedsNavigationController]];
 }
 
-- (MSAPhotosAssembly *)photosAssembly {
-    return [TyphoonDefinition withClass:[MSAPhotosAssembly class]];
-}
+//- (MSAPhotosAssembly *)photosAssembly {
+//    return [TyphoonDefinition withClass:[MSAPhotosAssembly class]];
+//}
 
 @end

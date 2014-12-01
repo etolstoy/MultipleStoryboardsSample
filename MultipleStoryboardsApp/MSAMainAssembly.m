@@ -7,6 +7,7 @@
 //
 
 #import "MSAMainAssembly.h"
+#import "MSAPhotosAssembly.h"
 
 static NSString *const MSABreedsStoryboardIdentifier = @"Breeds";
 static NSString *const MSABestCatStoryboardIdentifier = @"BestCat";
@@ -18,6 +19,10 @@ static NSString *const MSASettingsStoryboardIdentifier = @"Settings";
     return [TyphoonDefinition withClass:[UITabBarController class] configuration:^(TyphoonDefinition *definition) {
         [definition injectProperty:@selector(viewControllers) with:[self storyboardsInitialViewControllers]];
     }];
+}
+
+- (MSAPhotosAssembly *)photosAssembly {
+    return [TyphoonDefinition withClass:[MSAPhotosAssembly class]];
 }
 
 - (NSArray *)storyboardsInitialViewControllers {

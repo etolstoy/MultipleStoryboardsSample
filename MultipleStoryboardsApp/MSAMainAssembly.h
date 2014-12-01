@@ -8,8 +8,11 @@
 
 #import "TyphoonAssembly.h"
 
+@class MSAPhotosAssembly;
+
 @interface MSAMainAssembly : TyphoonAssembly
 
 - (UITabBarController *)tabBarController;
+- (MSAPhotosAssembly *)photosAssembly;
 
 @end

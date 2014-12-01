@@ -102,7 +102,7 @@
         <!--Породы-->
         <scene sceneID="fy1-13-njJ">
             <objects>
-                <navigationController id="vrc-9p-T2p" sceneMemberID="viewController">
+                <navigationController id="vrc-9p-T2p" customClass="MSABreedsNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Породы" id="TZT-w5-q3q"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="NoJ-CG-AYK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>

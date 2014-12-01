@@ -64,7 +64,7 @@
         <!--Фоточка-->
         <scene sceneID="rRU-jC-uzG">
             <objects>
-                <viewController id="kvN-Cd-S3O" customClass="MSAPhotoViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MSAPhotoViewController" id="kvN-Cd-S3O" customClass="MSAPhotoViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xeU-0s-1sd"/>
                         <viewControllerLayoutGuide type="bottom" id="uaE-nD-zf9"/>

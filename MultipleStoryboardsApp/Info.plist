@@ -34,6 +34,7 @@
 	<array>
 		<string>MSAMainAssembly</string>
 		<string>MSABreedsAssembly</string>
+		<string>MSABestCatAssembly</string>
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>

@@ -33,6 +33,12 @@
 		9FA9E0FE1A2C6CF200AA7F75 /* MSAPhotosAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E0FD1A2C6CF200AA7F75 /* MSAPhotosAssembly.m */; };
 		9FA9E1011A2C8A8400AA7F75 /* MSAPhotoGalleryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1001A2C8A8400AA7F75 /* MSAPhotoGalleryCollectionViewCell.m */; };
 		9FA9E1041A2C8DC200AA7F75 /* MSAPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1031A2C8DC200AA7F75 /* MSAPhotoViewController.m */; };
+		9FA9E1071A2C90AE00AA7F75 /* MSABestCatAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1061A2C90AE00AA7F75 /* MSABestCatAssembly.m */; };
+		9FA9E10A1A2C90BF00AA7F75 /* MSABestCatRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1091A2C90BF00AA7F75 /* MSABestCatRouter.m */; };
+		9FA9E10E1A2C90F500AA7F75 /* MSABestCatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E10D1A2C90F500AA7F75 /* MSABestCatViewController.m */; };
+		9FA9E1141A2C9C8C00AA7F75 /* MSABreedsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1131A2C9C8C00AA7F75 /* MSABreedsNavigationController.m */; };
+		9FA9E1171A2C9CD000AA7F75 /* MSABestCatNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1161A2C9CD000AA7F75 /* MSABestCatNavigationController.m */; };
+		9FA9E1191A2CA0C000AA7F75 /* best-cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA9E1181A2CA0C000AA7F75 /* best-cat.png */; };
 		9FFA81EB1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFA81EA1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m */; };
 /* End PBXBuildFile section */
 
@@ -63,7 +69,7 @@
 		9F7673081A286B010026E606 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		9F76730E1A2875830026E606 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9F7673101A28759B0026E606 /* Breeds.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Breeds.storyboard; path = Storyboards/Breeds.storyboard; sourceTree = "<group>"; };
-		9F7673121A2875A80026E606 /* BestCat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BestCat.storyboard; sourceTree = "<group>"; };
+		9F7673121A2875A80026E606 /* BestCat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BestCat.storyboard; path = Storyboards/BestCat.storyboard; sourceTree = "<group>"; };
 		9F7673141A2875B30026E606 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		9F7673161A2875C40026E606 /* Photos.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Photos.storyboard; path = Storyboards/Photos.storyboard; sourceTree = "<group>"; };
 		9F76731B1A287AEC0026E606 /* MSAMainAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAMainAssembly.h; sourceTree = "<group>"; };
@@ -96,6 +102,17 @@
 		9FA9E1001A2C8A8400AA7F75 /* MSAPhotoGalleryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotoGalleryCollectionViewCell.m; sourceTree = "<group>"; };
 		9FA9E1021A2C8DC100AA7F75 /* MSAPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotoViewController.h; sourceTree = "<group>"; };
 		9FA9E1031A2C8DC200AA7F75 /* MSAPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotoViewController.m; sourceTree = "<group>"; };
+		9FA9E1051A2C90AE00AA7F75 /* MSABestCatAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatAssembly.h; sourceTree = "<group>"; };
+		9FA9E1061A2C90AE00AA7F75 /* MSABestCatAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABestCatAssembly.m; sourceTree = "<group>"; };
+		9FA9E1081A2C90BF00AA7F75 /* MSABestCatRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatRouter.h; sourceTree = "<group>"; };
+		9FA9E1091A2C90BF00AA7F75 /* MSABestCatRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABestCatRouter.m; sourceTree = "<group>"; };
+		9FA9E10C1A2C90F500AA7F75 /* MSABestCatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatViewController.h; sourceTree = "<group>"; };
+		9FA9E10D1A2C90F500AA7F75 /* MSABestCatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABestCatViewController.m; sourceTree = "<group>"; };
+		9FA9E1121A2C9C8C00AA7F75 /* MSABreedsNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsNavigationController.h; sourceTree = "<group>"; };
+		9FA9E1131A2C9C8C00AA7F75 /* MSABreedsNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsNavigationController.m; sourceTree = "<group>"; };
+		9FA9E1151A2C9CD000AA7F75 /* MSABestCatNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatNavigationController.h; sourceTree = "<group>"; };
+		9FA9E1161A2C9CD000AA7F75 /* MSABestCatNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABestCatNavigationController.m; sourceTree = "<group>"; };
+		9FA9E1181A2CA0C000AA7F75 /* best-cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "best-cat.png"; sourceTree = "<group>"; };
 		9FFA81E91A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAJsonGeneratorBreedsClient.h; sourceTree = "<group>"; };
 		9FFA81EA1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAJsonGeneratorBreedsClient.m; sourceTree = "<group>"; };
 		C2D3841BCECF9BF5FEFF1EDC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -155,6 +172,7 @@
 			children = (
 				9F76730D1A2875830026E606 /* Storyboards */,
 				9F76732B1A2895420026E606 /* Breeds User Story */,
+				9FA9E10B1A2C90C300AA7F75 /* Best Cat User Story */,
 				9FA9E0F81A2C6C5300AA7F75 /* Photos User Story */,
 				9F7673211A288DAF0026E606 /* MSACatBreed.h */,
 				9F7673221A288DAF0026E606 /* MSACatBreed.m */,
@@ -167,6 +185,7 @@
 				9F76731C1A287AEC0026E606 /* MSAMainAssembly.m */,
 				9F7673051A286AE70026E606 /* MSALinkedStoryboardSegue.h */,
 				9F7673061A286AE70026E606 /* MSALinkedStoryboardSegue.m */,
+				9FA9E1181A2CA0C000AA7F75 /* best-cat.png */,
 				9F7672EC1A286A7F0026E606 /* Images.xcassets */,
 				9F7672EE1A286A7F0026E606 /* LaunchScreen.xib */,
 				9F7672DF1A286A7F0026E606 /* Supporting Files */,
@@ -207,7 +226,6 @@
 			isa = PBXGroup;
 			children = (
 				9F76730E1A2875830026E606 /* Main.storyboard */,
-				9F7673121A2875A80026E606 /* BestCat.storyboard */,
 				9F7673141A2875B30026E606 /* Settings.storyboard */,
 			);
 			path = Storyboards;
@@ -230,6 +248,8 @@
 				9F7673331A2895CC0026E606 /* MSABreedsRouter.m */,
 				9FA9E0F21A2C656400AA7F75 /* MSABreedsDetailViewController.h */,
 				9FA9E0F31A2C656400AA7F75 /* MSABreedsDetailViewController.m */,
+				9FA9E1121A2C9C8C00AA7F75 /* MSABreedsNavigationController.h */,
+				9FA9E1131A2C9C8C00AA7F75 /* MSABreedsNavigationController.m */,
 			);
 			name = "Breeds User Story";
 			sourceTree = "<group>";
@@ -250,6 +270,22 @@
 				9FA9E1031A2C8DC200AA7F75 /* MSAPhotoViewController.m */,
 			);
 			name = "Photos User Story";
+			sourceTree = "<group>";
+		};
+		9FA9E10B1A2C90C300AA7F75 /* Best Cat User Story */ = {
+			isa = PBXGroup;
+			children = (
+				9F7673121A2875A80026E606 /* BestCat.storyboard */,
+				9FA9E1051A2C90AE00AA7F75 /* MSABestCatAssembly.h */,
+				9FA9E1061A2C90AE00AA7F75 /* MSABestCatAssembly.m */,
+				9FA9E1081A2C90BF00AA7F75 /* MSABestCatRouter.h */,
+				9FA9E1091A2C90BF00AA7F75 /* MSABestCatRouter.m */,
+				9FA9E10C1A2C90F500AA7F75 /* MSABestCatViewController.h */,
+				9FA9E10D1A2C90F500AA7F75 /* MSABestCatViewController.m */,
+				9FA9E1151A2C9CD000AA7F75 /* MSABestCatNavigationController.h */,
+				9FA9E1161A2C9CD000AA7F75 /* MSABestCatNavigationController.m */,
+			);
+			name = "Best Cat User Story";
 			sourceTree = "<group>";
 		};
 		C1DF46171F68219EE2ACBEC7 /* Frameworks */ = {
@@ -344,6 +380,7 @@
 			files = (
 				9F7673171A2875C40026E606 /* Photos.storyboard in Resources */,
 				9F7673131A2875A80026E606 /* BestCat.storyboard in Resources */,
+				9FA9E1191A2CA0C000AA7F75 /* best-cat.png in Resources */,
 				9F76730F1A2875830026E606 /* Main.storyboard in Resources */,
 				9F7673111A28759B0026E606 /* Breeds.storyboard in Resources */,
 				9F7673151A2875B30026E606 /* Settings.storyboard in Resources */,
@@ -399,6 +436,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FA9E1141A2C9C8C00AA7F75 /* MSABreedsNavigationController.m in Sources */,
 				9FA9E0F71A2C6C3E00AA7F75 /* MSAPhotoGalleryViewController.m in Sources */,
 				9F7672E51A286A7F0026E606 /* AppDelegate.m in Sources */,
 				9F7673341A2895CC0026E606 /* MSABreedsRouter.m in Sources */,
@@ -411,11 +449,15 @@
 				9FA9E1041A2C8DC200AA7F75 /* MSAPhotoViewController.m in Sources */,
 				9F7673201A288CF30026E606 /* MSABreedsTableViewController.m in Sources */,
 				9F76732A1A2892790026E606 /* MSABreedsAssembly.m in Sources */,
+				9FA9E1071A2C90AE00AA7F75 /* MSABestCatAssembly.m in Sources */,
+				9FA9E10A1A2C90BF00AA7F75 /* MSABestCatRouter.m in Sources */,
 				9FA9E0F41A2C656400AA7F75 /* MSABreedsDetailViewController.m in Sources */,
 				9F7672E21A286A7F0026E606 /* main.m in Sources */,
 				9FA9E0FE1A2C6CF200AA7F75 /* MSAPhotosAssembly.m in Sources */,
 				9F7673231A288DAF0026E606 /* MSACatBreed.m in Sources */,
+				9FA9E10E1A2C90F500AA7F75 /* MSABestCatViewController.m in Sources */,
 				9F7673071A286AE70026E606 /* MSALinkedStoryboardSegue.m in Sources */,
+				9FA9E1171A2C9CD000AA7F75 /* MSABestCatNavigationController.m in Sources */,
 				9FA9E0FB1A2C6C9D00AA7F75 /* MSAPhotosRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
