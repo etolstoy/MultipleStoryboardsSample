@@ -12,6 +12,7 @@
 #import "MSAJsonGeneratorBreedsClient.h"
 #import "MSABreedsRouter.h"
 #import "MSARoutingProtocol.h"
+#import "UIViewController+Routing.h"
 
 @implementation MSABreedsAssembly
 

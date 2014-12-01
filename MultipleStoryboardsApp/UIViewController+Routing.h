@@ -13,4 +13,10 @@
 
 @property (nonatomic, strong) id<MSARoutingProtocol> router;
 
+- (void)performSegueWithIdentifier:(NSString *)identifier
+                            sender:(id)sender
+                          userInfo:(NSDictionary *)userInfo;
+
+- (NSDictionary *)segueUserInfo:(UIStoryboardSegue *)segue;
+
 @end
