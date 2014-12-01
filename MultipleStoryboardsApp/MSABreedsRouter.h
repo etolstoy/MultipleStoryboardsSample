@@ -9,8 +9,9 @@
 #import "MSARouter.h"
 
 @class MSACatBreed;
+@protocol MSARoutingProtocol;
 
-@interface MSABreedsRouter : MSARouter
+@interface MSABreedsRouter : MSARouter <MSARoutingProtocol>
 
 - (void)showBreedViewControllerFromSourceController:(UIViewController *)sourceController
                                        withCatBreed:(MSACatBreed *)catBreed;

@@ -8,9 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface MSARouter : NSObject
+@protocol MSARoutingProtocol;
 
-- (instancetype)initWithNavigationController:(UINavigationController *)navigationController;
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender;
+@interface MSARouter : NSObject <MSARoutingProtocol>
 
 @end

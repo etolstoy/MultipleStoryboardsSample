@@ -7,12 +7,26 @@
 //
 
 #import "MSABreedsRouter.h"
+#import "MSARoutingProtocol.h"
 
 static NSString *const BreedDetailSegueIdentifier = @"breedDetailSegue";
 
 @class MSACatBreed;
 
+@interface MSABreedsRouter ()
+
+@property (strong, nonatomic) UINavigationController *mainNavigationController;
+
+@end
+
 @implementation MSABreedsRouter
+
+- (instancetype)initWithNavigationController:(UINavigationController *)navigationController {
+    if (self = [super init]) {
+        self.mainNavigationController = navigationController;
+    }
+    return self;
+}
 
 - (void)showBreedViewControllerFromSourceController:(UIViewController *)sourceController
                                        withCatBreed:(MSACatBreed *)catBreed {
@@ -21,9 +35,7 @@ static NSString *const BreedDetailSegueIdentifier = @"breedDetailSegue";
 }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    [super prepareForSegue:segue sender:sender];
-    
-    
+
 }
 
 @end

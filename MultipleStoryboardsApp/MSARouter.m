@@ -7,6 +7,7 @@
 //
 
 #import "MSARouter.h"
+#import "MSARoutingProtocol.h"
 
 @interface MSARouter ()
 

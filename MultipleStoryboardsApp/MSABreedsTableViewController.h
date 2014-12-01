@@ -7,12 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MSABaseTableViewController.h"
 
 @protocol BreedsProtocol;
-@class MSABreedsRouter;
 
-@interface MSABreedsTableViewController : MSABaseTableViewController
+@interface MSABreedsTableViewController : UITableViewController
 
 @property (strong, nonatomic) id<BreedsProtocol> breedsProvider;
 
