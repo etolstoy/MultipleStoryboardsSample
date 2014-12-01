@@ -49,7 +49,6 @@
             [initializer injectParameterWith:[self breedsNavigationController]];
         }];
         [definition injectProperty:@selector(photosAssembly) with:[_mainAssembly photosAssembly]];
-
     }];
 }
 
