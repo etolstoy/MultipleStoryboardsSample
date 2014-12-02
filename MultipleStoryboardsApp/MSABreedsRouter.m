@@ -23,20 +23,19 @@ static NSString *const BreedPhotosSegueUserInfoKey = @"breedPhotosSegueUserInfo"
 
 @class MSACatBreed;
 
-@interface MSABreedsRouter ()
-
-@property (strong, nonatomic) UINavigationController *mainNavigationController;
+@interface MSABreedsRouter () <MSARoutingProtocol>
 
 @end
 
 @implementation MSABreedsRouter
 
+#pragma mark - Initialization
+
 - (instancetype)initWithNavigationController:(UINavigationController *)navigationController {
-    if (self = [super init]) {
-        self.mainNavigationController = navigationController;
-    }
-    return self;
+    return [super initWithNavigationController:navigationController];
 }
+
+#pragma mark - MSARoutingProtocol Methods
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([segue.identifier isEqualToString:BreedDetailSegueIdentifier]) {
@@ -57,13 +56,11 @@ static NSString *const BreedPhotosSegueUserInfoKey = @"breedPhotosSegueUserInfo"
     }
 }
 
-- (void)dismissCurrentViewController:(UIViewController *)viewController {
-    if (viewController.presentingViewController) {
-        [viewController dismissViewControllerAnimated:YES completion:nil];
-    } else {
-        [viewController.navigationController popViewControllerAnimated:YES];
-    }
+- (void)dismissCurrentViewController:(UIViewController *)viewController animated:(BOOL)animated {
+    [super dismissCurrentViewController:viewController animated:animated];
 }
+
+#pragma mark - Navigation Methods
 
 - (void)showBreedViewControllerFromSourceController:(UIViewController *)sourceController
                                        withCatBreed:(MSACatBreed *)catBreed {

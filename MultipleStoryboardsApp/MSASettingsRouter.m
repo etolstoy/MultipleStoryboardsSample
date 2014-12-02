@@ -14,20 +14,19 @@
 static NSString *const WarningViewSegueIdentifier = @"warningSegue";
 static NSString *const WarningViewSegueUserInfoKey = @"warningViewSegueUserInfo";
 
-@interface MSASettingsRouter ()
-
-@property (strong, nonatomic) UINavigationController *mainNavigationController;
+@interface MSASettingsRouter () <MSARoutingProtocol>
 
 @end
 
 @implementation MSASettingsRouter
 
+#pragma mark - Initialization
+
 - (instancetype)initWithNavigationController:(UINavigationController *)navigationController {
-    if (self = [super init]) {
-        self.mainNavigationController = navigationController;
-    }
-    return self;
+    return [super initWithNavigationController:navigationController];
 }
+
+#pragma mark - MSARoutingProtocol Methods
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([segue.identifier isEqualToString:WarningViewSegueIdentifier]) {
@@ -36,13 +35,11 @@ static NSString *const WarningViewSegueUserInfoKey = @"warningViewSegueUserInfo"
     }
 }
 
-- (void)dismissCurrentViewController:(UIViewController *)viewController { 
-    if (viewController.presentingViewController) {
-        [viewController dismissViewControllerAnimated:YES completion:nil];
-    } else {
-        [viewController.navigationController popViewControllerAnimated:YES];
-    }
+- (void)dismissCurrentViewController:(UIViewController *)viewController animated:(BOOL)animated {
+    [super dismissCurrentViewController:viewController animated:animated];
 }
+
+#pragma mark - Navigation Methods
 
 - (void)showWarningViewControllerFromSourceController:(UIViewController *)sourceController {
     [sourceController performSegueWithIdentifier:WarningViewSegueIdentifier

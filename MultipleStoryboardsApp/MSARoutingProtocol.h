@@ -12,7 +12,8 @@
 
 - (instancetype)initWithNavigationController:(UINavigationController *)navigationController;
 
-- (void)dismissCurrentViewController:(UIViewController *)viewController;
+- (void)dismissCurrentViewController:(UIViewController *)viewController
+                            animated:(BOOL)animated;
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender;
 

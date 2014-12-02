@@ -8,8 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol MSARoutingProtocol;
+@interface MSARouter : NSObject
 
-@interface MSARouter : NSObject <MSARoutingProtocol>
+@property (strong, nonatomic) UINavigationController *mainNavigationController;
 
+- (instancetype)initWithNavigationController:(UINavigationController *)navigationController;
+- (void)dismissCurrentViewController:(UIViewController *)viewController
+                            animated:(BOOL)animated;
 @end

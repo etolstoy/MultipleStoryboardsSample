@@ -10,12 +10,11 @@
 
 @class MSAPhotosAssembly;
 
-@interface MSABestCatRouter : MSARouter <MSARoutingProtocol>
+@interface MSABestCatRouter : MSARouter
 
 @property (strong, nonatomic) MSAPhotosAssembly *photosAssembly;
 
 - (void)showPhotoViewControllerFromSourceController:(UIViewController *)sourceController
                                             withURL:(NSURL *)imageURL;
-
 
 @end

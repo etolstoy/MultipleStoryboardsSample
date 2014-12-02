@@ -13,22 +13,19 @@
 static NSString *const PhotoViewSegueIdentifier = @"photoViewSegue";
 static NSString *const PhotoViewSegueUserInfoKey = @"photoViewSegueUserInfo";
 
-@class MSACatBreed;
-
-@interface MSAPhotosRouter ()
-
-@property (strong, nonatomic) UINavigationController *mainNavigationController;
+@interface MSAPhotosRouter () <MSARoutingProtocol>
 
 @end
 
 @implementation MSAPhotosRouter
 
+#pragma mark - Initialization
+
 - (instancetype)initWithNavigationController:(UINavigationController *)navigationController {
-    if (self = [super init]) {
-        self.mainNavigationController = navigationController;
-    }
-    return self;
+    return [super initWithNavigationController:navigationController];
 }
+
+#pragma mark - MSARoutingProtocol Methods
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([segue.identifier isEqualToString:PhotoViewSegueIdentifier]) {
@@ -39,6 +36,12 @@ static NSString *const PhotoViewSegueUserInfoKey = @"photoViewSegueUserInfo";
         destinationViewController.router = self;
     }
 }
+
+- (void)dismissCurrentViewController:(UIViewController *)viewController animated:(BOOL)animated {
+    [super dismissCurrentViewController:viewController animated:animated];
+}
+
+#pragma mark - Navigation Methods
 
 - (void)showPhotoViewControllerFromSourceController:(UIViewController *)sourceController
                                             withURL:(NSURL *)imageURL {

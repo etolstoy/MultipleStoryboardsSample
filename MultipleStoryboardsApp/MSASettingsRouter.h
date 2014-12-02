@@ -9,9 +9,8 @@
 #import "MSARouter.h"
 
 @class MSAPhotosAssembly;
-@protocol MSARoutingProtocol;
 
-@interface MSASettingsRouter : MSARouter <MSARoutingProtocol>
+@interface MSASettingsRouter : MSARouter
 
 @property (strong, nonatomic) MSAPhotosAssembly *photosAssembly;
 

@@ -8,9 +8,7 @@
 
 #import "MSARouter.h"
 
-@protocol MSARoutingProtocol;
-
-@interface MSAPhotosRouter : MSARouter <MSARoutingProtocol>
+@interface MSAPhotosRouter : MSARouter
 
 - (void)showPhotoViewControllerFromSourceController:(UIViewController *)sourceController
                                             withURL:(NSURL *)imageURL;

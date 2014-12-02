@@ -11,11 +11,11 @@
 
 @interface MSARouter ()
 
-@property (strong, nonatomic) UINavigationController *mainNavigationController;
-
 @end
 
 @implementation MSARouter
+
+#pragma mark - Initialization
 
 - (instancetype)initWithNavigationController:(UINavigationController *)navigationController {
     if (self = [super init]) {
@@ -24,8 +24,15 @@
     return self;
 }
 
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    
+#pragma mark -
+
+- (void)dismissCurrentViewController:(UIViewController *)viewController
+                            animated:(BOOL)animated {
+    if (viewController.presentingViewController) {
+        [viewController dismissViewControllerAnimated:animated completion:nil];
+    } else {
+        [viewController.navigationController popViewControllerAnimated:animated];
+    }
 }
 
 @end

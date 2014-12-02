@@ -10,9 +10,8 @@
 
 @class MSACatBreed;
 @class MSAPhotosAssembly;
-@protocol MSARoutingProtocol;
 
-@interface MSABreedsRouter : MSARouter <MSARoutingProtocol>
+@interface MSABreedsRouter : MSARouter
 
 @property (strong, nonatomic) MSAPhotosAssembly *photosAssembly;
 
