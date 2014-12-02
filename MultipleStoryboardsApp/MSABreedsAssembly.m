@@ -8,7 +8,6 @@
 
 #import "MSABreedsAssembly.h"
 #import "MSABreedsTableViewController.h"
-#import "MSAOfflineBreedsClient.h"
 #import "MSAJsonGeneratorBreedsClient.h"
 #import "MSABreedsRouter.h"
 #import "MSARoutingProtocol.h"

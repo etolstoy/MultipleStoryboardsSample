@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@protocol BreedsProtocol;
+@protocol MSABreedsClient;
 
 @interface MSABreedsTableViewController : UITableViewController
 
-@property (strong, nonatomic) id<BreedsProtocol> breedsProvider;
+@property (strong, nonatomic) id<MSABreedsClient> breedsProvider;
 
 @end

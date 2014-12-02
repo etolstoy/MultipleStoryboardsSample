@@ -9,11 +9,16 @@
 #import "MSAJsonGeneratorBreedsClient.h"
 #import "MSACatBreed.h"
 #import <AFNetworking.h>
+#import "BreedsProtocol.h"
 
 static NSString *const BreedNameKey = @"breedName";
 static NSString *const BreedDescriptionKey = @"breedDescription";
 static NSString *const BreedPicturesKey = @"pictures";
 static NSString *const JsonUrlKey = @"http://www.json-generator.com/api/json/get/cqFcpZBmwi";
+
+@interface MSAJsonGeneratorBreedsClient () <MSABreedsClient>
+
+@end
 
 @implementation MSAJsonGeneratorBreedsClient
 

@@ -1,5 +1,5 @@
 //
-//  MSAOfflineBreedsClient.h
+//  BreedsProtocol.h
 //  MultipleStoryboardsApp
 //
 //  Created by Egor Tolstoy on 11/28/14.
@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol BreedsProtocol;
+@protocol MSABreedsClient <NSObject>
 
-@interface MSAOfflineBreedsClient : NSObject <BreedsProtocol>
+- (void)fetchBreedsWithCompletion:(void (^)(NSArray *result, NSError *error))completion;
 
 @end

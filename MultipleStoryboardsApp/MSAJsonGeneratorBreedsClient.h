@@ -8,8 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol BreedsProtocol;
-
-@interface MSAJsonGeneratorBreedsClient : NSObject <BreedsProtocol>
+@interface MSAJsonGeneratorBreedsClient : NSObject
 
 @end

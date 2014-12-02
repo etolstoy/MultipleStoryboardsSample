@@ -22,7 +22,6 @@
 		9F76731D1A287AEC0026E606 /* MSAMainAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F76731C1A287AEC0026E606 /* MSAMainAssembly.m */; };
 		9F7673201A288CF30026E606 /* MSABreedsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F76731F1A288CF30026E606 /* MSABreedsTableViewController.m */; };
 		9F7673231A288DAF0026E606 /* MSACatBreed.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7673221A288DAF0026E606 /* MSACatBreed.m */; };
-		9F7673271A288EBA0026E606 /* MSAOfflineBreedsClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7673261A288EBA0026E606 /* MSAOfflineBreedsClient.m */; };
 		9F76732A1A2892790026E606 /* MSABreedsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7673291A2892790026E606 /* MSABreedsAssembly.m */; };
 		9F7673311A2895B70026E606 /* MSARouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7673301A2895B70026E606 /* MSARouter.m */; };
 		9F7673341A2895CC0026E606 /* MSABreedsRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7673331A2895CC0026E606 /* MSABreedsRouter.m */; };
@@ -84,9 +83,7 @@
 		9F76731F1A288CF30026E606 /* MSABreedsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsTableViewController.m; sourceTree = "<group>"; };
 		9F7673211A288DAF0026E606 /* MSACatBreed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSACatBreed.h; sourceTree = "<group>"; };
 		9F7673221A288DAF0026E606 /* MSACatBreed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSACatBreed.m; sourceTree = "<group>"; };
-		9F7673241A288E170026E606 /* BreedsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreedsProtocol.h; sourceTree = "<group>"; };
-		9F7673251A288EBA0026E606 /* MSAOfflineBreedsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAOfflineBreedsClient.h; sourceTree = "<group>"; };
-		9F7673261A288EBA0026E606 /* MSAOfflineBreedsClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAOfflineBreedsClient.m; sourceTree = "<group>"; };
+		9F7673241A288E170026E606 /* MSABreedsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsClient.h; sourceTree = "<group>"; };
 		9F7673281A2892790026E606 /* MSABreedsAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsAssembly.h; sourceTree = "<group>"; };
 		9F7673291A2892790026E606 /* MSABreedsAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsAssembly.m; sourceTree = "<group>"; };
 		9F76732F1A2895B70026E606 /* MSARouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSARouter.h; sourceTree = "<group>"; };
@@ -192,8 +189,7 @@
 				9FA9E10B1A2C90C300AA7F75 /* Best Cat User Story */,
 				9FA9E0F81A2C6C5300AA7F75 /* Photos User Story */,
 				9FA9E11D1A2CA1CB00AA7F75 /* Settings User Story */,
-				9F7673211A288DAF0026E606 /* MSACatBreed.h */,
-				9F7673221A288DAF0026E606 /* MSACatBreed.m */,
+				9FA9E12C1A2DB43900AA7F75 /* Data Model */,
 				9F76732F1A2895B70026E606 /* MSARouter.h */,
 				9F7673301A2895B70026E606 /* MSARouter.m */,
 				9FA9E0EE1A2C4B6700AA7F75 /* MSARoutingProtocol.h */,
@@ -254,9 +250,7 @@
 				9F7673101A28759B0026E606 /* Breeds.storyboard */,
 				9F7673281A2892790026E606 /* MSABreedsAssembly.h */,
 				9F7673291A2892790026E606 /* MSABreedsAssembly.m */,
-				9F7673241A288E170026E606 /* BreedsProtocol.h */,
-				9F7673251A288EBA0026E606 /* MSAOfflineBreedsClient.h */,
-				9F7673261A288EBA0026E606 /* MSAOfflineBreedsClient.m */,
+				9F7673241A288E170026E606 /* MSABreedsClient.h */,
 				9FFA81E91A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.h */,
 				9FFA81EA1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m */,
 				9F76731E1A288CF30026E606 /* MSABreedsTableViewController.h */,
@@ -322,6 +316,15 @@
 				9FA9E12A1A2D9CFD00AA7F75 /* MSAWarningViewController.xib */,
 			);
 			name = "Settings User Story";
+			sourceTree = "<group>";
+		};
+		9FA9E12C1A2DB43900AA7F75 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F7673211A288DAF0026E606 /* MSACatBreed.h */,
+				9F7673221A288DAF0026E606 /* MSACatBreed.m */,
+			);
+			name = "Data Model";
 			sourceTree = "<group>";
 		};
 		C1DF46171F68219EE2ACBEC7 /* Frameworks */ = {
@@ -480,7 +483,6 @@
 				9F76731D1A287AEC0026E606 /* MSAMainAssembly.m in Sources */,
 				9FFA81EB1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m in Sources */,
 				9F7673311A2895B70026E606 /* MSARouter.m in Sources */,
-				9F7673271A288EBA0026E606 /* MSAOfflineBreedsClient.m in Sources */,
 				9FA9E1011A2C8A8400AA7F75 /* MSAPhotoGalleryCollectionViewCell.m in Sources */,
 				9FA9E0F11A2C5D3300AA7F75 /* UIViewController+Routing.m in Sources */,
 				9FA9E1201A2CA20300AA7F75 /* MSASettingsAssembly.m in Sources */,
