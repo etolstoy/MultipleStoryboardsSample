@@ -8,14 +8,17 @@
 
 #import "MSAPhotosAssembly.h"
 #import "MSAPhotoGalleryViewController.h"
-#import "MSAPhotosRouter.h"
+#import "MSAPhotosRouterImplementation.h"
 #import "MSARoutingProtocol.h"
 #import "UIViewController+Routing.h"
+#import "MSAPhotosRouter.h"
 
 @implementation MSAPhotosAssembly
 
-- (MSAPhotosRouter *)photosRouterWithNavigationController:(UINavigationController *)navigationController {
-    return [[MSAPhotosRouter alloc] initWithNavigationController:navigationController];
+- (id<MSAPhotosRouter>)photosRouterWithNavigationController:(UINavigationController *)navigationController {
+    return [[MSAPhotosRouterImplementation alloc] initWithNavigationController:navigationController];
 }
+
+
 
 @end

@@ -6,18 +6,19 @@
 //  Copyright (c) 2014 etolstoy. All rights reserved.
 //
 
-#import "MSAPhotosRouter.h"
+#import "MSAPhotosRouterImplementation.h"
 #import "UIViewController+Routing.h"
 #import "MSAPhotoViewController.h"
+#import "MSAPhotosRouter.h"
 
 static NSString *const PhotoViewSegueIdentifier = @"photoViewSegue";
 static NSString *const PhotoViewSegueUserInfoKey = @"photoViewSegueUserInfo";
 
-@interface MSAPhotosRouter () <MSARoutingProtocol>
+@interface MSAPhotosRouterImplementation () <MSARoutingProtocol, MSAPhotosRouter>
 
 @end
 
-@implementation MSAPhotosRouter
+@implementation MSAPhotosRouterImplementation
 
 #pragma mark - Initialization
 

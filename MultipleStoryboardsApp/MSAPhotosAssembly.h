@@ -9,7 +9,7 @@
 #import "TyphoonAssembly.h"
 
 @class MSAPhotoGalleryViewController;
-@class MSAPhotosRouter;
+@class MSAPhotosRouterImplementation;
 @protocol MSARoutingProtocol;
 
 @interface MSAPhotosAssembly : TyphoonAssembly

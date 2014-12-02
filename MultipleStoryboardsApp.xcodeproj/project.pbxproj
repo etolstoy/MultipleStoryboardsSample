@@ -28,7 +28,7 @@
 		9FA9E0F11A2C5D3300AA7F75 /* UIViewController+Routing.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E0F01A2C5D3300AA7F75 /* UIViewController+Routing.m */; };
 		9FA9E0F41A2C656400AA7F75 /* MSABreedsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E0F31A2C656400AA7F75 /* MSABreedsDetailViewController.m */; };
 		9FA9E0F71A2C6C3E00AA7F75 /* MSAPhotoGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E0F61A2C6C3E00AA7F75 /* MSAPhotoGalleryViewController.m */; };
-		9FA9E0FB1A2C6C9D00AA7F75 /* MSAPhotosRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E0FA1A2C6C9D00AA7F75 /* MSAPhotosRouter.m */; };
+		9FA9E0FB1A2C6C9D00AA7F75 /* MSAPhotosRouterImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E0FA1A2C6C9D00AA7F75 /* MSAPhotosRouterImplementation.m */; };
 		9FA9E0FE1A2C6CF200AA7F75 /* MSAPhotosAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E0FD1A2C6CF200AA7F75 /* MSAPhotosAssembly.m */; };
 		9FA9E1011A2C8A8400AA7F75 /* MSAPhotoGalleryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1001A2C8A8400AA7F75 /* MSAPhotoGalleryCollectionViewCell.m */; };
 		9FA9E1041A2C8DC200AA7F75 /* MSAPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1031A2C8DC200AA7F75 /* MSAPhotoViewController.m */; };
@@ -97,8 +97,8 @@
 		9FA9E0F31A2C656400AA7F75 /* MSABreedsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsDetailViewController.m; sourceTree = "<group>"; };
 		9FA9E0F51A2C6C3E00AA7F75 /* MSAPhotoGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotoGalleryViewController.h; sourceTree = "<group>"; };
 		9FA9E0F61A2C6C3E00AA7F75 /* MSAPhotoGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotoGalleryViewController.m; sourceTree = "<group>"; };
-		9FA9E0F91A2C6C9D00AA7F75 /* MSAPhotosRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotosRouter.h; sourceTree = "<group>"; };
-		9FA9E0FA1A2C6C9D00AA7F75 /* MSAPhotosRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotosRouter.m; sourceTree = "<group>"; };
+		9FA9E0F91A2C6C9D00AA7F75 /* MSAPhotosRouterImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotosRouterImplementation.h; sourceTree = "<group>"; };
+		9FA9E0FA1A2C6C9D00AA7F75 /* MSAPhotosRouterImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotosRouterImplementation.m; sourceTree = "<group>"; };
 		9FA9E0FC1A2C6CF200AA7F75 /* MSAPhotosAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotosAssembly.h; sourceTree = "<group>"; };
 		9FA9E0FD1A2C6CF200AA7F75 /* MSAPhotosAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotosAssembly.m; sourceTree = "<group>"; };
 		9FA9E0FF1A2C8A8400AA7F75 /* MSAPhotoGalleryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotoGalleryCollectionViewCell.h; sourceTree = "<group>"; };
@@ -129,6 +129,7 @@
 		9FA9E12A1A2D9CFD00AA7F75 /* MSAWarningViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSAWarningViewController.xib; sourceTree = "<group>"; };
 		9FA9E12D1A2DB66000AA7F75 /* MSABreedsRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsRouter.h; sourceTree = "<group>"; };
 		9FB7F0551A2DBA550062E52B /* MSABestCatRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatRouter.h; sourceTree = "<group>"; };
+		9FB7F0561A2DC3510062E52B /* MSAPhotosRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotosRouter.h; sourceTree = "<group>"; };
 		9FFA81E91A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAJsonGeneratorBreedsClient.h; sourceTree = "<group>"; };
 		9FFA81EA1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAJsonGeneratorBreedsClient.m; sourceTree = "<group>"; };
 		C2D3841BCECF9BF5FEFF1EDC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -274,8 +275,9 @@
 				9F7673161A2875C40026E606 /* Photos.storyboard */,
 				9FA9E0FC1A2C6CF200AA7F75 /* MSAPhotosAssembly.h */,
 				9FA9E0FD1A2C6CF200AA7F75 /* MSAPhotosAssembly.m */,
-				9FA9E0F91A2C6C9D00AA7F75 /* MSAPhotosRouter.h */,
-				9FA9E0FA1A2C6C9D00AA7F75 /* MSAPhotosRouter.m */,
+				9FB7F0561A2DC3510062E52B /* MSAPhotosRouter.h */,
+				9FA9E0F91A2C6C9D00AA7F75 /* MSAPhotosRouterImplementation.h */,
+				9FA9E0FA1A2C6C9D00AA7F75 /* MSAPhotosRouterImplementation.m */,
 				9FA9E0F51A2C6C3E00AA7F75 /* MSAPhotoGalleryViewController.h */,
 				9FA9E0F61A2C6C3E00AA7F75 /* MSAPhotoGalleryViewController.m */,
 				9FA9E0FF1A2C8A8400AA7F75 /* MSAPhotoGalleryCollectionViewCell.h */,
@@ -505,7 +507,7 @@
 				9F7673071A286AE70026E606 /* MSALinkedStoryboardSegue.m in Sources */,
 				9FA9E1171A2C9CD000AA7F75 /* MSABestCatNavigationController.m in Sources */,
 				9FA9E11C1A2CA1C700AA7F75 /* MSASettingsNavigationController.m in Sources */,
-				9FA9E0FB1A2C6C9D00AA7F75 /* MSAPhotosRouter.m in Sources */,
+				9FA9E0FB1A2C6C9D00AA7F75 /* MSAPhotosRouterImplementation.m in Sources */,
 				9FA9E1291A2D98B200AA7F75 /* MSAWarningViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

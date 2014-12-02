@@ -8,14 +8,17 @@
 
 #import "MSAPhotoGalleryViewController.h"
 #import "UIViewController+Routing.h"
-#import "MSAPhotosRouter.h"
+#import "MSAPhotosRouterImplementation.h"
 #import "MSACatBreed.h"
 #import "MSAPhotoGalleryCollectionViewCell.h"
 #import <UIImageView+AFNetworking.h>
+#import "MSAPhotosRouter.h"
 
 static NSString *const MSAPhotoGalleryCollectioViewCellIdentifier = @"PhotoCell";
 
 @interface MSAPhotoGalleryViewController () <UICollectionViewDataSource, UICollectionViewDelegate>
+
+@property (strong, nonatomic) id<MSAPhotosRouter> router;
 
 @end
 
@@ -40,9 +43,8 @@ static NSString *const MSAPhotoGalleryCollectioViewCellIdentifier = @"PhotoCell"
 }
 
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    MSAPhotosRouter *router = self.router;
-    [(MSAPhotosRouter *)self.router showPhotoViewControllerFromSourceController:self
-                                                                        withURL:[NSURL URLWithString:self.catBreed.breedPictures[indexPath.item]]];
+    [self.router showPhotoViewControllerFromSourceController:self
+                                                     withURL:[NSURL URLWithString:self.catBreed.breedPictures[indexPath.item]]];
 }
 
 @end
