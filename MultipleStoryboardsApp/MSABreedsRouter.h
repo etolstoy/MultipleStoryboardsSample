@@ -1,19 +1,14 @@
 //
-//  MSABreedsRouter.h
+//  MSABreedsRouterProtocol.h
 //  MultipleStoryboardsApp
 //
-//  Created by Egor Tolstoy on 11/28/14.
+//  Created by Egor Tolstoy on 12/2/14.
 //  Copyright (c) 2014 etolstoy. All rights reserved.
 //
 
-#import "MSARouter.h"
+#import <Foundation/Foundation.h>
 
-@class MSACatBreed;
-@class MSAPhotosAssembly;
-
-@interface MSABreedsRouter : MSARouter
-
-@property (strong, nonatomic) MSAPhotosAssembly *photosAssembly;
+@protocol MSABreedsRouter <NSObject>
 
 - (void)showBreedViewControllerFromSourceController:(UIViewController *)sourceController
                                        withCatBreed:(MSACatBreed *)catBreed;

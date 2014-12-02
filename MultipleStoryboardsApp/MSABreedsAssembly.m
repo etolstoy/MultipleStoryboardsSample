@@ -9,6 +9,7 @@
 #import "MSABreedsAssembly.h"
 #import "MSABreedsTableViewController.h"
 #import "MSAJsonGeneratorBreedsClient.h"
+#import "MSABreedsRouterImplementation.h"
 #import "MSABreedsRouter.h"
 #import "MSARoutingProtocol.h"
 #import "UIViewController+Routing.h"
@@ -42,17 +43,13 @@
     }];
 }
 
-- (MSABreedsRouter *)breedsRouter {
-    return [TyphoonDefinition withClass:[MSABreedsRouter class] configuration:^(TyphoonDefinition *definition) {
+- (id<MSABreedsRouter>)breedsRouter {
+    return [TyphoonDefinition withClass:[MSABreedsRouterImplementation class] configuration:^(TyphoonDefinition *definition) {
         [definition useInitializer:@selector(initWithNavigationController:) parameters:^(TyphoonMethod *initializer) {
             [initializer injectParameterWith:[self breedsNavigationController]];
         }];
         [definition injectProperty:@selector(photosAssembly) with:[_mainAssembly photosAssembly]];
     }];
 }
-
-//- (MSAPhotosAssembly *)photosAssembly {
-//    return [TyphoonDefinition withClass:[MSAPhotosAssembly class]];
-//}
 
 @end

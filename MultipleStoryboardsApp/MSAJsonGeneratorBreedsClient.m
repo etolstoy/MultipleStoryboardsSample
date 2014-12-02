@@ -9,7 +9,7 @@
 #import "MSAJsonGeneratorBreedsClient.h"
 #import "MSACatBreed.h"
 #import <AFNetworking.h>
-#import "BreedsProtocol.h"
+#import "MSABreedsClient.h"
 
 static NSString *const BreedNameKey = @"breedName";
 static NSString *const BreedDescriptionKey = @"breedDescription";

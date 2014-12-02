@@ -7,15 +7,17 @@
 //
 
 #import "MSABreedsTableViewController.h"
-#import "BreedsProtocol.h"
+#import "MSABreedsClient.h"
 #import "MSACatBreed.h"
-#import "MSABreedsRouter.h"
+#import "MSABreedsRouterImplementation.h"
 #import "UIViewController+Routing.h"
+#import "MSABreedsRouter.h"
 
 static NSString *const BreedCellIdentifier = @"BreedCell";
 
 @interface MSABreedsTableViewController ()
 
+@property (strong, nonatomic) id<MSABreedsRouter> router;
 @property (strong, nonatomic) NSArray *breedsArray;
 
 @end
@@ -55,8 +57,8 @@ static NSString *const BreedCellIdentifier = @"BreedCell";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    [(MSABreedsRouter *)self.router showBreedViewControllerFromSourceController:self
-                                                  withCatBreed:self.breedsArray[indexPath.row]];
+    [self.router showBreedViewControllerFromSourceController:self
+                                                withCatBreed:self.breedsArray[indexPath.row]];
 }
 
 

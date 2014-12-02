@@ -24,7 +24,7 @@
 		9F7673231A288DAF0026E606 /* MSACatBreed.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7673221A288DAF0026E606 /* MSACatBreed.m */; };
 		9F76732A1A2892790026E606 /* MSABreedsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7673291A2892790026E606 /* MSABreedsAssembly.m */; };
 		9F7673311A2895B70026E606 /* MSARouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7673301A2895B70026E606 /* MSARouter.m */; };
-		9F7673341A2895CC0026E606 /* MSABreedsRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7673331A2895CC0026E606 /* MSABreedsRouter.m */; };
+		9F7673341A2895CC0026E606 /* MSABreedsRouterImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7673331A2895CC0026E606 /* MSABreedsRouterImplementation.m */; };
 		9FA9E0F11A2C5D3300AA7F75 /* UIViewController+Routing.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E0F01A2C5D3300AA7F75 /* UIViewController+Routing.m */; };
 		9FA9E0F41A2C656400AA7F75 /* MSABreedsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E0F31A2C656400AA7F75 /* MSABreedsDetailViewController.m */; };
 		9FA9E0F71A2C6C3E00AA7F75 /* MSAPhotoGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E0F61A2C6C3E00AA7F75 /* MSAPhotoGalleryViewController.m */; };
@@ -88,8 +88,8 @@
 		9F7673291A2892790026E606 /* MSABreedsAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsAssembly.m; sourceTree = "<group>"; };
 		9F76732F1A2895B70026E606 /* MSARouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSARouter.h; sourceTree = "<group>"; };
 		9F7673301A2895B70026E606 /* MSARouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSARouter.m; sourceTree = "<group>"; };
-		9F7673321A2895CC0026E606 /* MSABreedsRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsRouter.h; sourceTree = "<group>"; };
-		9F7673331A2895CC0026E606 /* MSABreedsRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsRouter.m; sourceTree = "<group>"; };
+		9F7673321A2895CC0026E606 /* MSABreedsRouterImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsRouterImplementation.h; sourceTree = "<group>"; };
+		9F7673331A2895CC0026E606 /* MSABreedsRouterImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsRouterImplementation.m; sourceTree = "<group>"; };
 		9FA9E0EE1A2C4B6700AA7F75 /* MSARoutingProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSARoutingProtocol.h; sourceTree = "<group>"; };
 		9FA9E0EF1A2C5D3300AA7F75 /* UIViewController+Routing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Routing.h"; sourceTree = "<group>"; };
 		9FA9E0F01A2C5D3300AA7F75 /* UIViewController+Routing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Routing.m"; sourceTree = "<group>"; };
@@ -127,6 +127,7 @@
 		9FA9E1271A2D98B200AA7F75 /* MSAWarningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAWarningViewController.h; sourceTree = "<group>"; };
 		9FA9E1281A2D98B200AA7F75 /* MSAWarningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAWarningViewController.m; sourceTree = "<group>"; };
 		9FA9E12A1A2D9CFD00AA7F75 /* MSAWarningViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSAWarningViewController.xib; sourceTree = "<group>"; };
+		9FA9E12D1A2DB66000AA7F75 /* MSABreedsRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsRouter.h; sourceTree = "<group>"; };
 		9FFA81E91A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAJsonGeneratorBreedsClient.h; sourceTree = "<group>"; };
 		9FFA81EA1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAJsonGeneratorBreedsClient.m; sourceTree = "<group>"; };
 		C2D3841BCECF9BF5FEFF1EDC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -255,8 +256,9 @@
 				9FFA81EA1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m */,
 				9F76731E1A288CF30026E606 /* MSABreedsTableViewController.h */,
 				9F76731F1A288CF30026E606 /* MSABreedsTableViewController.m */,
-				9F7673321A2895CC0026E606 /* MSABreedsRouter.h */,
-				9F7673331A2895CC0026E606 /* MSABreedsRouter.m */,
+				9FA9E12D1A2DB66000AA7F75 /* MSABreedsRouter.h */,
+				9F7673321A2895CC0026E606 /* MSABreedsRouterImplementation.h */,
+				9F7673331A2895CC0026E606 /* MSABreedsRouterImplementation.m */,
 				9FA9E0F21A2C656400AA7F75 /* MSABreedsDetailViewController.h */,
 				9FA9E0F31A2C656400AA7F75 /* MSABreedsDetailViewController.m */,
 				9FA9E1121A2C9C8C00AA7F75 /* MSABreedsNavigationController.h */,
@@ -479,7 +481,7 @@
 				9FA9E1141A2C9C8C00AA7F75 /* MSABreedsNavigationController.m in Sources */,
 				9FA9E0F71A2C6C3E00AA7F75 /* MSAPhotoGalleryViewController.m in Sources */,
 				9F7672E51A286A7F0026E606 /* AppDelegate.m in Sources */,
-				9F7673341A2895CC0026E606 /* MSABreedsRouter.m in Sources */,
+				9F7673341A2895CC0026E606 /* MSABreedsRouterImplementation.m in Sources */,
 				9F76731D1A287AEC0026E606 /* MSAMainAssembly.m in Sources */,
 				9FFA81EB1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m in Sources */,
 				9F7673311A2895B70026E606 /* MSARouter.m in Sources */,

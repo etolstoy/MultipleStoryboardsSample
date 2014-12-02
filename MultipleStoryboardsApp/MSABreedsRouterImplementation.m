@@ -6,13 +6,14 @@
 //  Copyright (c) 2014 etolstoy. All rights reserved.
 //
 
-#import "MSABreedsRouter.h"
+#import "MSABreedsRouterImplementation.h"
 #import "MSARoutingProtocol.h"
 #import "MSABreedsDetailViewController.h"
 #import "MSAPhotoGalleryViewController.h"
 #import "UIViewController+Routing.h"
 #import "MSAPhotosAssembly.h"
 #import "MSAWarningViewController.h"
+#import "MSABreedsRouter.h"
 
 static NSString *const BreedDetailSegueIdentifier = @"breedDetailSegue";
 static NSString *const BreedWarningSegueIdentifier = @"warningSegue";
@@ -23,11 +24,11 @@ static NSString *const BreedPhotosSegueUserInfoKey = @"breedPhotosSegueUserInfo"
 
 @class MSACatBreed;
 
-@interface MSABreedsRouter () <MSARoutingProtocol>
+@interface MSABreedsRouterImplementation () <MSARoutingProtocol, MSABreedsRouter>
 
 @end
 
-@implementation MSABreedsRouter
+@implementation MSABreedsRouterImplementation
 
 #pragma mark - Initialization
 

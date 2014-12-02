@@ -8,11 +8,13 @@
 
 #import "MSABreedsDetailViewController.h"
 #import "MSACatBreed.h"
-#import "MSABreedsRouter.h"
+#import "MSABreedsRouterImplementation.h"
 #import "UIViewController+Routing.h"
+#import "MSABreedsRouter.h"
 
 @interface MSABreedsDetailViewController ()
 
+@property (strong, nonatomic) id<MSABreedsRouter> router;
 @property (weak, nonatomic) IBOutlet UITextView *breedDetailTextView;
 
 @end
@@ -27,12 +29,12 @@
 }
 
 - (IBAction)showPicturesButtonClicked:(id)sender {
-    [(MSABreedsRouter *)self.router showPhotosViewControllerFromSourceController:self
-                                                                    withCatBreed:self.catBreed];
+    [self.router showPhotosViewControllerFromSourceController:self
+                                                 withCatBreed:self.catBreed];
 }
 
 - (IBAction)warningButtonClicked:(id)sender {
-    [(MSABreedsRouter *)self.router showWarningViewControllerFromSourceController:self];
+    [self.router showWarningViewControllerFromSourceController:self];
 }
 
 @end
