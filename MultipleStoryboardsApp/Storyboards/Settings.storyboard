@@ -7,7 +7,7 @@
         <!--Настройки-->
         <scene sceneID="Tb1-Ec-6vw">
             <objects>
-                <tableViewController id="B9K-Fu-U7j" sceneMemberID="viewController">
+                <tableViewController id="B9K-Fu-U7j" customClass="MSASettingsTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="BHP-VS-GxE">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -39,7 +39,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Настройки" id="KBE-EY-Iqd"/>
                     <connections>
-                        <segue destination="A2v-Ce-5Ro" kind="push" id="FQR-Gk-ohw"/>
+                        <segue destination="A2v-Ce-5Ro" kind="modal" identifier="warningSegue" id="FQR-Gk-ohw"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wz8-qj-ZeW" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -49,16 +49,7 @@
         <!--Предупреждение-->
         <scene sceneID="yHA-sh-SBG">
             <objects>
-                <viewController id="A2v-Ce-5Ro" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="IjW-7O-ehm"/>
-                        <viewControllerLayoutGuide type="bottom" id="UkX-ef-7Ob"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Lve-Dm-Sve">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
+                <viewController id="A2v-Ce-5Ro" customClass="MSAWarningViewController" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" title="Предупреждение" id="2BD-4V-EFG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rq9-bQ-9Px" userLabel="First Responder" sceneMemberID="firstResponder"/>

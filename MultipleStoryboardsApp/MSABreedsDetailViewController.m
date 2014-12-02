@@ -31,4 +31,8 @@
                                                                     withCatBreed:self.catBreed];
 }
 
+- (IBAction)warningButtonClicked:(id)sender {
+    [(MSABreedsRouter *)self.router showWarningViewControllerFromSourceController:self];
+}
+
 @end

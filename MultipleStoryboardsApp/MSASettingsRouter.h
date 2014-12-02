@@ -15,4 +15,6 @@
 
 @property (strong, nonatomic) MSAPhotosAssembly *photosAssembly;
 
+- (void)showWarningViewControllerFromSourceController:(UIViewController *)sourceController;
+
 @end

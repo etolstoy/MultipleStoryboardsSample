@@ -12,8 +12,10 @@
 #import "MSAPhotoGalleryViewController.h"
 #import "UIViewController+Routing.h"
 #import "MSAPhotosAssembly.h"
+#import "MSAWarningViewController.h"
 
 static NSString *const BreedDetailSegueIdentifier = @"breedDetailSegue";
+static NSString *const BreedWarningSegueIdentifier = @"warningSegue";
 static NSString *const BreedPhotosSegueIdentifier = @"MSAPhotoGalleryViewController@Photos";
 
 static NSString *const BreedDetailSegueUserInfoKey = @"breedDetailSegueUserInfo";
@@ -49,6 +51,17 @@ static NSString *const BreedPhotosSegueUserInfoKey = @"breedPhotosSegueUserInfo"
         MSAPhotoGalleryViewController *destinationViewController = segue.destinationViewController;
         destinationViewController.catBreed = catBreed;
         destinationViewController.router = [self.photosAssembly photosRouterWithNavigationController:self.mainNavigationController];
+    } else if ([segue.identifier isEqualToString:BreedWarningSegueIdentifier]) {
+        MSAWarningViewController *destinationController = segue.destinationViewController;
+        destinationController.router = self;
+    }
+}
+
+- (void)dismissCurrentViewController:(UIViewController *)viewController {
+    if (viewController.presentingViewController) {
+        [viewController dismissViewControllerAnimated:YES completion:nil];
+    } else {
+        [viewController.navigationController popViewControllerAnimated:YES];
     }
 }
 
@@ -64,6 +77,11 @@ static NSString *const BreedPhotosSegueUserInfoKey = @"breedPhotosSegueUserInfo"
     [sourceController performSegueWithIdentifier:BreedPhotosSegueIdentifier
                                           sender:self
                                         userInfo:@{BreedPhotosSegueUserInfoKey : catBreed}];
+}
+
+- (void)showWarningViewControllerFromSourceController:(UIViewController *)sourceController {
+    [sourceController performSegueWithIdentifier:BreedWarningSegueIdentifier
+                                          sender:self];
 }
 
 @end

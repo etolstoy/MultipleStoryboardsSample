@@ -37,6 +37,14 @@
             </objects>
             <point key="canvasLocation" x="689" y="-436"/>
         </scene>
+        <!--Warning View Controller-->
+        <scene sceneID="vae-sp-sjS">
+            <objects>
+                <viewController id="PsD-ap-M3b" customClass="MSAWarningViewController" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jP2-Kh-2ZX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1162" y="-1116"/>
+        </scene>
         <!--Breeds Detail View Controller-->
         <scene sceneID="ao3-cP-bhF">
             <objects>
@@ -68,13 +76,20 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="NDZ-gp-b0K"/>
+                    <navigationItem key="navigationItem" id="NDZ-gp-b0K">
+                        <barButtonItem key="rightBarButtonItem" systemItem="reply" id="aAf-jO-km5">
+                            <connections>
+                                <action selector="warningButtonClicked:" destination="AlW-aw-Tlq" id="t6r-uM-p8w"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="typhoonKey" value="breedsDetailViewController"/>
                     </userDefinedRuntimeAttributes>
                     <connections>
                         <outlet property="breedDetailTextView" destination="LhO-eR-Yl5" id="3ug-I7-2O0"/>
                         <segue destination="9pC-lP-HxJ" kind="custom" identifier="MSAPhotoGalleryViewController@Photos" customClass="MSALinkedStoryboardSegue" id="rWf-6z-Bka"/>
+                        <segue destination="PsD-ap-M3b" kind="modal" identifier="warningSegue" id="qo7-Fu-Lnu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="40h-xA-uPe" userLabel="First Responder" sceneMemberID="firstResponder"/>

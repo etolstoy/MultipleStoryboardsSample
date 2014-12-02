@@ -43,6 +43,8 @@
 		9FA9E1201A2CA20300AA7F75 /* MSASettingsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E11F1A2CA20300AA7F75 /* MSASettingsAssembly.m */; };
 		9FA9E1231A2CA21800AA7F75 /* MSASettingsRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1221A2CA21800AA7F75 /* MSASettingsRouter.m */; };
 		9FA9E1261A2CA23600AA7F75 /* MSASettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1251A2CA23600AA7F75 /* MSASettingsTableViewController.m */; };
+		9FA9E1291A2D98B200AA7F75 /* MSAWarningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1281A2D98B200AA7F75 /* MSAWarningViewController.m */; };
+		9FA9E12B1A2D9CFD00AA7F75 /* MSAWarningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FA9E12A1A2D9CFD00AA7F75 /* MSAWarningViewController.xib */; };
 		9FFA81EB1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFA81EA1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m */; };
 /* End PBXBuildFile section */
 
@@ -125,6 +127,9 @@
 		9FA9E1221A2CA21800AA7F75 /* MSASettingsRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSASettingsRouter.m; sourceTree = "<group>"; };
 		9FA9E1241A2CA23600AA7F75 /* MSASettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsTableViewController.h; sourceTree = "<group>"; };
 		9FA9E1251A2CA23600AA7F75 /* MSASettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSASettingsTableViewController.m; sourceTree = "<group>"; };
+		9FA9E1271A2D98B200AA7F75 /* MSAWarningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAWarningViewController.h; sourceTree = "<group>"; };
+		9FA9E1281A2D98B200AA7F75 /* MSAWarningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAWarningViewController.m; sourceTree = "<group>"; };
+		9FA9E12A1A2D9CFD00AA7F75 /* MSAWarningViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSAWarningViewController.xib; sourceTree = "<group>"; };
 		9FFA81E91A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAJsonGeneratorBreedsClient.h; sourceTree = "<group>"; };
 		9FFA81EA1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAJsonGeneratorBreedsClient.m; sourceTree = "<group>"; };
 		C2D3841BCECF9BF5FEFF1EDC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -186,8 +191,8 @@
 				9F76732B1A2895420026E606 /* Breeds User Story */,
 				9FA9E10B1A2C90C300AA7F75 /* Best Cat User Story */,
 				9FA9E0F81A2C6C5300AA7F75 /* Photos User Story */,
-				9F7673211A288DAF0026E606 /* MSACatBreed.h */,
 				9FA9E11D1A2CA1CB00AA7F75 /* Settings User Story */,
+				9F7673211A288DAF0026E606 /* MSACatBreed.h */,
 				9F7673221A288DAF0026E606 /* MSACatBreed.m */,
 				9F76732F1A2895B70026E606 /* MSARouter.h */,
 				9F7673301A2895B70026E606 /* MSARouter.m */,
@@ -312,6 +317,9 @@
 				9FA9E11B1A2CA1C700AA7F75 /* MSASettingsNavigationController.m */,
 				9FA9E1241A2CA23600AA7F75 /* MSASettingsTableViewController.h */,
 				9FA9E1251A2CA23600AA7F75 /* MSASettingsTableViewController.m */,
+				9FA9E1271A2D98B200AA7F75 /* MSAWarningViewController.h */,
+				9FA9E1281A2D98B200AA7F75 /* MSAWarningViewController.m */,
+				9FA9E12A1A2D9CFD00AA7F75 /* MSAWarningViewController.xib */,
 			);
 			name = "Settings User Story";
 			sourceTree = "<group>";
@@ -412,6 +420,7 @@
 				9F76730F1A2875830026E606 /* Main.storyboard in Resources */,
 				9F7673111A28759B0026E606 /* Breeds.storyboard in Resources */,
 				9F7673151A2875B30026E606 /* Settings.storyboard in Resources */,
+				9FA9E12B1A2D9CFD00AA7F75 /* MSAWarningViewController.xib in Resources */,
 				9F7672F01A286A7F0026E606 /* LaunchScreen.xib in Resources */,
 				9F7672ED1A286A7F0026E606 /* Images.xcassets in Resources */,
 			);
@@ -491,6 +500,7 @@
 				9FA9E1171A2C9CD000AA7F75 /* MSABestCatNavigationController.m in Sources */,
 				9FA9E11C1A2CA1C700AA7F75 /* MSASettingsNavigationController.m in Sources */,
 				9FA9E0FB1A2C6C9D00AA7F75 /* MSAPhotosRouter.m in Sources */,
+				9FA9E1291A2D98B200AA7F75 /* MSAWarningViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -22,4 +22,6 @@
 - (void)showPhotosViewControllerFromSourceController:(UIViewController *)sourceController
                                         withCatBreed:(MSACatBreed *)catBreed;
 
+- (void)showWarningViewControllerFromSourceController:(UIViewController *)sourceController;
+
 @end
