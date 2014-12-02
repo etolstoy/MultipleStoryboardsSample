@@ -10,53 +10,42 @@
 		76CE2F0D0B44BBBE961A6953 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D3841BCECF9BF5FEFF1EDC /* libPods.a */; };
 		9F7672E21A286A7F0026E606 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7672E11A286A7F0026E606 /* main.m */; };
 		9F7672E51A286A7F0026E606 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7672E41A286A7F0026E606 /* AppDelegate.m */; };
-		9F7672ED1A286A7F0026E606 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7672EC1A286A7F0026E606 /* Images.xcassets */; };
 		9F7672F01A286A7F0026E606 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F7672EE1A286A7F0026E606 /* LaunchScreen.xib */; };
-		9F7672FC1A286A7F0026E606 /* MultipleStoryboardsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7672FB1A286A7F0026E606 /* MultipleStoryboardsAppTests.m */; };
-		9F7673071A286AE70026E606 /* MSALinkedStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7673061A286AE70026E606 /* MSALinkedStoryboardSegue.m */; };
-		9F76730F1A2875830026E606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F76730E1A2875830026E606 /* Main.storyboard */; };
-		9F7673111A28759B0026E606 /* Breeds.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7673101A28759B0026E606 /* Breeds.storyboard */; };
-		9F7673131A2875A80026E606 /* BestCat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7673121A2875A80026E606 /* BestCat.storyboard */; };
-		9F7673151A2875B30026E606 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7673141A2875B30026E606 /* Settings.storyboard */; };
-		9F7673171A2875C40026E606 /* Photos.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7673161A2875C40026E606 /* Photos.storyboard */; };
-		9F76731D1A287AEC0026E606 /* MSAMainAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F76731C1A287AEC0026E606 /* MSAMainAssembly.m */; };
-		9F7673201A288CF30026E606 /* MSABreedsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F76731F1A288CF30026E606 /* MSABreedsTableViewController.m */; };
-		9F7673231A288DAF0026E606 /* MSACatBreed.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7673221A288DAF0026E606 /* MSACatBreed.m */; };
-		9F76732A1A2892790026E606 /* MSABreedsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7673291A2892790026E606 /* MSABreedsAssembly.m */; };
-		9F7673311A2895B70026E606 /* MSARouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7673301A2895B70026E606 /* MSARouter.m */; };
-		9F7673341A2895CC0026E606 /* MSABreedsRouterImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7673331A2895CC0026E606 /* MSABreedsRouterImplementation.m */; };
-		9FA9E0F11A2C5D3300AA7F75 /* UIViewController+Routing.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E0F01A2C5D3300AA7F75 /* UIViewController+Routing.m */; };
-		9FA9E0F41A2C656400AA7F75 /* MSABreedsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E0F31A2C656400AA7F75 /* MSABreedsDetailViewController.m */; };
-		9FA9E0F71A2C6C3E00AA7F75 /* MSAPhotoGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E0F61A2C6C3E00AA7F75 /* MSAPhotoGalleryViewController.m */; };
-		9FA9E0FB1A2C6C9D00AA7F75 /* MSAPhotosRouterImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E0FA1A2C6C9D00AA7F75 /* MSAPhotosRouterImplementation.m */; };
-		9FA9E0FE1A2C6CF200AA7F75 /* MSAPhotosAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E0FD1A2C6CF200AA7F75 /* MSAPhotosAssembly.m */; };
-		9FA9E1011A2C8A8400AA7F75 /* MSAPhotoGalleryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1001A2C8A8400AA7F75 /* MSAPhotoGalleryCollectionViewCell.m */; };
-		9FA9E1041A2C8DC200AA7F75 /* MSAPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1031A2C8DC200AA7F75 /* MSAPhotoViewController.m */; };
-		9FA9E1071A2C90AE00AA7F75 /* MSABestCatAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1061A2C90AE00AA7F75 /* MSABestCatAssembly.m */; };
-		9FA9E10A1A2C90BF00AA7F75 /* MSABestCatRouterImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1091A2C90BF00AA7F75 /* MSABestCatRouterImplementation.m */; };
-		9FA9E10E1A2C90F500AA7F75 /* MSABestCatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E10D1A2C90F500AA7F75 /* MSABestCatViewController.m */; };
-		9FA9E1141A2C9C8C00AA7F75 /* MSABreedsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1131A2C9C8C00AA7F75 /* MSABreedsNavigationController.m */; };
-		9FA9E1171A2C9CD000AA7F75 /* MSABestCatNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1161A2C9CD000AA7F75 /* MSABestCatNavigationController.m */; };
-		9FA9E1191A2CA0C000AA7F75 /* best-cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA9E1181A2CA0C000AA7F75 /* best-cat.png */; };
-		9FA9E11C1A2CA1C700AA7F75 /* MSASettingsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E11B1A2CA1C700AA7F75 /* MSASettingsNavigationController.m */; };
-		9FA9E1201A2CA20300AA7F75 /* MSASettingsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E11F1A2CA20300AA7F75 /* MSASettingsAssembly.m */; };
-		9FA9E1231A2CA21800AA7F75 /* MSASettingsRouterImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1221A2CA21800AA7F75 /* MSASettingsRouterImplementation.m */; };
-		9FA9E1261A2CA23600AA7F75 /* MSASettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1251A2CA23600AA7F75 /* MSASettingsTableViewController.m */; };
-		9FA9E1291A2D98B200AA7F75 /* MSAWarningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1281A2D98B200AA7F75 /* MSAWarningViewController.m */; };
-		9FA9E12B1A2D9CFD00AA7F75 /* MSAWarningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FA9E12A1A2D9CFD00AA7F75 /* MSAWarningViewController.xib */; };
-		9FB7F0681A2DF4210062E52B /* MSAStoryboardsIdentifiers.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0671A2DF4210062E52B /* MSAStoryboardsIdentifiers.m */; };
-		9FFA81EB1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFA81EA1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m */; };
+		9FB7F0B21A2DFE710062E52B /* BestCat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB7F06A1A2DFE710062E52B /* BestCat.storyboard */; };
+		9FB7F0B31A2DFE710062E52B /* MSABestCatAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F06C1A2DFE710062E52B /* MSABestCatAssembly.m */; };
+		9FB7F0B41A2DFE710062E52B /* MSABestCatNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F06E1A2DFE710062E52B /* MSABestCatNavigationController.m */; };
+		9FB7F0B51A2DFE710062E52B /* MSABestCatRouterImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0711A2DFE710062E52B /* MSABestCatRouterImplementation.m */; };
+		9FB7F0B61A2DFE710062E52B /* MSABestCatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0731A2DFE710062E52B /* MSABestCatViewController.m */; };
+		9FB7F0B71A2DFE710062E52B /* Breeds.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB7F0751A2DFE710062E52B /* Breeds.storyboard */; };
+		9FB7F0B81A2DFE710062E52B /* MSABreedsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0771A2DFE710062E52B /* MSABreedsAssembly.m */; };
+		9FB7F0B91A2DFE710062E52B /* MSABreedsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F07A1A2DFE710062E52B /* MSABreedsDetailViewController.m */; };
+		9FB7F0BA1A2DFE710062E52B /* MSABreedsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F07C1A2DFE710062E52B /* MSABreedsNavigationController.m */; };
+		9FB7F0BB1A2DFE710062E52B /* MSABreedsRouterImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F07F1A2DFE710062E52B /* MSABreedsRouterImplementation.m */; };
+		9FB7F0BC1A2DFE710062E52B /* MSABreedsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0811A2DFE710062E52B /* MSABreedsTableViewController.m */; };
+		9FB7F0BD1A2DFE710062E52B /* MSAJsonGeneratorBreedsClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0831A2DFE710062E52B /* MSAJsonGeneratorBreedsClient.m */; };
+		9FB7F0BE1A2DFE710062E52B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB7F0851A2DFE710062E52B /* Main.storyboard */; };
+		9FB7F0BF1A2DFE710062E52B /* MSACatBreed.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0871A2DFE710062E52B /* MSACatBreed.m */; };
+		9FB7F0C01A2DFE710062E52B /* MSAMainAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0891A2DFE710062E52B /* MSAMainAssembly.m */; };
+		9FB7F0C11A2DFE710062E52B /* MSARouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F08B1A2DFE710062E52B /* MSARouter.m */; };
+		9FB7F0C21A2DFE710062E52B /* MSALinkedStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0901A2DFE710062E52B /* MSALinkedStoryboardSegue.m */; };
+		9FB7F0C31A2DFE710062E52B /* UIViewController+Routing.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0931A2DFE710062E52B /* UIViewController+Routing.m */; };
+		9FB7F0C41A2DFE710062E52B /* MSAPhotoGalleryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0961A2DFE710062E52B /* MSAPhotoGalleryCollectionViewCell.m */; };
+		9FB7F0C51A2DFE710062E52B /* MSAPhotoGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0981A2DFE710062E52B /* MSAPhotoGalleryViewController.m */; };
+		9FB7F0C61A2DFE710062E52B /* MSAPhotosAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F09A1A2DFE710062E52B /* MSAPhotosAssembly.m */; };
+		9FB7F0C71A2DFE710062E52B /* MSAPhotosRouterImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F09D1A2DFE710062E52B /* MSAPhotosRouterImplementation.m */; };
+		9FB7F0C81A2DFE710062E52B /* MSAPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F09F1A2DFE710062E52B /* MSAPhotoViewController.m */; };
+		9FB7F0C91A2DFE710062E52B /* Photos.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB7F0A01A2DFE710062E52B /* Photos.storyboard */; };
+		9FB7F0CA1A2DFE710062E52B /* best-cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB7F0A21A2DFE710062E52B /* best-cat.png */; };
+		9FB7F0CB1A2DFE710062E52B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB7F0A31A2DFE710062E52B /* Images.xcassets */; };
+		9FB7F0CC1A2DFE710062E52B /* MSASettingsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0A61A2DFE710062E52B /* MSASettingsAssembly.m */; };
+		9FB7F0CD1A2DFE710062E52B /* MSASettingsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0A81A2DFE710062E52B /* MSASettingsNavigationController.m */; };
+		9FB7F0CE1A2DFE710062E52B /* MSASettingsRouterImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0AB1A2DFE710062E52B /* MSASettingsRouterImplementation.m */; };
+		9FB7F0CF1A2DFE710062E52B /* MSASettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0AD1A2DFE710062E52B /* MSASettingsTableViewController.m */; };
+		9FB7F0D01A2DFE710062E52B /* MSAWarningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0AF1A2DFE710062E52B /* MSAWarningViewController.m */; };
+		9FB7F0D11A2DFE710062E52B /* MSAWarningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FB7F0B01A2DFE710062E52B /* MSAWarningViewController.xib */; };
+		9FB7F0D21A2DFE710062E52B /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB7F0B11A2DFE710062E52B /* Settings.storyboard */; };
+		9FB7F0D51A2DFF750062E52B /* MSAStoryboardsIdentifiers.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0D41A2DFF750062E52B /* MSAStoryboardsIdentifiers.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9F7672F61A286A7F0026E606 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9F7672D41A286A7F0026E606 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9F7672DB1A286A7F0026E606;
-			remoteInfo = MultipleStoryboardsApp;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		57FADD0C02FD1A9735EF3B85 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,77 +54,74 @@
 		9F7672E11A286A7F0026E606 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9F7672E31A286A7F0026E606 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F7672E41A286A7F0026E606 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9F7672EC1A286A7F0026E606 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9F7672EF1A286A7F0026E606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		9F7672F51A286A7F0026E606 /* MultipleStoryboardsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipleStoryboardsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F7672FA1A286A7F0026E606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F7672FB1A286A7F0026E606 /* MultipleStoryboardsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultipleStoryboardsAppTests.m; sourceTree = "<group>"; };
-		9F7673051A286AE70026E606 /* MSALinkedStoryboardSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSALinkedStoryboardSegue.h; sourceTree = "<group>"; };
-		9F7673061A286AE70026E606 /* MSALinkedStoryboardSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSALinkedStoryboardSegue.m; sourceTree = "<group>"; };
 		9F7673081A286B010026E606 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		9F76730E1A2875830026E606 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		9F7673101A28759B0026E606 /* Breeds.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Breeds.storyboard; path = Storyboards/Breeds.storyboard; sourceTree = "<group>"; };
-		9F7673121A2875A80026E606 /* BestCat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BestCat.storyboard; path = Storyboards/BestCat.storyboard; sourceTree = "<group>"; };
-		9F7673141A2875B30026E606 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Settings.storyboard; path = Storyboards/Settings.storyboard; sourceTree = "<group>"; };
-		9F7673161A2875C40026E606 /* Photos.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Photos.storyboard; path = Storyboards/Photos.storyboard; sourceTree = "<group>"; };
-		9F76731B1A287AEC0026E606 /* MSAMainAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAMainAssembly.h; sourceTree = "<group>"; };
-		9F76731C1A287AEC0026E606 /* MSAMainAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAMainAssembly.m; sourceTree = "<group>"; };
-		9F76731E1A288CF30026E606 /* MSABreedsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsTableViewController.h; sourceTree = "<group>"; };
-		9F76731F1A288CF30026E606 /* MSABreedsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsTableViewController.m; sourceTree = "<group>"; };
-		9F7673211A288DAF0026E606 /* MSACatBreed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSACatBreed.h; sourceTree = "<group>"; };
-		9F7673221A288DAF0026E606 /* MSACatBreed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSACatBreed.m; sourceTree = "<group>"; };
-		9F7673241A288E170026E606 /* MSABreedsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsClient.h; sourceTree = "<group>"; };
-		9F7673281A2892790026E606 /* MSABreedsAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsAssembly.h; sourceTree = "<group>"; };
-		9F7673291A2892790026E606 /* MSABreedsAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsAssembly.m; sourceTree = "<group>"; };
-		9F76732F1A2895B70026E606 /* MSARouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSARouter.h; sourceTree = "<group>"; };
-		9F7673301A2895B70026E606 /* MSARouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSARouter.m; sourceTree = "<group>"; };
-		9F7673321A2895CC0026E606 /* MSABreedsRouterImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsRouterImplementation.h; sourceTree = "<group>"; };
-		9F7673331A2895CC0026E606 /* MSABreedsRouterImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsRouterImplementation.m; sourceTree = "<group>"; };
-		9FA9E0EE1A2C4B6700AA7F75 /* MSARoutingProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSARoutingProtocol.h; sourceTree = "<group>"; };
-		9FA9E0EF1A2C5D3300AA7F75 /* UIViewController+Routing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Routing.h"; sourceTree = "<group>"; };
-		9FA9E0F01A2C5D3300AA7F75 /* UIViewController+Routing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Routing.m"; sourceTree = "<group>"; };
-		9FA9E0F21A2C656400AA7F75 /* MSABreedsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsDetailViewController.h; sourceTree = "<group>"; };
-		9FA9E0F31A2C656400AA7F75 /* MSABreedsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsDetailViewController.m; sourceTree = "<group>"; };
-		9FA9E0F51A2C6C3E00AA7F75 /* MSAPhotoGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotoGalleryViewController.h; sourceTree = "<group>"; };
-		9FA9E0F61A2C6C3E00AA7F75 /* MSAPhotoGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotoGalleryViewController.m; sourceTree = "<group>"; };
-		9FA9E0F91A2C6C9D00AA7F75 /* MSAPhotosRouterImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotosRouterImplementation.h; sourceTree = "<group>"; };
-		9FA9E0FA1A2C6C9D00AA7F75 /* MSAPhotosRouterImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotosRouterImplementation.m; sourceTree = "<group>"; };
-		9FA9E0FC1A2C6CF200AA7F75 /* MSAPhotosAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotosAssembly.h; sourceTree = "<group>"; };
-		9FA9E0FD1A2C6CF200AA7F75 /* MSAPhotosAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotosAssembly.m; sourceTree = "<group>"; };
-		9FA9E0FF1A2C8A8400AA7F75 /* MSAPhotoGalleryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotoGalleryCollectionViewCell.h; sourceTree = "<group>"; };
-		9FA9E1001A2C8A8400AA7F75 /* MSAPhotoGalleryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotoGalleryCollectionViewCell.m; sourceTree = "<group>"; };
-		9FA9E1021A2C8DC100AA7F75 /* MSAPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotoViewController.h; sourceTree = "<group>"; };
-		9FA9E1031A2C8DC200AA7F75 /* MSAPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotoViewController.m; sourceTree = "<group>"; };
-		9FA9E1051A2C90AE00AA7F75 /* MSABestCatAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatAssembly.h; sourceTree = "<group>"; };
-		9FA9E1061A2C90AE00AA7F75 /* MSABestCatAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABestCatAssembly.m; sourceTree = "<group>"; };
-		9FA9E1081A2C90BF00AA7F75 /* MSABestCatRouterImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatRouterImplementation.h; sourceTree = "<group>"; };
-		9FA9E1091A2C90BF00AA7F75 /* MSABestCatRouterImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABestCatRouterImplementation.m; sourceTree = "<group>"; };
-		9FA9E10C1A2C90F500AA7F75 /* MSABestCatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatViewController.h; sourceTree = "<group>"; };
-		9FA9E10D1A2C90F500AA7F75 /* MSABestCatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABestCatViewController.m; sourceTree = "<group>"; };
-		9FA9E1121A2C9C8C00AA7F75 /* MSABreedsNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsNavigationController.h; sourceTree = "<group>"; };
-		9FA9E1131A2C9C8C00AA7F75 /* MSABreedsNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsNavigationController.m; sourceTree = "<group>"; };
-		9FA9E1151A2C9CD000AA7F75 /* MSABestCatNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatNavigationController.h; sourceTree = "<group>"; };
-		9FA9E1161A2C9CD000AA7F75 /* MSABestCatNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABestCatNavigationController.m; sourceTree = "<group>"; };
-		9FA9E1181A2CA0C000AA7F75 /* best-cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "best-cat.png"; sourceTree = "<group>"; };
-		9FA9E11A1A2CA1C700AA7F75 /* MSASettingsNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsNavigationController.h; sourceTree = "<group>"; };
-		9FA9E11B1A2CA1C700AA7F75 /* MSASettingsNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSASettingsNavigationController.m; sourceTree = "<group>"; };
-		9FA9E11E1A2CA20300AA7F75 /* MSASettingsAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsAssembly.h; sourceTree = "<group>"; };
-		9FA9E11F1A2CA20300AA7F75 /* MSASettingsAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSASettingsAssembly.m; sourceTree = "<group>"; };
-		9FA9E1211A2CA21800AA7F75 /* MSASettingsRouterImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsRouterImplementation.h; sourceTree = "<group>"; };
-		9FA9E1221A2CA21800AA7F75 /* MSASettingsRouterImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSASettingsRouterImplementation.m; sourceTree = "<group>"; };
-		9FA9E1241A2CA23600AA7F75 /* MSASettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsTableViewController.h; sourceTree = "<group>"; };
-		9FA9E1251A2CA23600AA7F75 /* MSASettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSASettingsTableViewController.m; sourceTree = "<group>"; };
-		9FA9E1271A2D98B200AA7F75 /* MSAWarningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAWarningViewController.h; sourceTree = "<group>"; };
-		9FA9E1281A2D98B200AA7F75 /* MSAWarningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAWarningViewController.m; sourceTree = "<group>"; };
-		9FA9E12A1A2D9CFD00AA7F75 /* MSAWarningViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSAWarningViewController.xib; sourceTree = "<group>"; };
-		9FA9E12D1A2DB66000AA7F75 /* MSABreedsRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsRouter.h; sourceTree = "<group>"; };
-		9FB7F0551A2DBA550062E52B /* MSABestCatRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatRouter.h; sourceTree = "<group>"; };
-		9FB7F0561A2DC3510062E52B /* MSAPhotosRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotosRouter.h; sourceTree = "<group>"; };
-		9FB7F0571A2DC6870062E52B /* MSASettingsRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsRouter.h; sourceTree = "<group>"; };
-		9FB7F0661A2DF4210062E52B /* MSAStoryboardsIdentifiers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAStoryboardsIdentifiers.h; sourceTree = "<group>"; };
-		9FB7F0671A2DF4210062E52B /* MSAStoryboardsIdentifiers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAStoryboardsIdentifiers.m; sourceTree = "<group>"; };
-		9FFA81E91A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAJsonGeneratorBreedsClient.h; sourceTree = "<group>"; };
-		9FFA81EA1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAJsonGeneratorBreedsClient.m; sourceTree = "<group>"; };
+		9FB7F06A1A2DFE710062E52B /* BestCat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BestCat.storyboard; sourceTree = "<group>"; };
+		9FB7F06B1A2DFE710062E52B /* MSABestCatAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatAssembly.h; sourceTree = "<group>"; };
+		9FB7F06C1A2DFE710062E52B /* MSABestCatAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABestCatAssembly.m; sourceTree = "<group>"; };
+		9FB7F06D1A2DFE710062E52B /* MSABestCatNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatNavigationController.h; sourceTree = "<group>"; };
+		9FB7F06E1A2DFE710062E52B /* MSABestCatNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABestCatNavigationController.m; sourceTree = "<group>"; };
+		9FB7F06F1A2DFE710062E52B /* MSABestCatRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatRouter.h; sourceTree = "<group>"; };
+		9FB7F0701A2DFE710062E52B /* MSABestCatRouterImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatRouterImplementation.h; sourceTree = "<group>"; };
+		9FB7F0711A2DFE710062E52B /* MSABestCatRouterImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABestCatRouterImplementation.m; sourceTree = "<group>"; };
+		9FB7F0721A2DFE710062E52B /* MSABestCatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatViewController.h; sourceTree = "<group>"; };
+		9FB7F0731A2DFE710062E52B /* MSABestCatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABestCatViewController.m; sourceTree = "<group>"; };
+		9FB7F0751A2DFE710062E52B /* Breeds.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Breeds.storyboard; sourceTree = "<group>"; };
+		9FB7F0761A2DFE710062E52B /* MSABreedsAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsAssembly.h; sourceTree = "<group>"; };
+		9FB7F0771A2DFE710062E52B /* MSABreedsAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsAssembly.m; sourceTree = "<group>"; };
+		9FB7F0781A2DFE710062E52B /* MSABreedsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsClient.h; sourceTree = "<group>"; };
+		9FB7F0791A2DFE710062E52B /* MSABreedsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsDetailViewController.h; sourceTree = "<group>"; };
+		9FB7F07A1A2DFE710062E52B /* MSABreedsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsDetailViewController.m; sourceTree = "<group>"; };
+		9FB7F07B1A2DFE710062E52B /* MSABreedsNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsNavigationController.h; sourceTree = "<group>"; };
+		9FB7F07C1A2DFE710062E52B /* MSABreedsNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsNavigationController.m; sourceTree = "<group>"; };
+		9FB7F07D1A2DFE710062E52B /* MSABreedsRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsRouter.h; sourceTree = "<group>"; };
+		9FB7F07E1A2DFE710062E52B /* MSABreedsRouterImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsRouterImplementation.h; sourceTree = "<group>"; };
+		9FB7F07F1A2DFE710062E52B /* MSABreedsRouterImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsRouterImplementation.m; sourceTree = "<group>"; };
+		9FB7F0801A2DFE710062E52B /* MSABreedsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsTableViewController.h; sourceTree = "<group>"; };
+		9FB7F0811A2DFE710062E52B /* MSABreedsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsTableViewController.m; sourceTree = "<group>"; };
+		9FB7F0821A2DFE710062E52B /* MSAJsonGeneratorBreedsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAJsonGeneratorBreedsClient.h; sourceTree = "<group>"; };
+		9FB7F0831A2DFE710062E52B /* MSAJsonGeneratorBreedsClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAJsonGeneratorBreedsClient.m; sourceTree = "<group>"; };
+		9FB7F0851A2DFE710062E52B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9FB7F0861A2DFE710062E52B /* MSACatBreed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSACatBreed.h; sourceTree = "<group>"; };
+		9FB7F0871A2DFE710062E52B /* MSACatBreed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSACatBreed.m; sourceTree = "<group>"; };
+		9FB7F0881A2DFE710062E52B /* MSAMainAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAMainAssembly.h; sourceTree = "<group>"; };
+		9FB7F0891A2DFE710062E52B /* MSAMainAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAMainAssembly.m; sourceTree = "<group>"; };
+		9FB7F08A1A2DFE710062E52B /* MSARouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSARouter.h; sourceTree = "<group>"; };
+		9FB7F08B1A2DFE710062E52B /* MSARouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSARouter.m; sourceTree = "<group>"; };
+		9FB7F08C1A2DFE710062E52B /* MSARoutingProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSARoutingProtocol.h; sourceTree = "<group>"; };
+		9FB7F08F1A2DFE710062E52B /* MSALinkedStoryboardSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSALinkedStoryboardSegue.h; sourceTree = "<group>"; };
+		9FB7F0901A2DFE710062E52B /* MSALinkedStoryboardSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSALinkedStoryboardSegue.m; sourceTree = "<group>"; };
+		9FB7F0921A2DFE710062E52B /* UIViewController+Routing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Routing.h"; sourceTree = "<group>"; };
+		9FB7F0931A2DFE710062E52B /* UIViewController+Routing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Routing.m"; sourceTree = "<group>"; };
+		9FB7F0951A2DFE710062E52B /* MSAPhotoGalleryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotoGalleryCollectionViewCell.h; sourceTree = "<group>"; };
+		9FB7F0961A2DFE710062E52B /* MSAPhotoGalleryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotoGalleryCollectionViewCell.m; sourceTree = "<group>"; };
+		9FB7F0971A2DFE710062E52B /* MSAPhotoGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotoGalleryViewController.h; sourceTree = "<group>"; };
+		9FB7F0981A2DFE710062E52B /* MSAPhotoGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotoGalleryViewController.m; sourceTree = "<group>"; };
+		9FB7F0991A2DFE710062E52B /* MSAPhotosAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotosAssembly.h; sourceTree = "<group>"; };
+		9FB7F09A1A2DFE710062E52B /* MSAPhotosAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotosAssembly.m; sourceTree = "<group>"; };
+		9FB7F09B1A2DFE710062E52B /* MSAPhotosRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotosRouter.h; sourceTree = "<group>"; };
+		9FB7F09C1A2DFE710062E52B /* MSAPhotosRouterImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotosRouterImplementation.h; sourceTree = "<group>"; };
+		9FB7F09D1A2DFE710062E52B /* MSAPhotosRouterImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotosRouterImplementation.m; sourceTree = "<group>"; };
+		9FB7F09E1A2DFE710062E52B /* MSAPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotoViewController.h; sourceTree = "<group>"; };
+		9FB7F09F1A2DFE710062E52B /* MSAPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotoViewController.m; sourceTree = "<group>"; };
+		9FB7F0A01A2DFE710062E52B /* Photos.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Photos.storyboard; sourceTree = "<group>"; };
+		9FB7F0A21A2DFE710062E52B /* best-cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "best-cat.png"; sourceTree = "<group>"; };
+		9FB7F0A31A2DFE710062E52B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9FB7F0A51A2DFE710062E52B /* MSASettingsAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsAssembly.h; sourceTree = "<group>"; };
+		9FB7F0A61A2DFE710062E52B /* MSASettingsAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSASettingsAssembly.m; sourceTree = "<group>"; };
+		9FB7F0A71A2DFE710062E52B /* MSASettingsNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsNavigationController.h; sourceTree = "<group>"; };
+		9FB7F0A81A2DFE710062E52B /* MSASettingsNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSASettingsNavigationController.m; sourceTree = "<group>"; };
+		9FB7F0A91A2DFE710062E52B /* MSASettingsRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsRouter.h; sourceTree = "<group>"; };
+		9FB7F0AA1A2DFE710062E52B /* MSASettingsRouterImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsRouterImplementation.h; sourceTree = "<group>"; };
+		9FB7F0AB1A2DFE710062E52B /* MSASettingsRouterImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSASettingsRouterImplementation.m; sourceTree = "<group>"; };
+		9FB7F0AC1A2DFE710062E52B /* MSASettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsTableViewController.h; sourceTree = "<group>"; };
+		9FB7F0AD1A2DFE710062E52B /* MSASettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSASettingsTableViewController.m; sourceTree = "<group>"; };
+		9FB7F0AE1A2DFE710062E52B /* MSAWarningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAWarningViewController.h; sourceTree = "<group>"; };
+		9FB7F0AF1A2DFE710062E52B /* MSAWarningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAWarningViewController.m; sourceTree = "<group>"; };
+		9FB7F0B01A2DFE710062E52B /* MSAWarningViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSAWarningViewController.xib; sourceTree = "<group>"; };
+		9FB7F0B11A2DFE710062E52B /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		9FB7F0D31A2DFF750062E52B /* MSAStoryboardsIdentifiers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAStoryboardsIdentifiers.h; sourceTree = "<group>"; };
+		9FB7F0D41A2DFF750062E52B /* MSAStoryboardsIdentifiers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAStoryboardsIdentifiers.m; sourceTree = "<group>"; };
 		C2D3841BCECF9BF5FEFF1EDC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD3136D3FAA1C7F01B7DC3FB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,13 +132,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				76CE2F0D0B44BBBE961A6953 /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9F7672F21A286A7F0026E606 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,7 +151,6 @@
 			isa = PBXGroup;
 			children = (
 				9F7672DE1A286A7F0026E606 /* MultipleStoryboardsApp */,
-				9F7672F81A286A7F0026E606 /* MultipleStoryboardsAppTests */,
 				9F7672DD1A286A7F0026E606 /* Products */,
 				5A5553CDBB7C31E709BA6F48 /* Pods */,
 				C1DF46171F68219EE2ACBEC7 /* Frameworks */,
@@ -183,7 +161,6 @@
 			isa = PBXGroup;
 			children = (
 				9F7672DC1A286A7F0026E606 /* MultipleStoryboardsApp.app */,
-				9F7672F51A286A7F0026E606 /* MultipleStoryboardsAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -191,28 +168,18 @@
 		9F7672DE1A286A7F0026E606 /* MultipleStoryboardsApp */ = {
 			isa = PBXGroup;
 			children = (
+				9FB7F0691A2DFE710062E52B /* Best Cat User Story */,
+				9FB7F0741A2DFE710062E52B /* Breeds User Story */,
+				9FB7F0841A2DFE710062E52B /* Common */,
+				9FB7F08D1A2DFE710062E52B /* Extensions */,
+				9FB7F0941A2DFE710062E52B /* Photos User Story */,
+				9FB7F0A11A2DFE710062E52B /* Resources */,
+				9FB7F0A41A2DFE710062E52B /* Settings User Story */,
 				9FB7F05F1A2DF0650062E52B /* Constants */,
-				9F76730D1A2875830026E606 /* Storyboards */,
-				9F76732B1A2895420026E606 /* Breeds User Story */,
-				9FA9E10B1A2C90C300AA7F75 /* Best Cat User Story */,
-				9FA9E0F81A2C6C5300AA7F75 /* Photos User Story */,
-				9FA9E11D1A2CA1CB00AA7F75 /* Settings User Story */,
-				9FA9E12C1A2DB43900AA7F75 /* Data Model */,
-				9F76732F1A2895B70026E606 /* MSARouter.h */,
-				9F7673301A2895B70026E606 /* MSARouter.m */,
-				9FA9E0EE1A2C4B6700AA7F75 /* MSARoutingProtocol.h */,
 				9F7672E31A286A7F0026E606 /* AppDelegate.h */,
 				9F7672E41A286A7F0026E606 /* AppDelegate.m */,
-				9F76731B1A287AEC0026E606 /* MSAMainAssembly.h */,
-				9F76731C1A287AEC0026E606 /* MSAMainAssembly.m */,
-				9F7673051A286AE70026E606 /* MSALinkedStoryboardSegue.h */,
-				9F7673061A286AE70026E606 /* MSALinkedStoryboardSegue.m */,
-				9FA9E1181A2CA0C000AA7F75 /* best-cat.png */,
-				9F7672EC1A286A7F0026E606 /* Images.xcassets */,
 				9F7672EE1A286A7F0026E606 /* LaunchScreen.xib */,
 				9F7672DF1A286A7F0026E606 /* Supporting Files */,
-				9FA9E0EF1A2C5D3300AA7F75 /* UIViewController+Routing.h */,
-				9FA9E0F01A2C5D3300AA7F75 /* UIViewController+Routing.m */,
 			);
 			path = MultipleStoryboardsApp;
 			sourceTree = "<group>";
@@ -227,125 +194,142 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9F7672F81A286A7F0026E606 /* MultipleStoryboardsAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				9F7672FB1A286A7F0026E606 /* MultipleStoryboardsAppTests.m */,
-				9F7672F91A286A7F0026E606 /* Supporting Files */,
-			);
-			path = MultipleStoryboardsAppTests;
-			sourceTree = "<group>";
-		};
-		9F7672F91A286A7F0026E606 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9F7672FA1A286A7F0026E606 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9F76730D1A2875830026E606 /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				9F76730E1A2875830026E606 /* Main.storyboard */,
-			);
-			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		9F76732B1A2895420026E606 /* Breeds User Story */ = {
-			isa = PBXGroup;
-			children = (
-				9F7673101A28759B0026E606 /* Breeds.storyboard */,
-				9F7673281A2892790026E606 /* MSABreedsAssembly.h */,
-				9F7673291A2892790026E606 /* MSABreedsAssembly.m */,
-				9F7673241A288E170026E606 /* MSABreedsClient.h */,
-				9FFA81E91A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.h */,
-				9FFA81EA1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m */,
-				9F76731E1A288CF30026E606 /* MSABreedsTableViewController.h */,
-				9F76731F1A288CF30026E606 /* MSABreedsTableViewController.m */,
-				9FA9E12D1A2DB66000AA7F75 /* MSABreedsRouter.h */,
-				9F7673321A2895CC0026E606 /* MSABreedsRouterImplementation.h */,
-				9F7673331A2895CC0026E606 /* MSABreedsRouterImplementation.m */,
-				9FA9E0F21A2C656400AA7F75 /* MSABreedsDetailViewController.h */,
-				9FA9E0F31A2C656400AA7F75 /* MSABreedsDetailViewController.m */,
-				9FA9E1121A2C9C8C00AA7F75 /* MSABreedsNavigationController.h */,
-				9FA9E1131A2C9C8C00AA7F75 /* MSABreedsNavigationController.m */,
-			);
-			name = "Breeds User Story";
-			sourceTree = "<group>";
-		};
-		9FA9E0F81A2C6C5300AA7F75 /* Photos User Story */ = {
-			isa = PBXGroup;
-			children = (
-				9F7673161A2875C40026E606 /* Photos.storyboard */,
-				9FA9E0FC1A2C6CF200AA7F75 /* MSAPhotosAssembly.h */,
-				9FA9E0FD1A2C6CF200AA7F75 /* MSAPhotosAssembly.m */,
-				9FB7F0561A2DC3510062E52B /* MSAPhotosRouter.h */,
-				9FA9E0F91A2C6C9D00AA7F75 /* MSAPhotosRouterImplementation.h */,
-				9FA9E0FA1A2C6C9D00AA7F75 /* MSAPhotosRouterImplementation.m */,
-				9FA9E0F51A2C6C3E00AA7F75 /* MSAPhotoGalleryViewController.h */,
-				9FA9E0F61A2C6C3E00AA7F75 /* MSAPhotoGalleryViewController.m */,
-				9FA9E0FF1A2C8A8400AA7F75 /* MSAPhotoGalleryCollectionViewCell.h */,
-				9FA9E1001A2C8A8400AA7F75 /* MSAPhotoGalleryCollectionViewCell.m */,
-				9FA9E1021A2C8DC100AA7F75 /* MSAPhotoViewController.h */,
-				9FA9E1031A2C8DC200AA7F75 /* MSAPhotoViewController.m */,
-			);
-			name = "Photos User Story";
-			sourceTree = "<group>";
-		};
-		9FA9E10B1A2C90C300AA7F75 /* Best Cat User Story */ = {
-			isa = PBXGroup;
-			children = (
-				9F7673121A2875A80026E606 /* BestCat.storyboard */,
-				9FA9E1051A2C90AE00AA7F75 /* MSABestCatAssembly.h */,
-				9FA9E1061A2C90AE00AA7F75 /* MSABestCatAssembly.m */,
-				9FB7F0551A2DBA550062E52B /* MSABestCatRouter.h */,
-				9FA9E1081A2C90BF00AA7F75 /* MSABestCatRouterImplementation.h */,
-				9FA9E1091A2C90BF00AA7F75 /* MSABestCatRouterImplementation.m */,
-				9FA9E10C1A2C90F500AA7F75 /* MSABestCatViewController.h */,
-				9FA9E10D1A2C90F500AA7F75 /* MSABestCatViewController.m */,
-				9FA9E1151A2C9CD000AA7F75 /* MSABestCatNavigationController.h */,
-				9FA9E1161A2C9CD000AA7F75 /* MSABestCatNavigationController.m */,
-			);
-			name = "Best Cat User Story";
-			sourceTree = "<group>";
-		};
-		9FA9E11D1A2CA1CB00AA7F75 /* Settings User Story */ = {
-			isa = PBXGroup;
-			children = (
-				9F7673141A2875B30026E606 /* Settings.storyboard */,
-				9FA9E11E1A2CA20300AA7F75 /* MSASettingsAssembly.h */,
-				9FA9E11F1A2CA20300AA7F75 /* MSASettingsAssembly.m */,
-				9FB7F0571A2DC6870062E52B /* MSASettingsRouter.h */,
-				9FA9E1211A2CA21800AA7F75 /* MSASettingsRouterImplementation.h */,
-				9FA9E1221A2CA21800AA7F75 /* MSASettingsRouterImplementation.m */,
-				9FA9E11A1A2CA1C700AA7F75 /* MSASettingsNavigationController.h */,
-				9FA9E11B1A2CA1C700AA7F75 /* MSASettingsNavigationController.m */,
-				9FA9E1241A2CA23600AA7F75 /* MSASettingsTableViewController.h */,
-				9FA9E1251A2CA23600AA7F75 /* MSASettingsTableViewController.m */,
-				9FA9E1271A2D98B200AA7F75 /* MSAWarningViewController.h */,
-				9FA9E1281A2D98B200AA7F75 /* MSAWarningViewController.m */,
-				9FA9E12A1A2D9CFD00AA7F75 /* MSAWarningViewController.xib */,
-			);
-			name = "Settings User Story";
-			sourceTree = "<group>";
-		};
-		9FA9E12C1A2DB43900AA7F75 /* Data Model */ = {
-			isa = PBXGroup;
-			children = (
-				9F7673211A288DAF0026E606 /* MSACatBreed.h */,
-				9F7673221A288DAF0026E606 /* MSACatBreed.m */,
-			);
-			name = "Data Model";
-			sourceTree = "<group>";
-		};
 		9FB7F05F1A2DF0650062E52B /* Constants */ = {
 			isa = PBXGroup;
 			children = (
-				9FB7F0661A2DF4210062E52B /* MSAStoryboardsIdentifiers.h */,
-				9FB7F0671A2DF4210062E52B /* MSAStoryboardsIdentifiers.m */,
+				9FB7F0D31A2DFF750062E52B /* MSAStoryboardsIdentifiers.h */,
+				9FB7F0D41A2DFF750062E52B /* MSAStoryboardsIdentifiers.m */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		9FB7F0691A2DFE710062E52B /* Best Cat User Story */ = {
+			isa = PBXGroup;
+			children = (
+				9FB7F06A1A2DFE710062E52B /* BestCat.storyboard */,
+				9FB7F06B1A2DFE710062E52B /* MSABestCatAssembly.h */,
+				9FB7F06C1A2DFE710062E52B /* MSABestCatAssembly.m */,
+				9FB7F06D1A2DFE710062E52B /* MSABestCatNavigationController.h */,
+				9FB7F06E1A2DFE710062E52B /* MSABestCatNavigationController.m */,
+				9FB7F06F1A2DFE710062E52B /* MSABestCatRouter.h */,
+				9FB7F0701A2DFE710062E52B /* MSABestCatRouterImplementation.h */,
+				9FB7F0711A2DFE710062E52B /* MSABestCatRouterImplementation.m */,
+				9FB7F0721A2DFE710062E52B /* MSABestCatViewController.h */,
+				9FB7F0731A2DFE710062E52B /* MSABestCatViewController.m */,
+			);
+			path = "Best Cat User Story";
+			sourceTree = "<group>";
+		};
+		9FB7F0741A2DFE710062E52B /* Breeds User Story */ = {
+			isa = PBXGroup;
+			children = (
+				9FB7F0751A2DFE710062E52B /* Breeds.storyboard */,
+				9FB7F0761A2DFE710062E52B /* MSABreedsAssembly.h */,
+				9FB7F0771A2DFE710062E52B /* MSABreedsAssembly.m */,
+				9FB7F0781A2DFE710062E52B /* MSABreedsClient.h */,
+				9FB7F0791A2DFE710062E52B /* MSABreedsDetailViewController.h */,
+				9FB7F07A1A2DFE710062E52B /* MSABreedsDetailViewController.m */,
+				9FB7F07B1A2DFE710062E52B /* MSABreedsNavigationController.h */,
+				9FB7F07C1A2DFE710062E52B /* MSABreedsNavigationController.m */,
+				9FB7F07D1A2DFE710062E52B /* MSABreedsRouter.h */,
+				9FB7F07E1A2DFE710062E52B /* MSABreedsRouterImplementation.h */,
+				9FB7F07F1A2DFE710062E52B /* MSABreedsRouterImplementation.m */,
+				9FB7F0801A2DFE710062E52B /* MSABreedsTableViewController.h */,
+				9FB7F0811A2DFE710062E52B /* MSABreedsTableViewController.m */,
+				9FB7F0821A2DFE710062E52B /* MSAJsonGeneratorBreedsClient.h */,
+				9FB7F0831A2DFE710062E52B /* MSAJsonGeneratorBreedsClient.m */,
+			);
+			path = "Breeds User Story";
+			sourceTree = "<group>";
+		};
+		9FB7F0841A2DFE710062E52B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9FB7F0851A2DFE710062E52B /* Main.storyboard */,
+				9FB7F0861A2DFE710062E52B /* MSACatBreed.h */,
+				9FB7F0871A2DFE710062E52B /* MSACatBreed.m */,
+				9FB7F0881A2DFE710062E52B /* MSAMainAssembly.h */,
+				9FB7F0891A2DFE710062E52B /* MSAMainAssembly.m */,
+				9FB7F08A1A2DFE710062E52B /* MSARouter.h */,
+				9FB7F08B1A2DFE710062E52B /* MSARouter.m */,
+				9FB7F08C1A2DFE710062E52B /* MSARoutingProtocol.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9FB7F08D1A2DFE710062E52B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9FB7F08E1A2DFE710062E52B /* MSALinkedStoryboardSegue */,
+				9FB7F0911A2DFE710062E52B /* UIViewController+Routing */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9FB7F08E1A2DFE710062E52B /* MSALinkedStoryboardSegue */ = {
+			isa = PBXGroup;
+			children = (
+				9FB7F08F1A2DFE710062E52B /* MSALinkedStoryboardSegue.h */,
+				9FB7F0901A2DFE710062E52B /* MSALinkedStoryboardSegue.m */,
+			);
+			path = MSALinkedStoryboardSegue;
+			sourceTree = "<group>";
+		};
+		9FB7F0911A2DFE710062E52B /* UIViewController+Routing */ = {
+			isa = PBXGroup;
+			children = (
+				9FB7F0921A2DFE710062E52B /* UIViewController+Routing.h */,
+				9FB7F0931A2DFE710062E52B /* UIViewController+Routing.m */,
+			);
+			path = "UIViewController+Routing";
+			sourceTree = "<group>";
+		};
+		9FB7F0941A2DFE710062E52B /* Photos User Story */ = {
+			isa = PBXGroup;
+			children = (
+				9FB7F0951A2DFE710062E52B /* MSAPhotoGalleryCollectionViewCell.h */,
+				9FB7F0961A2DFE710062E52B /* MSAPhotoGalleryCollectionViewCell.m */,
+				9FB7F0971A2DFE710062E52B /* MSAPhotoGalleryViewController.h */,
+				9FB7F0981A2DFE710062E52B /* MSAPhotoGalleryViewController.m */,
+				9FB7F0991A2DFE710062E52B /* MSAPhotosAssembly.h */,
+				9FB7F09A1A2DFE710062E52B /* MSAPhotosAssembly.m */,
+				9FB7F09B1A2DFE710062E52B /* MSAPhotosRouter.h */,
+				9FB7F09C1A2DFE710062E52B /* MSAPhotosRouterImplementation.h */,
+				9FB7F09D1A2DFE710062E52B /* MSAPhotosRouterImplementation.m */,
+				9FB7F09E1A2DFE710062E52B /* MSAPhotoViewController.h */,
+				9FB7F09F1A2DFE710062E52B /* MSAPhotoViewController.m */,
+				9FB7F0A01A2DFE710062E52B /* Photos.storyboard */,
+			);
+			path = "Photos User Story";
+			sourceTree = "<group>";
+		};
+		9FB7F0A11A2DFE710062E52B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9FB7F0A21A2DFE710062E52B /* best-cat.png */,
+				9FB7F0A31A2DFE710062E52B /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9FB7F0A41A2DFE710062E52B /* Settings User Story */ = {
+			isa = PBXGroup;
+			children = (
+				9FB7F0A51A2DFE710062E52B /* MSASettingsAssembly.h */,
+				9FB7F0A61A2DFE710062E52B /* MSASettingsAssembly.m */,
+				9FB7F0A71A2DFE710062E52B /* MSASettingsNavigationController.h */,
+				9FB7F0A81A2DFE710062E52B /* MSASettingsNavigationController.m */,
+				9FB7F0A91A2DFE710062E52B /* MSASettingsRouter.h */,
+				9FB7F0AA1A2DFE710062E52B /* MSASettingsRouterImplementation.h */,
+				9FB7F0AB1A2DFE710062E52B /* MSASettingsRouterImplementation.m */,
+				9FB7F0AC1A2DFE710062E52B /* MSASettingsTableViewController.h */,
+				9FB7F0AD1A2DFE710062E52B /* MSASettingsTableViewController.m */,
+				9FB7F0AE1A2DFE710062E52B /* MSAWarningViewController.h */,
+				9FB7F0AF1A2DFE710062E52B /* MSAWarningViewController.m */,
+				9FB7F0B01A2DFE710062E52B /* MSAWarningViewController.xib */,
+				9FB7F0B11A2DFE710062E52B /* Settings.storyboard */,
+			);
+			path = "Settings User Story";
 			sourceTree = "<group>";
 		};
 		C1DF46171F68219EE2ACBEC7 /* Frameworks */ = {
@@ -379,24 +363,6 @@
 			productReference = 9F7672DC1A286A7F0026E606 /* MultipleStoryboardsApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9F7672F41A286A7F0026E606 /* MultipleStoryboardsAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9F7673021A286A7F0026E606 /* Build configuration list for PBXNativeTarget "MultipleStoryboardsAppTests" */;
-			buildPhases = (
-				9F7672F11A286A7F0026E606 /* Sources */,
-				9F7672F21A286A7F0026E606 /* Frameworks */,
-				9F7672F31A286A7F0026E606 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9F7672F71A286A7F0026E606 /* PBXTargetDependency */,
-			);
-			name = MultipleStoryboardsAppTests;
-			productName = MultipleStoryboardsAppTests;
-			productReference = 9F7672F51A286A7F0026E606 /* MultipleStoryboardsAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -408,10 +374,6 @@
 				TargetAttributes = {
 					9F7672DB1A286A7F0026E606 = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					9F7672F41A286A7F0026E606 = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 9F7672DB1A286A7F0026E606;
 					};
 				};
 			};
@@ -429,7 +391,6 @@
 			projectRoot = "";
 			targets = (
 				9F7672DB1A286A7F0026E606 /* MultipleStoryboardsApp */,
-				9F7672F41A286A7F0026E606 /* MultipleStoryboardsAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -439,22 +400,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F7673171A2875C40026E606 /* Photos.storyboard in Resources */,
-				9F7673131A2875A80026E606 /* BestCat.storyboard in Resources */,
-				9FA9E1191A2CA0C000AA7F75 /* best-cat.png in Resources */,
-				9F76730F1A2875830026E606 /* Main.storyboard in Resources */,
-				9F7673111A28759B0026E606 /* Breeds.storyboard in Resources */,
-				9F7673151A2875B30026E606 /* Settings.storyboard in Resources */,
-				9FA9E12B1A2D9CFD00AA7F75 /* MSAWarningViewController.xib in Resources */,
+				9FB7F0B71A2DFE710062E52B /* Breeds.storyboard in Resources */,
 				9F7672F01A286A7F0026E606 /* LaunchScreen.xib in Resources */,
-				9F7672ED1A286A7F0026E606 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9F7672F31A286A7F0026E606 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				9FB7F0CB1A2DFE710062E52B /* Images.xcassets in Resources */,
+				9FB7F0D11A2DFE710062E52B /* MSAWarningViewController.xib in Resources */,
+				9FB7F0CA1A2DFE710062E52B /* best-cat.png in Resources */,
+				9FB7F0C91A2DFE710062E52B /* Photos.storyboard in Resources */,
+				9FB7F0D21A2DFE710062E52B /* Settings.storyboard in Resources */,
+				9FB7F0B21A2DFE710062E52B /* BestCat.storyboard in Resources */,
+				9FB7F0BE1A2DFE710062E52B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,11 +451,11 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/MultipleStoryboardsApp/Storyboards/Main.storyboard",
-				"$(SRCROOT)/MultipleStoryboardsApp/Storyboards/Breeds.storyboard",
-				"$(SRCROOT)/MultipleStoryboardsApp/Storyboards/BestCat.storyboard",
-				"$(SRCROOT)/MultipleStoryboardsApp/Storyboards/Photos.storyboard",
-				"$(SRCROOT)/MultipleStoryboardsApp/Storyboards/Settings.storyboard",
+				"$(SRCROOT)/MultipleStoryboardsApp/Common/Main.storyboard",
+				"$(SRCROOT)/MultipleStoryboardsApp/Breeds User Story/Breeds.storyboard",
+				"$(SRCROOT)/MultipleStoryboardsApp/Best Cat User Story/BestCat.storyboard",
+				"$(SRCROOT)/MultipleStoryboardsApp/Photos User Story/Photos.storyboard",
+				"$(SRCROOT)/MultipleStoryboardsApp/Settings User Story/Settings.storyboard",
 			);
 			outputPaths = (
 				"$(PROJECT_DIR)/MultipleStoryboardsApp/Constants/MSAStoryboardsIdentifiers.h",
@@ -518,54 +472,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FA9E1141A2C9C8C00AA7F75 /* MSABreedsNavigationController.m in Sources */,
-				9FA9E0F71A2C6C3E00AA7F75 /* MSAPhotoGalleryViewController.m in Sources */,
+				9FB7F0B51A2DFE710062E52B /* MSABestCatRouterImplementation.m in Sources */,
+				9FB7F0C71A2DFE710062E52B /* MSAPhotosRouterImplementation.m in Sources */,
 				9F7672E51A286A7F0026E606 /* AppDelegate.m in Sources */,
-				9F7673341A2895CC0026E606 /* MSABreedsRouterImplementation.m in Sources */,
-				9F76731D1A287AEC0026E606 /* MSAMainAssembly.m in Sources */,
-				9FFA81EB1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m in Sources */,
-				9F7673311A2895B70026E606 /* MSARouter.m in Sources */,
-				9FA9E1011A2C8A8400AA7F75 /* MSAPhotoGalleryCollectionViewCell.m in Sources */,
-				9FA9E0F11A2C5D3300AA7F75 /* UIViewController+Routing.m in Sources */,
-				9FA9E1201A2CA20300AA7F75 /* MSASettingsAssembly.m in Sources */,
-				9FA9E1231A2CA21800AA7F75 /* MSASettingsRouterImplementation.m in Sources */,
-				9FA9E1041A2C8DC200AA7F75 /* MSAPhotoViewController.m in Sources */,
-				9F7673201A288CF30026E606 /* MSABreedsTableViewController.m in Sources */,
-				9FA9E1261A2CA23600AA7F75 /* MSASettingsTableViewController.m in Sources */,
-				9F76732A1A2892790026E606 /* MSABreedsAssembly.m in Sources */,
-				9FA9E1071A2C90AE00AA7F75 /* MSABestCatAssembly.m in Sources */,
-				9FA9E10A1A2C90BF00AA7F75 /* MSABestCatRouterImplementation.m in Sources */,
-				9FA9E0F41A2C656400AA7F75 /* MSABreedsDetailViewController.m in Sources */,
+				9FB7F0BD1A2DFE710062E52B /* MSAJsonGeneratorBreedsClient.m in Sources */,
+				9FB7F0BC1A2DFE710062E52B /* MSABreedsTableViewController.m in Sources */,
+				9FB7F0CE1A2DFE710062E52B /* MSASettingsRouterImplementation.m in Sources */,
+				9FB7F0C41A2DFE710062E52B /* MSAPhotoGalleryCollectionViewCell.m in Sources */,
+				9FB7F0C61A2DFE710062E52B /* MSAPhotosAssembly.m in Sources */,
+				9FB7F0C81A2DFE710062E52B /* MSAPhotoViewController.m in Sources */,
+				9FB7F0BA1A2DFE710062E52B /* MSABreedsNavigationController.m in Sources */,
+				9FB7F0BF1A2DFE710062E52B /* MSACatBreed.m in Sources */,
+				9FB7F0C01A2DFE710062E52B /* MSAMainAssembly.m in Sources */,
+				9FB7F0C51A2DFE710062E52B /* MSAPhotoGalleryViewController.m in Sources */,
+				9FB7F0B41A2DFE710062E52B /* MSABestCatNavigationController.m in Sources */,
+				9FB7F0CF1A2DFE710062E52B /* MSASettingsTableViewController.m in Sources */,
+				9FB7F0CD1A2DFE710062E52B /* MSASettingsNavigationController.m in Sources */,
+				9FB7F0C11A2DFE710062E52B /* MSARouter.m in Sources */,
 				9F7672E21A286A7F0026E606 /* main.m in Sources */,
-				9FA9E0FE1A2C6CF200AA7F75 /* MSAPhotosAssembly.m in Sources */,
-				9F7673231A288DAF0026E606 /* MSACatBreed.m in Sources */,
-				9FA9E10E1A2C90F500AA7F75 /* MSABestCatViewController.m in Sources */,
-				9F7673071A286AE70026E606 /* MSALinkedStoryboardSegue.m in Sources */,
-				9FA9E1171A2C9CD000AA7F75 /* MSABestCatNavigationController.m in Sources */,
-				9FA9E11C1A2CA1C700AA7F75 /* MSASettingsNavigationController.m in Sources */,
-				9FB7F0681A2DF4210062E52B /* MSAStoryboardsIdentifiers.m in Sources */,
-				9FA9E0FB1A2C6C9D00AA7F75 /* MSAPhotosRouterImplementation.m in Sources */,
-				9FA9E1291A2D98B200AA7F75 /* MSAWarningViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9F7672F11A286A7F0026E606 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9F7672FC1A286A7F0026E606 /* MultipleStoryboardsAppTests.m in Sources */,
+				9FB7F0B81A2DFE710062E52B /* MSABreedsAssembly.m in Sources */,
+				9FB7F0B61A2DFE710062E52B /* MSABestCatViewController.m in Sources */,
+				9FB7F0C21A2DFE710062E52B /* MSALinkedStoryboardSegue.m in Sources */,
+				9FB7F0CC1A2DFE710062E52B /* MSASettingsAssembly.m in Sources */,
+				9FB7F0B91A2DFE710062E52B /* MSABreedsDetailViewController.m in Sources */,
+				9FB7F0B31A2DFE710062E52B /* MSABestCatAssembly.m in Sources */,
+				9FB7F0C31A2DFE710062E52B /* UIViewController+Routing.m in Sources */,
+				9FB7F0D51A2DFF750062E52B /* MSAStoryboardsIdentifiers.m in Sources */,
+				9FB7F0BB1A2DFE710062E52B /* MSABreedsRouterImplementation.m in Sources */,
+				9FB7F0D01A2DFE710062E52B /* MSAWarningViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9F7672F71A286A7F0026E606 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9F7672DB1A286A7F0026E606 /* MultipleStoryboardsApp */;
-			targetProxy = 9F7672F61A286A7F0026E606 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9F7672EE1A286A7F0026E606 /* LaunchScreen.xib */ = {
@@ -679,40 +617,6 @@
 			};
 			name = Release;
 		};
-		9F7673031A286A7F0026E606 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MultipleStoryboardsAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultipleStoryboardsApp.app/MultipleStoryboardsApp";
-			};
-			name = Debug;
-		};
-		9F7673041A286A7F0026E606 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MultipleStoryboardsAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultipleStoryboardsApp.app/MultipleStoryboardsApp";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -730,15 +634,6 @@
 			buildConfigurations = (
 				9F7673001A286A7F0026E606 /* Debug */,
 				9F7673011A286A7F0026E606 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9F7673021A286A7F0026E606 /* Build configuration list for PBXNativeTarget "MultipleStoryboardsAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9F7673031A286A7F0026E606 /* Debug */,
-				9F7673041A286A7F0026E606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

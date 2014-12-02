@@ -14,7 +14,7 @@
 static NSString *const BreedNameKey = @"breedName";
 static NSString *const BreedDescriptionKey = @"breedDescription";
 static NSString *const BreedPicturesKey = @"pictures";
-static NSString *const JsonUrlKey = @"http://www.json-generator.com/api/json/get/cqFcpZBmwi";
+static NSString *const JsonUrlKey = @"http://www.json-generator.com/api/json/get/bVyGYtfSXm";
 
 @interface MSAJsonGeneratorBreedsClient () <MSABreedsClient>
 
