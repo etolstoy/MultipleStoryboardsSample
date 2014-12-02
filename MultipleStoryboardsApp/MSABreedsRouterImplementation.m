@@ -13,10 +13,7 @@
 #import "MSAPhotosAssembly.h"
 #import "MSAWarningViewController.h"
 #import "MSABreedsRouter.h"
-
-static NSString *const BreedDetailSegueIdentifier = @"breedDetailSegue";
-static NSString *const BreedWarningSegueIdentifier = @"warningSegue";
-static NSString *const BreedPhotosSegueIdentifier = @"MSAPhotoGalleryViewController@Photos";
+#import "MSAStoryboardsIdentifiers.h"
 
 static NSString *const BreedDetailSegueUserInfoKey = @"breedDetailSegueUserInfo";
 static NSString *const BreedPhotosSegueUserInfoKey = @"breedPhotosSegueUserInfo";
@@ -38,19 +35,19 @@ static NSString *const BreedPhotosSegueUserInfoKey = @"breedPhotosSegueUserInfo"
 #pragma mark - MSARoutingProtocol Methods
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if ([segue.identifier isEqualToString:BreedDetailSegueIdentifier]) {
+    if ([segue.identifier isEqualToString:sBreedDetailSegue]) {
         MSACatBreed *catBreed = [[segue.sourceViewController segueUserInfo:segue] objectForKey:BreedDetailSegueUserInfoKey];
         
         MSABreedsDetailViewController *destinationViewController = segue.destinationViewController;
         destinationViewController.catBreed = catBreed;
         destinationViewController.router = self;
-    } else if ([segue.identifier isEqualToString:BreedPhotosSegueIdentifier]) {
+    } else if ([segue.identifier isEqualToString:sMSAPhotoGalleryViewController_Photos]) {
         MSACatBreed *catBreed = [[segue.sourceViewController segueUserInfo:segue] objectForKey:BreedPhotosSegueUserInfoKey];
         
         MSAPhotoGalleryViewController *destinationViewController = segue.destinationViewController;
         destinationViewController.catBreed = catBreed;
         destinationViewController.router = [self.photosAssembly photosRouterWithNavigationController:self.mainNavigationController];
-    } else if ([segue.identifier isEqualToString:BreedWarningSegueIdentifier]) {
+    } else if ([segue.identifier isEqualToString:sWarningSegue]) {
         MSAWarningViewController *destinationController = segue.destinationViewController;
         destinationController.router = self;
     }
@@ -64,20 +61,20 @@ static NSString *const BreedPhotosSegueUserInfoKey = @"breedPhotosSegueUserInfo"
 
 - (void)showBreedViewControllerFromSourceController:(UIViewController *)sourceController
                                        withCatBreed:(MSACatBreed *)catBreed {
-    [sourceController performSegueWithIdentifier:BreedDetailSegueIdentifier
+    [sourceController performSegueWithIdentifier:sBreedDetailSegue
                                           sender:self
                                         userInfo:@{BreedDetailSegueUserInfoKey : catBreed}];
 }
 
 - (void)showPhotosViewControllerFromSourceController:(UIViewController *)sourceController
                                         withCatBreed:(MSACatBreed *)catBreed {
-    [sourceController performSegueWithIdentifier:BreedPhotosSegueIdentifier
+    [sourceController performSegueWithIdentifier:sMSAPhotoGalleryViewController_Photos
                                           sender:self
                                         userInfo:@{BreedPhotosSegueUserInfoKey : catBreed}];
 }
 
 - (void)showWarningViewControllerFromSourceController:(UIViewController *)sourceController {
-    [sourceController performSegueWithIdentifier:BreedWarningSegueIdentifier
+    [sourceController performSegueWithIdentifier:sWarningSegue
                                           sender:self];
 }
 

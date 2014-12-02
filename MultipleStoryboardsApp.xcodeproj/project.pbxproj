@@ -44,6 +44,7 @@
 		9FA9E1261A2CA23600AA7F75 /* MSASettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1251A2CA23600AA7F75 /* MSASettingsTableViewController.m */; };
 		9FA9E1291A2D98B200AA7F75 /* MSAWarningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1281A2D98B200AA7F75 /* MSAWarningViewController.m */; };
 		9FA9E12B1A2D9CFD00AA7F75 /* MSAWarningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FA9E12A1A2D9CFD00AA7F75 /* MSAWarningViewController.xib */; };
+		9FB7F0681A2DF4210062E52B /* MSAStoryboardsIdentifiers.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0671A2DF4210062E52B /* MSAStoryboardsIdentifiers.m */; };
 		9FFA81EB1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFA81EA1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m */; };
 /* End PBXBuildFile section */
 
@@ -131,6 +132,8 @@
 		9FB7F0551A2DBA550062E52B /* MSABestCatRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatRouter.h; sourceTree = "<group>"; };
 		9FB7F0561A2DC3510062E52B /* MSAPhotosRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotosRouter.h; sourceTree = "<group>"; };
 		9FB7F0571A2DC6870062E52B /* MSASettingsRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsRouter.h; sourceTree = "<group>"; };
+		9FB7F0661A2DF4210062E52B /* MSAStoryboardsIdentifiers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAStoryboardsIdentifiers.h; sourceTree = "<group>"; };
+		9FB7F0671A2DF4210062E52B /* MSAStoryboardsIdentifiers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAStoryboardsIdentifiers.m; sourceTree = "<group>"; };
 		9FFA81E91A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAJsonGeneratorBreedsClient.h; sourceTree = "<group>"; };
 		9FFA81EA1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAJsonGeneratorBreedsClient.m; sourceTree = "<group>"; };
 		C2D3841BCECF9BF5FEFF1EDC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -188,6 +191,7 @@
 		9F7672DE1A286A7F0026E606 /* MultipleStoryboardsApp */ = {
 			isa = PBXGroup;
 			children = (
+				9FB7F05F1A2DF0650062E52B /* Constants */,
 				9F76730D1A2875830026E606 /* Storyboards */,
 				9F76732B1A2895420026E606 /* Breeds User Story */,
 				9FA9E10B1A2C90C300AA7F75 /* Best Cat User Story */,
@@ -335,6 +339,15 @@
 			name = "Data Model";
 			sourceTree = "<group>";
 		};
+		9FB7F05F1A2DF0650062E52B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				9FB7F0661A2DF4210062E52B /* MSAStoryboardsIdentifiers.h */,
+				9FB7F0671A2DF4210062E52B /* MSAStoryboardsIdentifiers.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		C1DF46171F68219EE2ACBEC7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -355,6 +368,7 @@
 				9F7672D91A286A7F0026E606 /* Frameworks */,
 				9F7672DA1A286A7F0026E606 /* Resources */,
 				94CC88565E9DDDAAE56E428D /* Copy Pods Resources */,
+				9FB7F0591A2DEA2C0062E52B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -477,6 +491,26 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9FB7F0591A2DEA2C0062E52B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/MultipleStoryboardsApp/Storyboards/Main.storyboard",
+				"$(SRCROOT)/MultipleStoryboardsApp/Storyboards/Breeds.storyboard",
+				"$(SRCROOT)/MultipleStoryboardsApp/Storyboards/BestCat.storyboard",
+				"$(SRCROOT)/MultipleStoryboardsApp/Storyboards/Photos.storyboard",
+				"$(SRCROOT)/MultipleStoryboardsApp/Storyboards/Settings.storyboard",
+			);
+			outputPaths = (
+				"$(PROJECT_DIR)/MultipleStoryboardsApp/Constants/MSAStoryboardsIdentifiers.h",
+				"$(PROJECT_DIR)/MultipleStoryboardsApp/Constants/MSAStoryboardsIdentifiers.m",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"${PROJECT_DIR}/MultipleStoryboardsApp/Constants\"\n\npython \"${PROJECT_DIR}/Scripts/generate_constants.py\" \"${SCRIPT_OUTPUT_FILE_0}\" \"${SCRIPT_OUTPUT_FILE_1}\"";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -509,6 +543,7 @@
 				9F7673071A286AE70026E606 /* MSALinkedStoryboardSegue.m in Sources */,
 				9FA9E1171A2C9CD000AA7F75 /* MSABestCatNavigationController.m in Sources */,
 				9FA9E11C1A2CA1C700AA7F75 /* MSASettingsNavigationController.m in Sources */,
+				9FB7F0681A2DF4210062E52B /* MSAStoryboardsIdentifiers.m in Sources */,
 				9FA9E0FB1A2C6C9D00AA7F75 /* MSAPhotosRouterImplementation.m in Sources */,
 				9FA9E1291A2D98B200AA7F75 /* MSAWarningViewController.m in Sources */,
 			);

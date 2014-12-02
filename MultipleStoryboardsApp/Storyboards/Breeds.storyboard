@@ -88,7 +88,7 @@
                     </userDefinedRuntimeAttributes>
                     <connections>
                         <outlet property="breedDetailTextView" destination="LhO-eR-Yl5" id="3ug-I7-2O0"/>
-                        <segue destination="9pC-lP-HxJ" kind="custom" identifier="MSAPhotoGalleryViewController@Photos" customClass="MSALinkedStoryboardSegue" id="rWf-6z-Bka"/>
+                        <segue destination="9pC-lP-HxJ" kind="custom" identifier="MSAPhotoGalleryViewController_Photos" customClass="MSALinkedStoryboardSegue" id="rWf-6z-Bka"/>
                         <segue destination="PsD-ap-M3b" kind="modal" identifier="warningSegue" id="qo7-Fu-Lnu"/>
                     </connections>
                 </viewController>

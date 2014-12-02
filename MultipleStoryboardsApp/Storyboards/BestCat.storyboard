@@ -68,7 +68,7 @@
                     <connections>
                         <outlet property="catInfoTextView" destination="GSF-Zs-fYh" id="kpT-UJ-GOw"/>
                         <outlet property="catNameLabel" destination="ubj-RR-KwH" id="S00-o0-B1L"/>
-                        <segue destination="K6y-dh-gMg" kind="custom" identifier="MSAPhotoViewController@Photos" customClass="MSALinkedStoryboardSegue" id="2vV-aE-hBd"/>
+                        <segue destination="K6y-dh-gMg" kind="custom" identifier="MSAPhotoViewController_Photos" customClass="MSALinkedStoryboardSegue" id="2vV-aE-hBd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xfC-TJ-pcf" userLabel="First Responder" sceneMemberID="firstResponder"/>

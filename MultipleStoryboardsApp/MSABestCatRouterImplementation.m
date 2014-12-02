@@ -10,8 +10,8 @@
 #import "UIViewController+Routing.h"
 #import "MSAPhotoViewController.h"
 #import "MSABestCatRouter.h"
+#import "MSAStoryboardsIdentifiers.h"
 
-static NSString *const PhotoViewSegueIdentifier = @"MSAPhotoViewController@Photos";
 static NSString *const PhotoViewSegueUserInfoKey = @"photoViewSegueUserInfo";
 
 @class MSAPhotosAssembly;
@@ -33,7 +33,7 @@ static NSString *const PhotoViewSegueUserInfoKey = @"photoViewSegueUserInfo";
 #pragma mark - MSARoutingProtocol Methods
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if ([segue.identifier isEqualToString:PhotoViewSegueIdentifier]) {
+    if ([segue.identifier isEqualToString:sMSAPhotoViewController_Photos]) {
         NSURL *imageURL = [[segue.sourceViewController segueUserInfo:segue] objectForKey:PhotoViewSegueUserInfoKey];
         
         MSAPhotoViewController *destinationViewController = segue.destinationViewController;
@@ -50,7 +50,7 @@ static NSString *const PhotoViewSegueUserInfoKey = @"photoViewSegueUserInfo";
 
 - (void)showPhotoViewControllerFromSourceController:(UIViewController *)sourceController
                                             withURL:(NSURL *)imageURL {
-    [sourceController performSegueWithIdentifier:PhotoViewSegueIdentifier
+    [sourceController performSegueWithIdentifier:sMSAPhotoViewController_Photos
                                           sender:self
                                         userInfo:@{PhotoViewSegueUserInfoKey : imageURL}];
 }

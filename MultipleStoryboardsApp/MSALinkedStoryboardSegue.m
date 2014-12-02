@@ -12,7 +12,7 @@
 
 + (UIViewController *)sceneNamed:(NSString *)identifier
 {
-    NSArray *info = [identifier componentsSeparatedByString:@"@"];
+    NSArray *info = [identifier componentsSeparatedByString:@"_"];
     
     NSString *storyboard_name = info[1];
     NSString *scene_name = info[0];

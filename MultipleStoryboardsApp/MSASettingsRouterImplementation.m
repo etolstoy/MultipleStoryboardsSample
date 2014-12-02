@@ -10,10 +10,10 @@
 #import "MSAWarningViewController.h"
 #import "UIViewController+Routing.h"
 #import "MSASettingsRouter.h"
+#import "MSAStoryboardsIdentifiers.h"
 
 @class MSAPhotosAssembly;
 
-static NSString *const WarningViewSegueIdentifier = @"warningSegue";
 static NSString *const WarningViewSegueUserInfoKey = @"warningViewSegueUserInfo";
 
 @interface MSASettingsRouterImplementation () <MSASettingsRouter>
@@ -33,7 +33,7 @@ static NSString *const WarningViewSegueUserInfoKey = @"warningViewSegueUserInfo"
 #pragma mark - MSARoutingProtocol Methods
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if ([segue.identifier isEqualToString:WarningViewSegueIdentifier]) {
+    if ([segue.identifier isEqualToString:sWarningSegue]) {
         MSAWarningViewController *warningViewController = segue.destinationViewController;
         warningViewController.router = self;
     }
@@ -46,7 +46,7 @@ static NSString *const WarningViewSegueUserInfoKey = @"warningViewSegueUserInfo"
 #pragma mark - Navigation Methods
 
 - (void)showWarningViewControllerFromSourceController:(UIViewController *)sourceController {
-    [sourceController performSegueWithIdentifier:WarningViewSegueIdentifier
+    [sourceController performSegueWithIdentifier:sWarningSegue
                                           sender:self];
 }
 
