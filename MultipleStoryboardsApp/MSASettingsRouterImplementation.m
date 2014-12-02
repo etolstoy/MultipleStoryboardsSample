@@ -7,7 +7,6 @@
 //
 
 #import "MSASettingsRouterImplementation.h"
-#import "MSARoutingProtocol.h"
 #import "MSAWarningViewController.h"
 #import "UIViewController+Routing.h"
 #import "MSASettingsRouter.h"
@@ -17,7 +16,7 @@
 static NSString *const WarningViewSegueIdentifier = @"warningSegue";
 static NSString *const WarningViewSegueUserInfoKey = @"warningViewSegueUserInfo";
 
-@interface MSASettingsRouterImplementation () <MSASettingsRouter, MSARoutingProtocol>
+@interface MSASettingsRouterImplementation () <MSASettingsRouter>
 
 @property (strong, nonatomic) MSAPhotosAssembly *photosAssembly;
 

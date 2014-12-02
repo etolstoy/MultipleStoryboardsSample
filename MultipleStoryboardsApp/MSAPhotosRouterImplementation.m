@@ -14,7 +14,7 @@
 static NSString *const PhotoViewSegueIdentifier = @"photoViewSegue";
 static NSString *const PhotoViewSegueUserInfoKey = @"photoViewSegueUserInfo";
 
-@interface MSAPhotosRouterImplementation () <MSARoutingProtocol, MSAPhotosRouter>
+@interface MSAPhotosRouterImplementation () <MSAPhotosRouter>
 
 @end
 

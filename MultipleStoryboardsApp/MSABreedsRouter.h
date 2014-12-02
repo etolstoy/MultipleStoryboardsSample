@@ -8,7 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol MSABreedsRouter <NSObject>
+@protocol MSARoutingProtocol;
+
+@protocol MSABreedsRouter <MSARoutingProtocol>
 
 - (void)showBreedViewControllerFromSourceController:(UIViewController *)sourceController
                                        withCatBreed:(MSACatBreed *)catBreed;

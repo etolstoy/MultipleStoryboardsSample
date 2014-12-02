@@ -8,7 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol MSABestCatRouter <NSObject>
+@protocol MSARoutingProtocol;
+
+@protocol MSABestCatRouter <MSARoutingProtocol>
 
 - (void)showPhotoViewControllerFromSourceController:(UIViewController *)sourceController
                                             withURL:(NSURL *)imageURL;

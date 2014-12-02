@@ -8,7 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol MSASettingsRouter <NSObject>
+@protocol MSARoutingProtocol;
+
+@protocol MSASettingsRouter <MSARoutingProtocol>
 
 - (void)showWarningViewControllerFromSourceController:(UIViewController *)sourceController;
 

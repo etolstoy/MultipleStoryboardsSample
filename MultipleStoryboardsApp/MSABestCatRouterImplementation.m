@@ -9,13 +9,14 @@
 #import "MSABestCatRouterImplementation.h"
 #import "UIViewController+Routing.h"
 #import "MSAPhotoViewController.h"
+#import "MSABestCatRouter.h"
 
 static NSString *const PhotoViewSegueIdentifier = @"MSAPhotoViewController@Photos";
 static NSString *const PhotoViewSegueUserInfoKey = @"photoViewSegueUserInfo";
 
 @class MSAPhotosAssembly;
 
-@interface MSABestCatRouterImplementation () <MSARoutingProtocol>
+@interface MSABestCatRouterImplementation () <MSABestCatRouter>
 
 @property (strong, nonatomic) MSAPhotosAssembly *photosAssembly;
 

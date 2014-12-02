@@ -7,7 +7,6 @@
 //
 
 #import "MSABreedsRouterImplementation.h"
-#import "MSARoutingProtocol.h"
 #import "MSABreedsDetailViewController.h"
 #import "MSAPhotoGalleryViewController.h"
 #import "UIViewController+Routing.h"
@@ -24,7 +23,7 @@ static NSString *const BreedPhotosSegueUserInfoKey = @"breedPhotosSegueUserInfo"
 
 @class MSACatBreed;
 
-@interface MSABreedsRouterImplementation () <MSARoutingProtocol, MSABreedsRouter>
+@interface MSABreedsRouterImplementation () <MSABreedsRouter>
 
 @end
 
