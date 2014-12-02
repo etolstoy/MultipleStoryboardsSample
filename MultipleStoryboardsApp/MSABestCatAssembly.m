@@ -9,10 +9,11 @@
 #import "MSABestCatAssembly.h"
 #import "MSABestCatViewController.h"
 #import "UIViewController+Routing.h"
-#import "MSABestCatRouter.h"
+#import "MSABestCatRouterImplementation.h"
 #import "MSAPhotosAssembly.h"
 #import "MSAMainAssembly.h"
 #import "MSABestCatNavigationController.h"
+#import "MSABestCatRouter.h"
 
 @interface MSABestCatAssembly ()
 
@@ -35,15 +36,14 @@
     }];
 }
 
-- (MSABestCatRouter *)bestCatRouter {
-    return [TyphoonDefinition withClass:[MSABestCatRouter class] configuration:^(TyphoonDefinition *definition) {
+- (id<MSABestCatRouter>)bestCatRouter {
+    return [TyphoonDefinition withClass:[MSABestCatRouterImplementation class] configuration:^(TyphoonDefinition *definition) {
         [definition useInitializer:@selector(initWithNavigationController:) parameters:^(TyphoonMethod *initializer) {
             [initializer injectParameterWith:[self bestCatNavigationController]];
         }];
         [definition injectProperty:@selector(photosAssembly) with:[_mainAssembly photosAssembly]];
     }];
 }
-
 
 - (NSString *)bestCatName {
     return @"Яшка";

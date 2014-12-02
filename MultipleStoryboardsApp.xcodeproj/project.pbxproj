@@ -33,7 +33,7 @@
 		9FA9E1011A2C8A8400AA7F75 /* MSAPhotoGalleryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1001A2C8A8400AA7F75 /* MSAPhotoGalleryCollectionViewCell.m */; };
 		9FA9E1041A2C8DC200AA7F75 /* MSAPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1031A2C8DC200AA7F75 /* MSAPhotoViewController.m */; };
 		9FA9E1071A2C90AE00AA7F75 /* MSABestCatAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1061A2C90AE00AA7F75 /* MSABestCatAssembly.m */; };
-		9FA9E10A1A2C90BF00AA7F75 /* MSABestCatRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1091A2C90BF00AA7F75 /* MSABestCatRouter.m */; };
+		9FA9E10A1A2C90BF00AA7F75 /* MSABestCatRouterImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1091A2C90BF00AA7F75 /* MSABestCatRouterImplementation.m */; };
 		9FA9E10E1A2C90F500AA7F75 /* MSABestCatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E10D1A2C90F500AA7F75 /* MSABestCatViewController.m */; };
 		9FA9E1141A2C9C8C00AA7F75 /* MSABreedsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1131A2C9C8C00AA7F75 /* MSABreedsNavigationController.m */; };
 		9FA9E1171A2C9CD000AA7F75 /* MSABestCatNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1161A2C9CD000AA7F75 /* MSABestCatNavigationController.m */; };
@@ -107,8 +107,8 @@
 		9FA9E1031A2C8DC200AA7F75 /* MSAPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotoViewController.m; sourceTree = "<group>"; };
 		9FA9E1051A2C90AE00AA7F75 /* MSABestCatAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatAssembly.h; sourceTree = "<group>"; };
 		9FA9E1061A2C90AE00AA7F75 /* MSABestCatAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABestCatAssembly.m; sourceTree = "<group>"; };
-		9FA9E1081A2C90BF00AA7F75 /* MSABestCatRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatRouter.h; sourceTree = "<group>"; };
-		9FA9E1091A2C90BF00AA7F75 /* MSABestCatRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABestCatRouter.m; sourceTree = "<group>"; };
+		9FA9E1081A2C90BF00AA7F75 /* MSABestCatRouterImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatRouterImplementation.h; sourceTree = "<group>"; };
+		9FA9E1091A2C90BF00AA7F75 /* MSABestCatRouterImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABestCatRouterImplementation.m; sourceTree = "<group>"; };
 		9FA9E10C1A2C90F500AA7F75 /* MSABestCatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatViewController.h; sourceTree = "<group>"; };
 		9FA9E10D1A2C90F500AA7F75 /* MSABestCatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABestCatViewController.m; sourceTree = "<group>"; };
 		9FA9E1121A2C9C8C00AA7F75 /* MSABreedsNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsNavigationController.h; sourceTree = "<group>"; };
@@ -128,6 +128,7 @@
 		9FA9E1281A2D98B200AA7F75 /* MSAWarningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAWarningViewController.m; sourceTree = "<group>"; };
 		9FA9E12A1A2D9CFD00AA7F75 /* MSAWarningViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSAWarningViewController.xib; sourceTree = "<group>"; };
 		9FA9E12D1A2DB66000AA7F75 /* MSABreedsRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsRouter.h; sourceTree = "<group>"; };
+		9FB7F0551A2DBA550062E52B /* MSABestCatRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatRouter.h; sourceTree = "<group>"; };
 		9FFA81E91A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAJsonGeneratorBreedsClient.h; sourceTree = "<group>"; };
 		9FFA81EA1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAJsonGeneratorBreedsClient.m; sourceTree = "<group>"; };
 		C2D3841BCECF9BF5FEFF1EDC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -291,8 +292,9 @@
 				9F7673121A2875A80026E606 /* BestCat.storyboard */,
 				9FA9E1051A2C90AE00AA7F75 /* MSABestCatAssembly.h */,
 				9FA9E1061A2C90AE00AA7F75 /* MSABestCatAssembly.m */,
-				9FA9E1081A2C90BF00AA7F75 /* MSABestCatRouter.h */,
-				9FA9E1091A2C90BF00AA7F75 /* MSABestCatRouter.m */,
+				9FB7F0551A2DBA550062E52B /* MSABestCatRouter.h */,
+				9FA9E1081A2C90BF00AA7F75 /* MSABestCatRouterImplementation.h */,
+				9FA9E1091A2C90BF00AA7F75 /* MSABestCatRouterImplementation.m */,
 				9FA9E10C1A2C90F500AA7F75 /* MSABestCatViewController.h */,
 				9FA9E10D1A2C90F500AA7F75 /* MSABestCatViewController.m */,
 				9FA9E1151A2C9CD000AA7F75 /* MSABestCatNavigationController.h */,
@@ -494,7 +496,7 @@
 				9FA9E1261A2CA23600AA7F75 /* MSASettingsTableViewController.m in Sources */,
 				9F76732A1A2892790026E606 /* MSABreedsAssembly.m in Sources */,
 				9FA9E1071A2C90AE00AA7F75 /* MSABestCatAssembly.m in Sources */,
-				9FA9E10A1A2C90BF00AA7F75 /* MSABestCatRouter.m in Sources */,
+				9FA9E10A1A2C90BF00AA7F75 /* MSABestCatRouterImplementation.m in Sources */,
 				9FA9E0F41A2C656400AA7F75 /* MSABreedsDetailViewController.m in Sources */,
 				9F7672E21A286A7F0026E606 /* main.m in Sources */,
 				9FA9E0FE1A2C6CF200AA7F75 /* MSAPhotosAssembly.m in Sources */,

@@ -12,6 +12,7 @@
 
 @interface MSABestCatViewController ()
 
+@property (strong, nonatomic) id<MSABestCatRouter> router;
 @property (weak, nonatomic) IBOutlet UILabel *catNameLabel;
 @property (weak, nonatomic) IBOutlet UITextView *catInfoTextView;
 
@@ -27,8 +28,8 @@
 }
 
 - (IBAction)photoButtonClicked:(id)sender {
-    [(MSABestCatRouter *)self.router showPhotoViewControllerFromSourceController:self
-                                                                         withURL:self.bestCatImageURL];
+    [self.router showPhotoViewControllerFromSourceController:self
+                                                     withURL:self.bestCatImageURL];
 }
 
 @end
