@@ -40,7 +40,7 @@
 		9FA9E1191A2CA0C000AA7F75 /* best-cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA9E1181A2CA0C000AA7F75 /* best-cat.png */; };
 		9FA9E11C1A2CA1C700AA7F75 /* MSASettingsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E11B1A2CA1C700AA7F75 /* MSASettingsNavigationController.m */; };
 		9FA9E1201A2CA20300AA7F75 /* MSASettingsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E11F1A2CA20300AA7F75 /* MSASettingsAssembly.m */; };
-		9FA9E1231A2CA21800AA7F75 /* MSASettingsRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1221A2CA21800AA7F75 /* MSASettingsRouter.m */; };
+		9FA9E1231A2CA21800AA7F75 /* MSASettingsRouterImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1221A2CA21800AA7F75 /* MSASettingsRouterImplementation.m */; };
 		9FA9E1261A2CA23600AA7F75 /* MSASettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1251A2CA23600AA7F75 /* MSASettingsTableViewController.m */; };
 		9FA9E1291A2D98B200AA7F75 /* MSAWarningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA9E1281A2D98B200AA7F75 /* MSAWarningViewController.m */; };
 		9FA9E12B1A2D9CFD00AA7F75 /* MSAWarningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FA9E12A1A2D9CFD00AA7F75 /* MSAWarningViewController.xib */; };
@@ -120,8 +120,8 @@
 		9FA9E11B1A2CA1C700AA7F75 /* MSASettingsNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSASettingsNavigationController.m; sourceTree = "<group>"; };
 		9FA9E11E1A2CA20300AA7F75 /* MSASettingsAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsAssembly.h; sourceTree = "<group>"; };
 		9FA9E11F1A2CA20300AA7F75 /* MSASettingsAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSASettingsAssembly.m; sourceTree = "<group>"; };
-		9FA9E1211A2CA21800AA7F75 /* MSASettingsRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsRouter.h; sourceTree = "<group>"; };
-		9FA9E1221A2CA21800AA7F75 /* MSASettingsRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSASettingsRouter.m; sourceTree = "<group>"; };
+		9FA9E1211A2CA21800AA7F75 /* MSASettingsRouterImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsRouterImplementation.h; sourceTree = "<group>"; };
+		9FA9E1221A2CA21800AA7F75 /* MSASettingsRouterImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSASettingsRouterImplementation.m; sourceTree = "<group>"; };
 		9FA9E1241A2CA23600AA7F75 /* MSASettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsTableViewController.h; sourceTree = "<group>"; };
 		9FA9E1251A2CA23600AA7F75 /* MSASettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSASettingsTableViewController.m; sourceTree = "<group>"; };
 		9FA9E1271A2D98B200AA7F75 /* MSAWarningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAWarningViewController.h; sourceTree = "<group>"; };
@@ -130,6 +130,7 @@
 		9FA9E12D1A2DB66000AA7F75 /* MSABreedsRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsRouter.h; sourceTree = "<group>"; };
 		9FB7F0551A2DBA550062E52B /* MSABestCatRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatRouter.h; sourceTree = "<group>"; };
 		9FB7F0561A2DC3510062E52B /* MSAPhotosRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotosRouter.h; sourceTree = "<group>"; };
+		9FB7F0571A2DC6870062E52B /* MSASettingsRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsRouter.h; sourceTree = "<group>"; };
 		9FFA81E91A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAJsonGeneratorBreedsClient.h; sourceTree = "<group>"; };
 		9FFA81EA1A2B7E7000E07F66 /* MSAJsonGeneratorBreedsClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAJsonGeneratorBreedsClient.m; sourceTree = "<group>"; };
 		C2D3841BCECF9BF5FEFF1EDC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -311,8 +312,9 @@
 				9F7673141A2875B30026E606 /* Settings.storyboard */,
 				9FA9E11E1A2CA20300AA7F75 /* MSASettingsAssembly.h */,
 				9FA9E11F1A2CA20300AA7F75 /* MSASettingsAssembly.m */,
-				9FA9E1211A2CA21800AA7F75 /* MSASettingsRouter.h */,
-				9FA9E1221A2CA21800AA7F75 /* MSASettingsRouter.m */,
+				9FB7F0571A2DC6870062E52B /* MSASettingsRouter.h */,
+				9FA9E1211A2CA21800AA7F75 /* MSASettingsRouterImplementation.h */,
+				9FA9E1221A2CA21800AA7F75 /* MSASettingsRouterImplementation.m */,
 				9FA9E11A1A2CA1C700AA7F75 /* MSASettingsNavigationController.h */,
 				9FA9E11B1A2CA1C700AA7F75 /* MSASettingsNavigationController.m */,
 				9FA9E1241A2CA23600AA7F75 /* MSASettingsTableViewController.h */,
@@ -492,7 +494,7 @@
 				9FA9E1011A2C8A8400AA7F75 /* MSAPhotoGalleryCollectionViewCell.m in Sources */,
 				9FA9E0F11A2C5D3300AA7F75 /* UIViewController+Routing.m in Sources */,
 				9FA9E1201A2CA20300AA7F75 /* MSASettingsAssembly.m in Sources */,
-				9FA9E1231A2CA21800AA7F75 /* MSASettingsRouter.m in Sources */,
+				9FA9E1231A2CA21800AA7F75 /* MSASettingsRouterImplementation.m in Sources */,
 				9FA9E1041A2C8DC200AA7F75 /* MSAPhotoViewController.m in Sources */,
 				9F7673201A288CF30026E606 /* MSABreedsTableViewController.m in Sources */,
 				9FA9E1261A2CA23600AA7F75 /* MSASettingsTableViewController.m in Sources */,

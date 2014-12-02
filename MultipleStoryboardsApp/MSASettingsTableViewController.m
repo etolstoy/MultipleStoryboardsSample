@@ -8,7 +8,14 @@
 
 #import "MSASettingsTableViewController.h"
 #import "UIViewController+Routing.h"
+#import "MSASettingsRouterImplementation.h"
 #import "MSASettingsRouter.h"
+
+@interface MSASettingsTableViewController ()
+
+@property (strong, nonatomic) id<MSASettingsRouter> router;
+
+@end
 
 @implementation MSASettingsTableViewController
 
@@ -16,13 +23,11 @@
     [super viewDidLoad];
 }
 
-- (CGFloat)tableView:(UITableView *)tableView
-estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath {
+- (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return 44;
 }
 
-- (CGFloat)tableView:(UITableView *)tableView
-heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return 44;
 }
 
@@ -30,7 +35,7 @@ heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
     if (indexPath.section == 0 && indexPath.row == 0) {
-        [(MSASettingsRouter *)self.router showWarningViewControllerFromSourceController:self];
+        [self.router showWarningViewControllerFromSourceController:self];
     }
 }
 

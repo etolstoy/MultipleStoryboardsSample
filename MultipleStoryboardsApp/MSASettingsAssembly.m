@@ -9,8 +9,10 @@
 #import "MSASettingsAssembly.h"
 #import "MSASettingsNavigationController.h"
 #import "MSASettingsTableViewController.h"
-#import "MSASettingsRouter.h"
+#import "MSASettingsRouterImplementation.h"
 #import "MSAMainAssembly.h"
+#import "MSASettingsRouter.h"
+#import "UIViewController+Routing.h"
 
 @interface MSASettingsAssembly ()
 
@@ -30,8 +32,8 @@
     }];
 }
 
-- (MSASettingsRouter *)settingsRouter {
-    return [TyphoonDefinition withClass:[MSASettingsRouter class] configuration:^(TyphoonDefinition *definition) {
+- (id<MSASettingsRouter>)settingsRouter {
+    return [TyphoonDefinition withClass:[MSASettingsRouterImplementation class] configuration:^(TyphoonDefinition *definition) {
         [definition useInitializer:@selector(initWithNavigationController:) parameters:^(TyphoonMethod *initializer) {
             [initializer injectParameterWith:[self settingsNavigationController]];
         }];

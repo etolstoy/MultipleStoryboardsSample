@@ -16,8 +16,7 @@
 }
 
 - (IBAction)okayButtonClicked:(id)sender {
-    [self.router dismissCurrentViewController:self
-                                     animated:YES];
+    [self.router dismissCurrentViewController:self animated:YES];
 }
 
 @end
