@@ -8,118 +8,118 @@
 
 /* Begin PBXBuildFile section */
 		76CE2F0D0B44BBBE961A6953 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D3841BCECF9BF5FEFF1EDC /* libPods.a */; };
+		9F5B1ECA1A3040920054DE3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1EBF1A3040920054DE3D /* AppDelegate.m */; };
+		9F5B1ECB1A3040920054DE3D /* MSAMainAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1EC21A3040920054DE3D /* MSAMainAssembly.m */; };
+		9F5B1ECC1A3040920054DE3D /* MSACatBreed.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1EC51A3040920054DE3D /* MSACatBreed.m */; };
+		9F5B1ECD1A3040920054DE3D /* MSARouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1EC81A3040920054DE3D /* MSARouter.m */; };
+		9F5B1EE51A3040990054DE3D /* MSAJsonGeneratorBreedsClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1ED11A3040990054DE3D /* MSAJsonGeneratorBreedsClient.m */; };
+		9F5B1EE61A3040990054DE3D /* MSABreedsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1ED41A3040990054DE3D /* MSABreedsAssembly.m */; };
+		9F5B1EE71A3040990054DE3D /* Breeds.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F5B1ED61A3040990054DE3D /* Breeds.storyboard */; };
+		9F5B1EE81A3040990054DE3D /* MSABreedsRouterImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1EDA1A3040990054DE3D /* MSABreedsRouterImplementation.m */; };
+		9F5B1EE91A3040990054DE3D /* MSABreedsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1EDE1A3040990054DE3D /* MSABreedsDetailViewController.m */; };
+		9F5B1EEA1A3040990054DE3D /* MSABreedsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1EE11A3040990054DE3D /* MSABreedsNavigationController.m */; };
+		9F5B1EEB1A3040990054DE3D /* MSABreedsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1EE41A3040990054DE3D /* MSABreedsTableViewController.m */; };
+		9F5B1EFC1A3040A30054DE3D /* MSABestCatAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1EEE1A3040A30054DE3D /* MSABestCatAssembly.m */; };
+		9F5B1EFD1A3040A30054DE3D /* BestCat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F5B1EF01A3040A30054DE3D /* BestCat.storyboard */; };
+		9F5B1EFE1A3040A30054DE3D /* MSABestCatRouterImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1EF41A3040A30054DE3D /* MSABestCatRouterImplementation.m */; };
+		9F5B1EFF1A3040A30054DE3D /* MSABestCatNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1EF81A3040A30054DE3D /* MSABestCatNavigationController.m */; };
+		9F5B1F001A3040A30054DE3D /* MSABestCatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1EFB1A3040A30054DE3D /* MSABestCatViewController.m */; };
+		9F5B1F141A3040A90054DE3D /* MSAPhotosAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1F031A3040A90054DE3D /* MSAPhotosAssembly.m */; };
+		9F5B1F151A3040A90054DE3D /* Photos.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F5B1F051A3040A90054DE3D /* Photos.storyboard */; };
+		9F5B1F161A3040A90054DE3D /* MSAPhotosRouterImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1F091A3040A90054DE3D /* MSAPhotosRouterImplementation.m */; };
+		9F5B1F171A3040A90054DE3D /* MSAPhotoGalleryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1F0E1A3040A90054DE3D /* MSAPhotoGalleryCollectionViewCell.m */; };
+		9F5B1F181A3040A90054DE3D /* MSAPhotoGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1F101A3040A90054DE3D /* MSAPhotoGalleryViewController.m */; };
+		9F5B1F191A3040A90054DE3D /* MSAPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1F131A3040A90054DE3D /* MSAPhotoViewController.m */; };
+		9F5B1F2E1A3040B10054DE3D /* MSASettingsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1F1C1A3040B10054DE3D /* MSASettingsAssembly.m */; };
+		9F5B1F2F1A3040B10054DE3D /* MSAWarningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F5B1F1E1A3040B10054DE3D /* MSAWarningViewController.xib */; };
+		9F5B1F301A3040B10054DE3D /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F5B1F1F1A3040B10054DE3D /* Settings.storyboard */; };
+		9F5B1F311A3040B10054DE3D /* MSASettingsRouterImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1F231A3040B10054DE3D /* MSASettingsRouterImplementation.m */; };
+		9F5B1F321A3040B10054DE3D /* MSASettingsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1F271A3040B10054DE3D /* MSASettingsNavigationController.m */; };
+		9F5B1F331A3040B10054DE3D /* MSASettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1F2A1A3040B10054DE3D /* MSASettingsTableViewController.m */; };
+		9F5B1F341A3040B10054DE3D /* MSAWarningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1F2D1A3040B10054DE3D /* MSAWarningViewController.m */; };
 		9F7672E21A286A7F0026E606 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7672E11A286A7F0026E606 /* main.m */; };
-		9F7672E51A286A7F0026E606 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7672E41A286A7F0026E606 /* AppDelegate.m */; };
 		9F7672F01A286A7F0026E606 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F7672EE1A286A7F0026E606 /* LaunchScreen.xib */; };
-		9FB7F0B21A2DFE710062E52B /* BestCat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB7F06A1A2DFE710062E52B /* BestCat.storyboard */; };
-		9FB7F0B31A2DFE710062E52B /* MSABestCatAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F06C1A2DFE710062E52B /* MSABestCatAssembly.m */; };
-		9FB7F0B41A2DFE710062E52B /* MSABestCatNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F06E1A2DFE710062E52B /* MSABestCatNavigationController.m */; };
-		9FB7F0B51A2DFE710062E52B /* MSABestCatRouterImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0711A2DFE710062E52B /* MSABestCatRouterImplementation.m */; };
-		9FB7F0B61A2DFE710062E52B /* MSABestCatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0731A2DFE710062E52B /* MSABestCatViewController.m */; };
-		9FB7F0B71A2DFE710062E52B /* Breeds.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB7F0751A2DFE710062E52B /* Breeds.storyboard */; };
-		9FB7F0B81A2DFE710062E52B /* MSABreedsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0771A2DFE710062E52B /* MSABreedsAssembly.m */; };
-		9FB7F0B91A2DFE710062E52B /* MSABreedsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F07A1A2DFE710062E52B /* MSABreedsDetailViewController.m */; };
-		9FB7F0BA1A2DFE710062E52B /* MSABreedsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F07C1A2DFE710062E52B /* MSABreedsNavigationController.m */; };
-		9FB7F0BB1A2DFE710062E52B /* MSABreedsRouterImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F07F1A2DFE710062E52B /* MSABreedsRouterImplementation.m */; };
-		9FB7F0BC1A2DFE710062E52B /* MSABreedsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0811A2DFE710062E52B /* MSABreedsTableViewController.m */; };
-		9FB7F0BD1A2DFE710062E52B /* MSAJsonGeneratorBreedsClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0831A2DFE710062E52B /* MSAJsonGeneratorBreedsClient.m */; };
 		9FB7F0BE1A2DFE710062E52B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB7F0851A2DFE710062E52B /* Main.storyboard */; };
-		9FB7F0BF1A2DFE710062E52B /* MSACatBreed.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0871A2DFE710062E52B /* MSACatBreed.m */; };
-		9FB7F0C01A2DFE710062E52B /* MSAMainAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0891A2DFE710062E52B /* MSAMainAssembly.m */; };
-		9FB7F0C11A2DFE710062E52B /* MSARouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F08B1A2DFE710062E52B /* MSARouter.m */; };
 		9FB7F0C21A2DFE710062E52B /* MSALinkedStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0901A2DFE710062E52B /* MSALinkedStoryboardSegue.m */; };
 		9FB7F0C31A2DFE710062E52B /* UIViewController+Routing.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0931A2DFE710062E52B /* UIViewController+Routing.m */; };
-		9FB7F0C41A2DFE710062E52B /* MSAPhotoGalleryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0961A2DFE710062E52B /* MSAPhotoGalleryCollectionViewCell.m */; };
-		9FB7F0C51A2DFE710062E52B /* MSAPhotoGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0981A2DFE710062E52B /* MSAPhotoGalleryViewController.m */; };
-		9FB7F0C61A2DFE710062E52B /* MSAPhotosAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F09A1A2DFE710062E52B /* MSAPhotosAssembly.m */; };
-		9FB7F0C71A2DFE710062E52B /* MSAPhotosRouterImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F09D1A2DFE710062E52B /* MSAPhotosRouterImplementation.m */; };
-		9FB7F0C81A2DFE710062E52B /* MSAPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F09F1A2DFE710062E52B /* MSAPhotoViewController.m */; };
-		9FB7F0C91A2DFE710062E52B /* Photos.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB7F0A01A2DFE710062E52B /* Photos.storyboard */; };
 		9FB7F0CA1A2DFE710062E52B /* best-cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB7F0A21A2DFE710062E52B /* best-cat.png */; };
 		9FB7F0CB1A2DFE710062E52B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB7F0A31A2DFE710062E52B /* Images.xcassets */; };
-		9FB7F0CC1A2DFE710062E52B /* MSASettingsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0A61A2DFE710062E52B /* MSASettingsAssembly.m */; };
-		9FB7F0CD1A2DFE710062E52B /* MSASettingsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0A81A2DFE710062E52B /* MSASettingsNavigationController.m */; };
-		9FB7F0CE1A2DFE710062E52B /* MSASettingsRouterImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0AB1A2DFE710062E52B /* MSASettingsRouterImplementation.m */; };
-		9FB7F0CF1A2DFE710062E52B /* MSASettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0AD1A2DFE710062E52B /* MSASettingsTableViewController.m */; };
-		9FB7F0D01A2DFE710062E52B /* MSAWarningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0AF1A2DFE710062E52B /* MSAWarningViewController.m */; };
-		9FB7F0D11A2DFE710062E52B /* MSAWarningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FB7F0B01A2DFE710062E52B /* MSAWarningViewController.xib */; };
-		9FB7F0D21A2DFE710062E52B /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB7F0B11A2DFE710062E52B /* Settings.storyboard */; };
 		9FB7F0D51A2DFF750062E52B /* MSAStoryboardsIdentifiers.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7F0D41A2DFF750062E52B /* MSAStoryboardsIdentifiers.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		57FADD0C02FD1A9735EF3B85 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9F5B1EBE1A3040920054DE3D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F5B1EBF1A3040920054DE3D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F5B1EC11A3040920054DE3D /* MSAMainAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAMainAssembly.h; sourceTree = "<group>"; };
+		9F5B1EC21A3040920054DE3D /* MSAMainAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAMainAssembly.m; sourceTree = "<group>"; };
+		9F5B1EC41A3040920054DE3D /* MSACatBreed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSACatBreed.h; sourceTree = "<group>"; };
+		9F5B1EC51A3040920054DE3D /* MSACatBreed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSACatBreed.m; sourceTree = "<group>"; };
+		9F5B1EC71A3040920054DE3D /* MSARouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSARouter.h; sourceTree = "<group>"; };
+		9F5B1EC81A3040920054DE3D /* MSARouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSARouter.m; sourceTree = "<group>"; };
+		9F5B1EC91A3040920054DE3D /* MSARoutingProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSARoutingProtocol.h; sourceTree = "<group>"; };
+		9F5B1ECF1A3040990054DE3D /* MSABreedsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsClient.h; sourceTree = "<group>"; };
+		9F5B1ED01A3040990054DE3D /* MSAJsonGeneratorBreedsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAJsonGeneratorBreedsClient.h; sourceTree = "<group>"; };
+		9F5B1ED11A3040990054DE3D /* MSAJsonGeneratorBreedsClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAJsonGeneratorBreedsClient.m; sourceTree = "<group>"; };
+		9F5B1ED31A3040990054DE3D /* MSABreedsAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsAssembly.h; sourceTree = "<group>"; };
+		9F5B1ED41A3040990054DE3D /* MSABreedsAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsAssembly.m; sourceTree = "<group>"; };
+		9F5B1ED61A3040990054DE3D /* Breeds.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Breeds.storyboard; sourceTree = "<group>"; };
+		9F5B1ED81A3040990054DE3D /* MSABreedsRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsRouter.h; sourceTree = "<group>"; };
+		9F5B1ED91A3040990054DE3D /* MSABreedsRouterImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsRouterImplementation.h; sourceTree = "<group>"; };
+		9F5B1EDA1A3040990054DE3D /* MSABreedsRouterImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsRouterImplementation.m; sourceTree = "<group>"; };
+		9F5B1EDD1A3040990054DE3D /* MSABreedsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsDetailViewController.h; sourceTree = "<group>"; };
+		9F5B1EDE1A3040990054DE3D /* MSABreedsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsDetailViewController.m; sourceTree = "<group>"; };
+		9F5B1EE01A3040990054DE3D /* MSABreedsNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsNavigationController.h; sourceTree = "<group>"; };
+		9F5B1EE11A3040990054DE3D /* MSABreedsNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsNavigationController.m; sourceTree = "<group>"; };
+		9F5B1EE31A3040990054DE3D /* MSABreedsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsTableViewController.h; sourceTree = "<group>"; };
+		9F5B1EE41A3040990054DE3D /* MSABreedsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsTableViewController.m; sourceTree = "<group>"; };
+		9F5B1EED1A3040A30054DE3D /* MSABestCatAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatAssembly.h; sourceTree = "<group>"; };
+		9F5B1EEE1A3040A30054DE3D /* MSABestCatAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABestCatAssembly.m; sourceTree = "<group>"; };
+		9F5B1EF01A3040A30054DE3D /* BestCat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BestCat.storyboard; sourceTree = "<group>"; };
+		9F5B1EF21A3040A30054DE3D /* MSABestCatRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatRouter.h; sourceTree = "<group>"; };
+		9F5B1EF31A3040A30054DE3D /* MSABestCatRouterImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatRouterImplementation.h; sourceTree = "<group>"; };
+		9F5B1EF41A3040A30054DE3D /* MSABestCatRouterImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABestCatRouterImplementation.m; sourceTree = "<group>"; };
+		9F5B1EF71A3040A30054DE3D /* MSABestCatNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatNavigationController.h; sourceTree = "<group>"; };
+		9F5B1EF81A3040A30054DE3D /* MSABestCatNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABestCatNavigationController.m; sourceTree = "<group>"; };
+		9F5B1EFA1A3040A30054DE3D /* MSABestCatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatViewController.h; sourceTree = "<group>"; };
+		9F5B1EFB1A3040A30054DE3D /* MSABestCatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABestCatViewController.m; sourceTree = "<group>"; };
+		9F5B1F021A3040A90054DE3D /* MSAPhotosAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotosAssembly.h; sourceTree = "<group>"; };
+		9F5B1F031A3040A90054DE3D /* MSAPhotosAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotosAssembly.m; sourceTree = "<group>"; };
+		9F5B1F051A3040A90054DE3D /* Photos.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Photos.storyboard; sourceTree = "<group>"; };
+		9F5B1F071A3040A90054DE3D /* MSAPhotosRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotosRouter.h; sourceTree = "<group>"; };
+		9F5B1F081A3040A90054DE3D /* MSAPhotosRouterImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotosRouterImplementation.h; sourceTree = "<group>"; };
+		9F5B1F091A3040A90054DE3D /* MSAPhotosRouterImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotosRouterImplementation.m; sourceTree = "<group>"; };
+		9F5B1F0D1A3040A90054DE3D /* MSAPhotoGalleryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotoGalleryCollectionViewCell.h; sourceTree = "<group>"; };
+		9F5B1F0E1A3040A90054DE3D /* MSAPhotoGalleryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotoGalleryCollectionViewCell.m; sourceTree = "<group>"; };
+		9F5B1F0F1A3040A90054DE3D /* MSAPhotoGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotoGalleryViewController.h; sourceTree = "<group>"; };
+		9F5B1F101A3040A90054DE3D /* MSAPhotoGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotoGalleryViewController.m; sourceTree = "<group>"; };
+		9F5B1F121A3040A90054DE3D /* MSAPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotoViewController.h; sourceTree = "<group>"; };
+		9F5B1F131A3040A90054DE3D /* MSAPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotoViewController.m; sourceTree = "<group>"; };
+		9F5B1F1B1A3040B10054DE3D /* MSASettingsAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsAssembly.h; sourceTree = "<group>"; };
+		9F5B1F1C1A3040B10054DE3D /* MSASettingsAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSASettingsAssembly.m; sourceTree = "<group>"; };
+		9F5B1F1E1A3040B10054DE3D /* MSAWarningViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSAWarningViewController.xib; sourceTree = "<group>"; };
+		9F5B1F1F1A3040B10054DE3D /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		9F5B1F211A3040B10054DE3D /* MSASettingsRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsRouter.h; sourceTree = "<group>"; };
+		9F5B1F221A3040B10054DE3D /* MSASettingsRouterImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsRouterImplementation.h; sourceTree = "<group>"; };
+		9F5B1F231A3040B10054DE3D /* MSASettingsRouterImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSASettingsRouterImplementation.m; sourceTree = "<group>"; };
+		9F5B1F261A3040B10054DE3D /* MSASettingsNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsNavigationController.h; sourceTree = "<group>"; };
+		9F5B1F271A3040B10054DE3D /* MSASettingsNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSASettingsNavigationController.m; sourceTree = "<group>"; };
+		9F5B1F291A3040B10054DE3D /* MSASettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsTableViewController.h; sourceTree = "<group>"; };
+		9F5B1F2A1A3040B10054DE3D /* MSASettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSASettingsTableViewController.m; sourceTree = "<group>"; };
+		9F5B1F2C1A3040B10054DE3D /* MSAWarningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAWarningViewController.h; sourceTree = "<group>"; };
+		9F5B1F2D1A3040B10054DE3D /* MSAWarningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAWarningViewController.m; sourceTree = "<group>"; };
 		9F7672DC1A286A7F0026E606 /* MultipleStoryboardsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleStoryboardsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7672E01A286A7F0026E606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F7672E11A286A7F0026E606 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9F7672E31A286A7F0026E606 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9F7672E41A286A7F0026E606 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9F7672EF1A286A7F0026E606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9F7673081A286B010026E606 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		9FB7F06A1A2DFE710062E52B /* BestCat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BestCat.storyboard; sourceTree = "<group>"; };
-		9FB7F06B1A2DFE710062E52B /* MSABestCatAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatAssembly.h; sourceTree = "<group>"; };
-		9FB7F06C1A2DFE710062E52B /* MSABestCatAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABestCatAssembly.m; sourceTree = "<group>"; };
-		9FB7F06D1A2DFE710062E52B /* MSABestCatNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatNavigationController.h; sourceTree = "<group>"; };
-		9FB7F06E1A2DFE710062E52B /* MSABestCatNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABestCatNavigationController.m; sourceTree = "<group>"; };
-		9FB7F06F1A2DFE710062E52B /* MSABestCatRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatRouter.h; sourceTree = "<group>"; };
-		9FB7F0701A2DFE710062E52B /* MSABestCatRouterImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatRouterImplementation.h; sourceTree = "<group>"; };
-		9FB7F0711A2DFE710062E52B /* MSABestCatRouterImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABestCatRouterImplementation.m; sourceTree = "<group>"; };
-		9FB7F0721A2DFE710062E52B /* MSABestCatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatViewController.h; sourceTree = "<group>"; };
-		9FB7F0731A2DFE710062E52B /* MSABestCatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABestCatViewController.m; sourceTree = "<group>"; };
-		9FB7F0751A2DFE710062E52B /* Breeds.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Breeds.storyboard; sourceTree = "<group>"; };
-		9FB7F0761A2DFE710062E52B /* MSABreedsAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsAssembly.h; sourceTree = "<group>"; };
-		9FB7F0771A2DFE710062E52B /* MSABreedsAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsAssembly.m; sourceTree = "<group>"; };
-		9FB7F0781A2DFE710062E52B /* MSABreedsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsClient.h; sourceTree = "<group>"; };
-		9FB7F0791A2DFE710062E52B /* MSABreedsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsDetailViewController.h; sourceTree = "<group>"; };
-		9FB7F07A1A2DFE710062E52B /* MSABreedsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsDetailViewController.m; sourceTree = "<group>"; };
-		9FB7F07B1A2DFE710062E52B /* MSABreedsNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsNavigationController.h; sourceTree = "<group>"; };
-		9FB7F07C1A2DFE710062E52B /* MSABreedsNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsNavigationController.m; sourceTree = "<group>"; };
-		9FB7F07D1A2DFE710062E52B /* MSABreedsRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsRouter.h; sourceTree = "<group>"; };
-		9FB7F07E1A2DFE710062E52B /* MSABreedsRouterImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsRouterImplementation.h; sourceTree = "<group>"; };
-		9FB7F07F1A2DFE710062E52B /* MSABreedsRouterImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsRouterImplementation.m; sourceTree = "<group>"; };
-		9FB7F0801A2DFE710062E52B /* MSABreedsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsTableViewController.h; sourceTree = "<group>"; };
-		9FB7F0811A2DFE710062E52B /* MSABreedsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsTableViewController.m; sourceTree = "<group>"; };
-		9FB7F0821A2DFE710062E52B /* MSAJsonGeneratorBreedsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAJsonGeneratorBreedsClient.h; sourceTree = "<group>"; };
-		9FB7F0831A2DFE710062E52B /* MSAJsonGeneratorBreedsClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAJsonGeneratorBreedsClient.m; sourceTree = "<group>"; };
 		9FB7F0851A2DFE710062E52B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		9FB7F0861A2DFE710062E52B /* MSACatBreed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSACatBreed.h; sourceTree = "<group>"; };
-		9FB7F0871A2DFE710062E52B /* MSACatBreed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSACatBreed.m; sourceTree = "<group>"; };
-		9FB7F0881A2DFE710062E52B /* MSAMainAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAMainAssembly.h; sourceTree = "<group>"; };
-		9FB7F0891A2DFE710062E52B /* MSAMainAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAMainAssembly.m; sourceTree = "<group>"; };
-		9FB7F08A1A2DFE710062E52B /* MSARouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSARouter.h; sourceTree = "<group>"; };
-		9FB7F08B1A2DFE710062E52B /* MSARouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSARouter.m; sourceTree = "<group>"; };
-		9FB7F08C1A2DFE710062E52B /* MSARoutingProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSARoutingProtocol.h; sourceTree = "<group>"; };
 		9FB7F08F1A2DFE710062E52B /* MSALinkedStoryboardSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSALinkedStoryboardSegue.h; sourceTree = "<group>"; };
 		9FB7F0901A2DFE710062E52B /* MSALinkedStoryboardSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSALinkedStoryboardSegue.m; sourceTree = "<group>"; };
 		9FB7F0921A2DFE710062E52B /* UIViewController+Routing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Routing.h"; sourceTree = "<group>"; };
 		9FB7F0931A2DFE710062E52B /* UIViewController+Routing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Routing.m"; sourceTree = "<group>"; };
-		9FB7F0951A2DFE710062E52B /* MSAPhotoGalleryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotoGalleryCollectionViewCell.h; sourceTree = "<group>"; };
-		9FB7F0961A2DFE710062E52B /* MSAPhotoGalleryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotoGalleryCollectionViewCell.m; sourceTree = "<group>"; };
-		9FB7F0971A2DFE710062E52B /* MSAPhotoGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotoGalleryViewController.h; sourceTree = "<group>"; };
-		9FB7F0981A2DFE710062E52B /* MSAPhotoGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotoGalleryViewController.m; sourceTree = "<group>"; };
-		9FB7F0991A2DFE710062E52B /* MSAPhotosAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotosAssembly.h; sourceTree = "<group>"; };
-		9FB7F09A1A2DFE710062E52B /* MSAPhotosAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotosAssembly.m; sourceTree = "<group>"; };
-		9FB7F09B1A2DFE710062E52B /* MSAPhotosRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotosRouter.h; sourceTree = "<group>"; };
-		9FB7F09C1A2DFE710062E52B /* MSAPhotosRouterImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotosRouterImplementation.h; sourceTree = "<group>"; };
-		9FB7F09D1A2DFE710062E52B /* MSAPhotosRouterImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotosRouterImplementation.m; sourceTree = "<group>"; };
-		9FB7F09E1A2DFE710062E52B /* MSAPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotoViewController.h; sourceTree = "<group>"; };
-		9FB7F09F1A2DFE710062E52B /* MSAPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPhotoViewController.m; sourceTree = "<group>"; };
-		9FB7F0A01A2DFE710062E52B /* Photos.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Photos.storyboard; sourceTree = "<group>"; };
 		9FB7F0A21A2DFE710062E52B /* best-cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "best-cat.png"; sourceTree = "<group>"; };
 		9FB7F0A31A2DFE710062E52B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		9FB7F0A51A2DFE710062E52B /* MSASettingsAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsAssembly.h; sourceTree = "<group>"; };
-		9FB7F0A61A2DFE710062E52B /* MSASettingsAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSASettingsAssembly.m; sourceTree = "<group>"; };
-		9FB7F0A71A2DFE710062E52B /* MSASettingsNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsNavigationController.h; sourceTree = "<group>"; };
-		9FB7F0A81A2DFE710062E52B /* MSASettingsNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSASettingsNavigationController.m; sourceTree = "<group>"; };
-		9FB7F0A91A2DFE710062E52B /* MSASettingsRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsRouter.h; sourceTree = "<group>"; };
-		9FB7F0AA1A2DFE710062E52B /* MSASettingsRouterImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsRouterImplementation.h; sourceTree = "<group>"; };
-		9FB7F0AB1A2DFE710062E52B /* MSASettingsRouterImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSASettingsRouterImplementation.m; sourceTree = "<group>"; };
-		9FB7F0AC1A2DFE710062E52B /* MSASettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsTableViewController.h; sourceTree = "<group>"; };
-		9FB7F0AD1A2DFE710062E52B /* MSASettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSASettingsTableViewController.m; sourceTree = "<group>"; };
-		9FB7F0AE1A2DFE710062E52B /* MSAWarningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAWarningViewController.h; sourceTree = "<group>"; };
-		9FB7F0AF1A2DFE710062E52B /* MSAWarningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAWarningViewController.m; sourceTree = "<group>"; };
-		9FB7F0B01A2DFE710062E52B /* MSAWarningViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSAWarningViewController.xib; sourceTree = "<group>"; };
-		9FB7F0B11A2DFE710062E52B /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		9FB7F0D31A2DFF750062E52B /* MSAStoryboardsIdentifiers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAStoryboardsIdentifiers.h; sourceTree = "<group>"; };
 		9FB7F0D41A2DFF750062E52B /* MSAStoryboardsIdentifiers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAStoryboardsIdentifiers.m; sourceTree = "<group>"; };
 		C2D3841BCECF9BF5FEFF1EDC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,6 +147,300 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9F5B1EBD1A3040920054DE3D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1EBE1A3040920054DE3D /* AppDelegate.h */,
+				9F5B1EBF1A3040920054DE3D /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		9F5B1EC01A3040920054DE3D /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1EC11A3040920054DE3D /* MSAMainAssembly.h */,
+				9F5B1EC21A3040920054DE3D /* MSAMainAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		9F5B1EC31A3040920054DE3D /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1EC41A3040920054DE3D /* MSACatBreed.h */,
+				9F5B1EC51A3040920054DE3D /* MSACatBreed.m */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		9F5B1EC61A3040920054DE3D /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1EC71A3040920054DE3D /* MSARouter.h */,
+				9F5B1EC81A3040920054DE3D /* MSARouter.m */,
+				9F5B1EC91A3040920054DE3D /* MSARoutingProtocol.h */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		9F5B1ECE1A3040990054DE3D /* API Client */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1ECF1A3040990054DE3D /* MSABreedsClient.h */,
+				9F5B1ED01A3040990054DE3D /* MSAJsonGeneratorBreedsClient.h */,
+				9F5B1ED11A3040990054DE3D /* MSAJsonGeneratorBreedsClient.m */,
+			);
+			path = "API Client";
+			sourceTree = "<group>";
+		};
+		9F5B1ED21A3040990054DE3D /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1ED31A3040990054DE3D /* MSABreedsAssembly.h */,
+				9F5B1ED41A3040990054DE3D /* MSABreedsAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		9F5B1ED51A3040990054DE3D /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1ED61A3040990054DE3D /* Breeds.storyboard */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		9F5B1ED71A3040990054DE3D /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1ED81A3040990054DE3D /* MSABreedsRouter.h */,
+				9F5B1ED91A3040990054DE3D /* MSABreedsRouterImplementation.h */,
+				9F5B1EDA1A3040990054DE3D /* MSABreedsRouterImplementation.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		9F5B1EDB1A3040990054DE3D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1EDC1A3040990054DE3D /* MSABreedsDetailViewController */,
+				9F5B1EDF1A3040990054DE3D /* MSABreedsNavigationController */,
+				9F5B1EE21A3040990054DE3D /* MSABreedsTableViewController */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9F5B1EDC1A3040990054DE3D /* MSABreedsDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1EDD1A3040990054DE3D /* MSABreedsDetailViewController.h */,
+				9F5B1EDE1A3040990054DE3D /* MSABreedsDetailViewController.m */,
+			);
+			path = MSABreedsDetailViewController;
+			sourceTree = "<group>";
+		};
+		9F5B1EDF1A3040990054DE3D /* MSABreedsNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1EE01A3040990054DE3D /* MSABreedsNavigationController.h */,
+				9F5B1EE11A3040990054DE3D /* MSABreedsNavigationController.m */,
+			);
+			path = MSABreedsNavigationController;
+			sourceTree = "<group>";
+		};
+		9F5B1EE21A3040990054DE3D /* MSABreedsTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1EE31A3040990054DE3D /* MSABreedsTableViewController.h */,
+				9F5B1EE41A3040990054DE3D /* MSABreedsTableViewController.m */,
+			);
+			path = MSABreedsTableViewController;
+			sourceTree = "<group>";
+		};
+		9F5B1EEC1A3040A30054DE3D /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1EED1A3040A30054DE3D /* MSABestCatAssembly.h */,
+				9F5B1EEE1A3040A30054DE3D /* MSABestCatAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		9F5B1EEF1A3040A30054DE3D /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1EF01A3040A30054DE3D /* BestCat.storyboard */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		9F5B1EF11A3040A30054DE3D /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1EF21A3040A30054DE3D /* MSABestCatRouter.h */,
+				9F5B1EF31A3040A30054DE3D /* MSABestCatRouterImplementation.h */,
+				9F5B1EF41A3040A30054DE3D /* MSABestCatRouterImplementation.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		9F5B1EF51A3040A30054DE3D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1EF61A3040A30054DE3D /* MSABestCatNavigationController */,
+				9F5B1EF91A3040A30054DE3D /* MSABestCatViewController */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9F5B1EF61A3040A30054DE3D /* MSABestCatNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1EF71A3040A30054DE3D /* MSABestCatNavigationController.h */,
+				9F5B1EF81A3040A30054DE3D /* MSABestCatNavigationController.m */,
+			);
+			path = MSABestCatNavigationController;
+			sourceTree = "<group>";
+		};
+		9F5B1EF91A3040A30054DE3D /* MSABestCatViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1EFA1A3040A30054DE3D /* MSABestCatViewController.h */,
+				9F5B1EFB1A3040A30054DE3D /* MSABestCatViewController.m */,
+			);
+			path = MSABestCatViewController;
+			sourceTree = "<group>";
+		};
+		9F5B1F011A3040A90054DE3D /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1F021A3040A90054DE3D /* MSAPhotosAssembly.h */,
+				9F5B1F031A3040A90054DE3D /* MSAPhotosAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		9F5B1F041A3040A90054DE3D /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1F051A3040A90054DE3D /* Photos.storyboard */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		9F5B1F061A3040A90054DE3D /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1F071A3040A90054DE3D /* MSAPhotosRouter.h */,
+				9F5B1F081A3040A90054DE3D /* MSAPhotosRouterImplementation.h */,
+				9F5B1F091A3040A90054DE3D /* MSAPhotosRouterImplementation.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		9F5B1F0A1A3040A90054DE3D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1F0B1A3040A90054DE3D /* MSAPhotoGalleryViewController */,
+				9F5B1F111A3040A90054DE3D /* MSAPhotoViewController */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9F5B1F0B1A3040A90054DE3D /* MSAPhotoGalleryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1F0C1A3040A90054DE3D /* Cells */,
+				9F5B1F0F1A3040A90054DE3D /* MSAPhotoGalleryViewController.h */,
+				9F5B1F101A3040A90054DE3D /* MSAPhotoGalleryViewController.m */,
+			);
+			path = MSAPhotoGalleryViewController;
+			sourceTree = "<group>";
+		};
+		9F5B1F0C1A3040A90054DE3D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1F0D1A3040A90054DE3D /* MSAPhotoGalleryCollectionViewCell.h */,
+				9F5B1F0E1A3040A90054DE3D /* MSAPhotoGalleryCollectionViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		9F5B1F111A3040A90054DE3D /* MSAPhotoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1F121A3040A90054DE3D /* MSAPhotoViewController.h */,
+				9F5B1F131A3040A90054DE3D /* MSAPhotoViewController.m */,
+			);
+			path = MSAPhotoViewController;
+			sourceTree = "<group>";
+		};
+		9F5B1F1A1A3040B10054DE3D /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1F1B1A3040B10054DE3D /* MSASettingsAssembly.h */,
+				9F5B1F1C1A3040B10054DE3D /* MSASettingsAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		9F5B1F1D1A3040B10054DE3D /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1F1E1A3040B10054DE3D /* MSAWarningViewController.xib */,
+				9F5B1F1F1A3040B10054DE3D /* Settings.storyboard */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		9F5B1F201A3040B10054DE3D /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1F211A3040B10054DE3D /* MSASettingsRouter.h */,
+				9F5B1F221A3040B10054DE3D /* MSASettingsRouterImplementation.h */,
+				9F5B1F231A3040B10054DE3D /* MSASettingsRouterImplementation.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		9F5B1F241A3040B10054DE3D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1F251A3040B10054DE3D /* MSASettingsNavigationController */,
+				9F5B1F281A3040B10054DE3D /* MSASettingsTableViewController */,
+				9F5B1F2B1A3040B10054DE3D /* MSAWarningViewController */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9F5B1F251A3040B10054DE3D /* MSASettingsNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1F261A3040B10054DE3D /* MSASettingsNavigationController.h */,
+				9F5B1F271A3040B10054DE3D /* MSASettingsNavigationController.m */,
+			);
+			path = MSASettingsNavigationController;
+			sourceTree = "<group>";
+		};
+		9F5B1F281A3040B10054DE3D /* MSASettingsTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1F291A3040B10054DE3D /* MSASettingsTableViewController.h */,
+				9F5B1F2A1A3040B10054DE3D /* MSASettingsTableViewController.m */,
+			);
+			path = MSASettingsTableViewController;
+			sourceTree = "<group>";
+		};
+		9F5B1F2B1A3040B10054DE3D /* MSAWarningViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B1F2C1A3040B10054DE3D /* MSAWarningViewController.h */,
+				9F5B1F2D1A3040B10054DE3D /* MSAWarningViewController.m */,
+			);
+			path = MSAWarningViewController;
+			sourceTree = "<group>";
+		};
 		9F7672D31A286A7F0026E606 = {
 			isa = PBXGroup;
 			children = (
@@ -168,17 +462,14 @@
 		9F7672DE1A286A7F0026E606 /* MultipleStoryboardsApp */ = {
 			isa = PBXGroup;
 			children = (
-				9FB7F0691A2DFE710062E52B /* Best Cat User Story */,
-				9FB7F0741A2DFE710062E52B /* Breeds User Story */,
 				9FB7F0841A2DFE710062E52B /* Common */,
-				9FB7F08D1A2DFE710062E52B /* Extensions */,
+				9FB7F0741A2DFE710062E52B /* Breeds User Story */,
+				9FB7F0691A2DFE710062E52B /* Best Cat User Story */,
 				9FB7F0941A2DFE710062E52B /* Photos User Story */,
-				9FB7F0A11A2DFE710062E52B /* Resources */,
 				9FB7F0A41A2DFE710062E52B /* Settings User Story */,
 				9FB7F05F1A2DF0650062E52B /* Constants */,
-				9F7672E31A286A7F0026E606 /* AppDelegate.h */,
-				9F7672E41A286A7F0026E606 /* AppDelegate.m */,
-				9F7672EE1A286A7F0026E606 /* LaunchScreen.xib */,
+				9FB7F08D1A2DFE710062E52B /* Extensions */,
+				9FB7F0A11A2DFE710062E52B /* Resources */,
 				9F7672DF1A286A7F0026E606 /* Supporting Files */,
 			);
 			path = MultipleStoryboardsApp;
@@ -187,6 +478,7 @@
 		9F7672DF1A286A7F0026E606 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9F7672EE1A286A7F0026E606 /* LaunchScreen.xib */,
 				9F7673081A286B010026E606 /* PrefixHeader.pch */,
 				9F7672E01A286A7F0026E606 /* Info.plist */,
 				9F7672E11A286A7F0026E606 /* main.m */,
@@ -206,16 +498,10 @@
 		9FB7F0691A2DFE710062E52B /* Best Cat User Story */ = {
 			isa = PBXGroup;
 			children = (
-				9FB7F06A1A2DFE710062E52B /* BestCat.storyboard */,
-				9FB7F06B1A2DFE710062E52B /* MSABestCatAssembly.h */,
-				9FB7F06C1A2DFE710062E52B /* MSABestCatAssembly.m */,
-				9FB7F06D1A2DFE710062E52B /* MSABestCatNavigationController.h */,
-				9FB7F06E1A2DFE710062E52B /* MSABestCatNavigationController.m */,
-				9FB7F06F1A2DFE710062E52B /* MSABestCatRouter.h */,
-				9FB7F0701A2DFE710062E52B /* MSABestCatRouterImplementation.h */,
-				9FB7F0711A2DFE710062E52B /* MSABestCatRouterImplementation.m */,
-				9FB7F0721A2DFE710062E52B /* MSABestCatViewController.h */,
-				9FB7F0731A2DFE710062E52B /* MSABestCatViewController.m */,
+				9F5B1EEC1A3040A30054DE3D /* Assembly */,
+				9F5B1EEF1A3040A30054DE3D /* Interface */,
+				9F5B1EF11A3040A30054DE3D /* Router */,
+				9F5B1EF51A3040A30054DE3D /* View Controllers */,
 			);
 			path = "Best Cat User Story";
 			sourceTree = "<group>";
@@ -223,21 +509,11 @@
 		9FB7F0741A2DFE710062E52B /* Breeds User Story */ = {
 			isa = PBXGroup;
 			children = (
-				9FB7F0751A2DFE710062E52B /* Breeds.storyboard */,
-				9FB7F0761A2DFE710062E52B /* MSABreedsAssembly.h */,
-				9FB7F0771A2DFE710062E52B /* MSABreedsAssembly.m */,
-				9FB7F0781A2DFE710062E52B /* MSABreedsClient.h */,
-				9FB7F0791A2DFE710062E52B /* MSABreedsDetailViewController.h */,
-				9FB7F07A1A2DFE710062E52B /* MSABreedsDetailViewController.m */,
-				9FB7F07B1A2DFE710062E52B /* MSABreedsNavigationController.h */,
-				9FB7F07C1A2DFE710062E52B /* MSABreedsNavigationController.m */,
-				9FB7F07D1A2DFE710062E52B /* MSABreedsRouter.h */,
-				9FB7F07E1A2DFE710062E52B /* MSABreedsRouterImplementation.h */,
-				9FB7F07F1A2DFE710062E52B /* MSABreedsRouterImplementation.m */,
-				9FB7F0801A2DFE710062E52B /* MSABreedsTableViewController.h */,
-				9FB7F0811A2DFE710062E52B /* MSABreedsTableViewController.m */,
-				9FB7F0821A2DFE710062E52B /* MSAJsonGeneratorBreedsClient.h */,
-				9FB7F0831A2DFE710062E52B /* MSAJsonGeneratorBreedsClient.m */,
+				9F5B1ECE1A3040990054DE3D /* API Client */,
+				9F5B1ED21A3040990054DE3D /* Assembly */,
+				9F5B1ED51A3040990054DE3D /* Interface */,
+				9F5B1ED71A3040990054DE3D /* Router */,
+				9F5B1EDB1A3040990054DE3D /* View Controllers */,
 			);
 			path = "Breeds User Story";
 			sourceTree = "<group>";
@@ -245,14 +521,11 @@
 		9FB7F0841A2DFE710062E52B /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				9F5B1EBD1A3040920054DE3D /* AppDelegate */,
+				9F5B1EC01A3040920054DE3D /* Assembly */,
+				9F5B1EC31A3040920054DE3D /* Data Model */,
+				9F5B1EC61A3040920054DE3D /* Router */,
 				9FB7F0851A2DFE710062E52B /* Main.storyboard */,
-				9FB7F0861A2DFE710062E52B /* MSACatBreed.h */,
-				9FB7F0871A2DFE710062E52B /* MSACatBreed.m */,
-				9FB7F0881A2DFE710062E52B /* MSAMainAssembly.h */,
-				9FB7F0891A2DFE710062E52B /* MSAMainAssembly.m */,
-				9FB7F08A1A2DFE710062E52B /* MSARouter.h */,
-				9FB7F08B1A2DFE710062E52B /* MSARouter.m */,
-				9FB7F08C1A2DFE710062E52B /* MSARoutingProtocol.h */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -287,18 +560,10 @@
 		9FB7F0941A2DFE710062E52B /* Photos User Story */ = {
 			isa = PBXGroup;
 			children = (
-				9FB7F0951A2DFE710062E52B /* MSAPhotoGalleryCollectionViewCell.h */,
-				9FB7F0961A2DFE710062E52B /* MSAPhotoGalleryCollectionViewCell.m */,
-				9FB7F0971A2DFE710062E52B /* MSAPhotoGalleryViewController.h */,
-				9FB7F0981A2DFE710062E52B /* MSAPhotoGalleryViewController.m */,
-				9FB7F0991A2DFE710062E52B /* MSAPhotosAssembly.h */,
-				9FB7F09A1A2DFE710062E52B /* MSAPhotosAssembly.m */,
-				9FB7F09B1A2DFE710062E52B /* MSAPhotosRouter.h */,
-				9FB7F09C1A2DFE710062E52B /* MSAPhotosRouterImplementation.h */,
-				9FB7F09D1A2DFE710062E52B /* MSAPhotosRouterImplementation.m */,
-				9FB7F09E1A2DFE710062E52B /* MSAPhotoViewController.h */,
-				9FB7F09F1A2DFE710062E52B /* MSAPhotoViewController.m */,
-				9FB7F0A01A2DFE710062E52B /* Photos.storyboard */,
+				9F5B1F011A3040A90054DE3D /* Assembly */,
+				9F5B1F041A3040A90054DE3D /* Interface */,
+				9F5B1F061A3040A90054DE3D /* Router */,
+				9F5B1F0A1A3040A90054DE3D /* View Controllers */,
 			);
 			path = "Photos User Story";
 			sourceTree = "<group>";
@@ -315,19 +580,10 @@
 		9FB7F0A41A2DFE710062E52B /* Settings User Story */ = {
 			isa = PBXGroup;
 			children = (
-				9FB7F0A51A2DFE710062E52B /* MSASettingsAssembly.h */,
-				9FB7F0A61A2DFE710062E52B /* MSASettingsAssembly.m */,
-				9FB7F0A71A2DFE710062E52B /* MSASettingsNavigationController.h */,
-				9FB7F0A81A2DFE710062E52B /* MSASettingsNavigationController.m */,
-				9FB7F0A91A2DFE710062E52B /* MSASettingsRouter.h */,
-				9FB7F0AA1A2DFE710062E52B /* MSASettingsRouterImplementation.h */,
-				9FB7F0AB1A2DFE710062E52B /* MSASettingsRouterImplementation.m */,
-				9FB7F0AC1A2DFE710062E52B /* MSASettingsTableViewController.h */,
-				9FB7F0AD1A2DFE710062E52B /* MSASettingsTableViewController.m */,
-				9FB7F0AE1A2DFE710062E52B /* MSAWarningViewController.h */,
-				9FB7F0AF1A2DFE710062E52B /* MSAWarningViewController.m */,
-				9FB7F0B01A2DFE710062E52B /* MSAWarningViewController.xib */,
-				9FB7F0B11A2DFE710062E52B /* Settings.storyboard */,
+				9F5B1F1A1A3040B10054DE3D /* Assembly */,
+				9F5B1F1D1A3040B10054DE3D /* Interface */,
+				9F5B1F201A3040B10054DE3D /* Router */,
+				9F5B1F241A3040B10054DE3D /* View Controllers */,
 			);
 			path = "Settings User Story";
 			sourceTree = "<group>";
@@ -347,12 +603,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F7672FF1A286A7F0026E606 /* Build configuration list for PBXNativeTarget "MultipleStoryboardsApp" */;
 			buildPhases = (
+				9FB7F0591A2DEA2C0062E52B /* Storyboard Constants Script */,
 				58D630A2E96F8AE09B7F38C1 /* Check Pods Manifest.lock */,
 				9F7672D81A286A7F0026E606 /* Sources */,
 				9F7672D91A286A7F0026E606 /* Frameworks */,
 				9F7672DA1A286A7F0026E606 /* Resources */,
 				94CC88565E9DDDAAE56E428D /* Copy Pods Resources */,
-				9FB7F0591A2DEA2C0062E52B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -400,15 +656,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FB7F0B71A2DFE710062E52B /* Breeds.storyboard in Resources */,
+				9F5B1F151A3040A90054DE3D /* Photos.storyboard in Resources */,
 				9F7672F01A286A7F0026E606 /* LaunchScreen.xib in Resources */,
 				9FB7F0CB1A2DFE710062E52B /* Images.xcassets in Resources */,
-				9FB7F0D11A2DFE710062E52B /* MSAWarningViewController.xib in Resources */,
+				9F5B1F2F1A3040B10054DE3D /* MSAWarningViewController.xib in Resources */,
 				9FB7F0CA1A2DFE710062E52B /* best-cat.png in Resources */,
-				9FB7F0C91A2DFE710062E52B /* Photos.storyboard in Resources */,
-				9FB7F0D21A2DFE710062E52B /* Settings.storyboard in Resources */,
-				9FB7F0B21A2DFE710062E52B /* BestCat.storyboard in Resources */,
+				9F5B1EFD1A3040A30054DE3D /* BestCat.storyboard in Resources */,
+				9F5B1F301A3040B10054DE3D /* Settings.storyboard in Resources */,
 				9FB7F0BE1A2DFE710062E52B /* Main.storyboard in Resources */,
+				9F5B1EE71A3040990054DE3D /* Breeds.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,18 +701,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9FB7F0591A2DEA2C0062E52B /* ShellScript */ = {
+		9FB7F0591A2DEA2C0062E52B /* Storyboard Constants Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"$(SRCROOT)/MultipleStoryboardsApp/Common/Main.storyboard",
-				"$(SRCROOT)/MultipleStoryboardsApp/Breeds User Story/Breeds.storyboard",
-				"$(SRCROOT)/MultipleStoryboardsApp/Best Cat User Story/BestCat.storyboard",
-				"$(SRCROOT)/MultipleStoryboardsApp/Photos User Story/Photos.storyboard",
-				"$(SRCROOT)/MultipleStoryboardsApp/Settings User Story/Settings.storyboard",
+				"$(SRCROOT)/MultipleStoryboardsApp/Breeds User Story/Interface/Breeds.storyboard",
+				"$(SRCROOT)/MultipleStoryboardsApp/Best Cat User Story/Interface/BestCat.storyboard",
+				"$(SRCROOT)/MultipleStoryboardsApp/Photos User Story/Interface/Photos.storyboard",
+				"$(SRCROOT)/MultipleStoryboardsApp/Settings User Story/Interface/Settings.storyboard",
 			);
+			name = "Storyboard Constants Script";
 			outputPaths = (
 				"$(PROJECT_DIR)/MultipleStoryboardsApp/Constants/MSAStoryboardsIdentifiers.h",
 				"$(PROJECT_DIR)/MultipleStoryboardsApp/Constants/MSAStoryboardsIdentifiers.m",
@@ -472,34 +729,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FB7F0B51A2DFE710062E52B /* MSABestCatRouterImplementation.m in Sources */,
-				9FB7F0C71A2DFE710062E52B /* MSAPhotosRouterImplementation.m in Sources */,
-				9F7672E51A286A7F0026E606 /* AppDelegate.m in Sources */,
-				9FB7F0BD1A2DFE710062E52B /* MSAJsonGeneratorBreedsClient.m in Sources */,
-				9FB7F0BC1A2DFE710062E52B /* MSABreedsTableViewController.m in Sources */,
-				9FB7F0CE1A2DFE710062E52B /* MSASettingsRouterImplementation.m in Sources */,
-				9FB7F0C41A2DFE710062E52B /* MSAPhotoGalleryCollectionViewCell.m in Sources */,
-				9FB7F0C61A2DFE710062E52B /* MSAPhotosAssembly.m in Sources */,
-				9FB7F0C81A2DFE710062E52B /* MSAPhotoViewController.m in Sources */,
-				9FB7F0BA1A2DFE710062E52B /* MSABreedsNavigationController.m in Sources */,
-				9FB7F0BF1A2DFE710062E52B /* MSACatBreed.m in Sources */,
-				9FB7F0C01A2DFE710062E52B /* MSAMainAssembly.m in Sources */,
-				9FB7F0C51A2DFE710062E52B /* MSAPhotoGalleryViewController.m in Sources */,
-				9FB7F0B41A2DFE710062E52B /* MSABestCatNavigationController.m in Sources */,
-				9FB7F0CF1A2DFE710062E52B /* MSASettingsTableViewController.m in Sources */,
-				9FB7F0CD1A2DFE710062E52B /* MSASettingsNavigationController.m in Sources */,
-				9FB7F0C11A2DFE710062E52B /* MSARouter.m in Sources */,
+				9F5B1EFF1A3040A30054DE3D /* MSABestCatNavigationController.m in Sources */,
+				9F5B1F171A3040A90054DE3D /* MSAPhotoGalleryCollectionViewCell.m in Sources */,
+				9F5B1F321A3040B10054DE3D /* MSASettingsNavigationController.m in Sources */,
+				9F5B1EE51A3040990054DE3D /* MSAJsonGeneratorBreedsClient.m in Sources */,
+				9F5B1ECD1A3040920054DE3D /* MSARouter.m in Sources */,
+				9F5B1F161A3040A90054DE3D /* MSAPhotosRouterImplementation.m in Sources */,
+				9F5B1EFE1A3040A30054DE3D /* MSABestCatRouterImplementation.m in Sources */,
+				9F5B1ECB1A3040920054DE3D /* MSAMainAssembly.m in Sources */,
+				9F5B1F191A3040A90054DE3D /* MSAPhotoViewController.m in Sources */,
+				9F5B1F311A3040B10054DE3D /* MSASettingsRouterImplementation.m in Sources */,
 				9F7672E21A286A7F0026E606 /* main.m in Sources */,
-				9FB7F0B81A2DFE710062E52B /* MSABreedsAssembly.m in Sources */,
-				9FB7F0B61A2DFE710062E52B /* MSABestCatViewController.m in Sources */,
+				9F5B1EE61A3040990054DE3D /* MSABreedsAssembly.m in Sources */,
 				9FB7F0C21A2DFE710062E52B /* MSALinkedStoryboardSegue.m in Sources */,
-				9FB7F0CC1A2DFE710062E52B /* MSASettingsAssembly.m in Sources */,
-				9FB7F0B91A2DFE710062E52B /* MSABreedsDetailViewController.m in Sources */,
-				9FB7F0B31A2DFE710062E52B /* MSABestCatAssembly.m in Sources */,
+				9F5B1EE91A3040990054DE3D /* MSABreedsDetailViewController.m in Sources */,
+				9F5B1F331A3040B10054DE3D /* MSASettingsTableViewController.m in Sources */,
+				9F5B1F001A3040A30054DE3D /* MSABestCatViewController.m in Sources */,
 				9FB7F0C31A2DFE710062E52B /* UIViewController+Routing.m in Sources */,
+				9F5B1EEB1A3040990054DE3D /* MSABreedsTableViewController.m in Sources */,
+				9F5B1EEA1A3040990054DE3D /* MSABreedsNavigationController.m in Sources */,
 				9FB7F0D51A2DFF750062E52B /* MSAStoryboardsIdentifiers.m in Sources */,
-				9FB7F0BB1A2DFE710062E52B /* MSABreedsRouterImplementation.m in Sources */,
-				9FB7F0D01A2DFE710062E52B /* MSAWarningViewController.m in Sources */,
+				9F5B1ECC1A3040920054DE3D /* MSACatBreed.m in Sources */,
+				9F5B1F2E1A3040B10054DE3D /* MSASettingsAssembly.m in Sources */,
+				9F5B1ECA1A3040920054DE3D /* AppDelegate.m in Sources */,
+				9F5B1F181A3040A90054DE3D /* MSAPhotoGalleryViewController.m in Sources */,
+				9F5B1EFC1A3040A30054DE3D /* MSABestCatAssembly.m in Sources */,
+				9F5B1EE81A3040990054DE3D /* MSABreedsRouterImplementation.m in Sources */,
+				9F5B1F141A3040A90054DE3D /* MSAPhotosAssembly.m in Sources */,
+				9F5B1F341A3040B10054DE3D /* MSAWarningViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
