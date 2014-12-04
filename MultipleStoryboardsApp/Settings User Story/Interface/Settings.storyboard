@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="A6H-OJ-j9O">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--Настройки-->
+        <scene sceneID="Tb1-Ec-6vw">
+            <objects>
+                <tableViewController id="B9K-Fu-U7j" customClass="MSASettingsTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="BHP-VS-GxE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <sections>
+                            <tableViewSection id="Z2a-gv-sZF">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="8TE-El-DNP">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8TE-El-DNP" id="sCd-C7-4Fm">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Предупреждение" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j3b-U7-LMh">
+                                                    <rect key="frame" x="13" y="13" width="170" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="B9K-Fu-U7j" id="dLi-16-svC"/>
+                            <outlet property="delegate" destination="B9K-Fu-U7j" id="20r-T1-RxO"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Настройки" id="KBE-EY-Iqd"/>
+                    <connections>
+                        <segue destination="A2v-Ce-5Ro" kind="modal" identifier="warningSegue" id="FQR-Gk-ohw"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wz8-qj-ZeW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="826" y="924"/>
+        </scene>
+        <!--Предупреждение-->
+        <scene sceneID="yHA-sh-SBG">
+            <objects>
+                <viewController id="A2v-Ce-5Ro" customClass="MSAWarningViewController" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="Предупреждение" id="2BD-4V-EFG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rq9-bQ-9Px" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1275" y="931"/>
+        </scene>
+        <!--Настройки-->
+        <scene sceneID="wp4-1F-y0s">
+            <objects>
+                <navigationController id="A6H-OJ-j9O" customClass="MSASettingsNavigationController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Настройки" id="CHh-fp-V4v"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="FJD-om-iSU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="typhoonKey" value="settingsNavigationController"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <segue destination="B9K-Fu-U7j" kind="relationship" relationship="rootViewController" id="Agw-cX-d3Q"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mr1-d4-nDj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="354" y="924"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vrc-9p-T2p">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--Породы котов-->
+        <scene sceneID="ysY-mB-hGz">
+            <objects>
+                <tableViewController id="XdZ-CX-t2D" customClass="MSABreedsTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="yIf-jf-BDt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BreedCell" id="BOM-70-Qa9">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BOM-70-Qa9" id="qNW-Gy-VGw">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="XdZ-CX-t2D" id="Zdx-TW-DFl"/>
+                            <outlet property="delegate" destination="XdZ-CX-t2D" id="xX3-mW-V8R"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Породы котов" id="HlM-m8-ywR"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="typhoonKey" value="breedsTableViewController"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <segue destination="AlW-aw-Tlq" kind="push" identifier="breedDetailSegue" id="Yer-KS-316"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cAJ-az-3Qh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="689" y="-436"/>
+        </scene>
+        <!--Warning View Controller-->
+        <scene sceneID="vae-sp-sjS">
+            <objects>
+                <viewController id="PsD-ap-M3b" customClass="MSAWarningViewController" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jP2-Kh-2ZX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1162" y="-1116"/>
+        </scene>
+        <!--Breeds Detail View Controller-->
+        <scene sceneID="ao3-cP-bhF">
+            <objects>
+                <viewController id="AlW-aw-Tlq" customClass="MSABreedsDetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Oxo-pS-JHw"/>
+                        <viewControllerLayoutGuide type="bottom" id="5Nc-Cl-6Mq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ubq-rX-xiZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LhO-eR-Yl5">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="298"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Px5-a2-D26">
+                                <rect key="frame" x="60" y="326" width="200" height="40"/>
+                                <state key="normal" title="Посмотреть фоточки">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showPicturesButtonClicked:" destination="AlW-aw-Tlq" eventType="touchUpInside" id="K6K-t7-0Dq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NDZ-gp-b0K">
+                        <barButtonItem key="rightBarButtonItem" systemItem="reply" id="aAf-jO-km5">
+                            <connections>
+                                <action selector="warningButtonClicked:" destination="AlW-aw-Tlq" id="t6r-uM-p8w"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="typhoonKey" value="breedsDetailViewController"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="breedDetailTextView" destination="LhO-eR-Yl5" id="3ug-I7-2O0"/>
+                        <segue destination="9pC-lP-HxJ" kind="custom" identifier="MSAPhotoGalleryViewController_Photos" customClass="MSALinkedStoryboardSegue" id="rWf-6z-Bka"/>
+                        <segue destination="PsD-ap-M3b" kind="modal" identifier="warningSegue" id="qo7-Fu-Lnu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="40h-xA-uPe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1161" y="-436"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ybj-ch-y9F">
+            <objects>
+                <viewController id="9pC-lP-HxJ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hWm-qr-NPM"/>
+                        <viewControllerLayoutGuide type="bottom" id="6RI-xe-R4C"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wMh-JT-S4Z">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kKR-oS-SiB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1627" y="-436"/>
+        </scene>
+        <!--Породы-->
+        <scene sceneID="fy1-13-njJ">
+            <objects>
+                <navigationController id="vrc-9p-T2p" customClass="MSABreedsNavigationController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Породы" id="TZT-w5-q3q"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NoJ-CG-AYK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="typhoonKey" value="breedsNavigationController"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <segue destination="XdZ-CX-t2D" kind="relationship" relationship="rootViewController" id="x4Q-N9-ZyO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iUK-xp-083" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="191.46666666666667" y="-435.46666666666664"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
