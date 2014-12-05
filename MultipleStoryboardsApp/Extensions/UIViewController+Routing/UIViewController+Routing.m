@@ -82,6 +82,8 @@
 }
 
 - (void)msa_prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    [self msa_prepareForSegue:segue sender:sender];
+    
     [self.router prepareForSegue:segue sender:sender];
 }
 
