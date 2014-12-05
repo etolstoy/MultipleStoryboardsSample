@@ -85,6 +85,7 @@
     [self msa_prepareForSegue:segue sender:sender];
     
     [self.router prepareForSegue:segue sender:sender];
+    [self setUserInfo:nil forSegueWithIdentifier:segue.identifier];
 }
 
 @end
