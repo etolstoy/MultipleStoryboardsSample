@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		76CE2F0D0B44BBBE961A6953 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D3841BCECF9BF5FEFF1EDC /* libPods.a */; };
+		9F30D21D1A31D01000163650 /* MSALinkedStoryboardModalSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F30D21C1A31D01000163650 /* MSALinkedStoryboardModalSegue.m */; };
 		9F5B1ECA1A3040920054DE3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1EBF1A3040920054DE3D /* AppDelegate.m */; };
 		9F5B1ECB1A3040920054DE3D /* MSAMainAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1EC21A3040920054DE3D /* MSAMainAssembly.m */; };
 		9F5B1ECC1A3040920054DE3D /* MSACatBreed.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1EC51A3040920054DE3D /* MSACatBreed.m */; };
@@ -46,6 +47,8 @@
 
 /* Begin PBXFileReference section */
 		57FADD0C02FD1A9735EF3B85 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9F30D21B1A31D01000163650 /* MSALinkedStoryboardModalSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSALinkedStoryboardModalSegue.h; sourceTree = "<group>"; };
+		9F30D21C1A31D01000163650 /* MSALinkedStoryboardModalSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSALinkedStoryboardModalSegue.m; sourceTree = "<group>"; };
 		9F5B1EBE1A3040920054DE3D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F5B1EBF1A3040920054DE3D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9F5B1EC11A3040920054DE3D /* MSAMainAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAMainAssembly.h; sourceTree = "<group>"; };
@@ -505,6 +508,8 @@
 			children = (
 				9FB7F08F1A2DFE710062E52B /* MSALinkedStoryboardSegue.h */,
 				9FB7F0901A2DFE710062E52B /* MSALinkedStoryboardSegue.m */,
+				9F30D21B1A31D01000163650 /* MSALinkedStoryboardModalSegue.h */,
+				9F30D21C1A31D01000163650 /* MSALinkedStoryboardModalSegue.m */,
 			);
 			path = MSALinkedStoryboardSegue;
 			sourceTree = "<group>";
@@ -709,6 +714,7 @@
 				9FB7F0D51A2DFF750062E52B /* MSAStoryboardsIdentifiers.m in Sources */,
 				9F5B1ECC1A3040920054DE3D /* MSACatBreed.m in Sources */,
 				9F5B1F2E1A3040B10054DE3D /* MSASettingsAssembly.m in Sources */,
+				9F30D21D1A31D01000163650 /* MSALinkedStoryboardModalSegue.m in Sources */,
 				9F5B1ECA1A3040920054DE3D /* AppDelegate.m in Sources */,
 				9F5B1F181A3040A90054DE3D /* MSAPhotoGalleryViewController.m in Sources */,
 				9F5B1EFC1A3040A30054DE3D /* MSABestCatAssembly.m in Sources */,
