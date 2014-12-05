@@ -10,9 +10,6 @@
 
 @interface MSARouter : NSObject
 
-@property (strong, nonatomic) UINavigationController *mainNavigationController;
-
-- (instancetype)initWithNavigationController:(UINavigationController *)navigationController;
 - (void)dismissCurrentViewController:(UIViewController *)viewController
                             animated:(BOOL)animated;
 @end

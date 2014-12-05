@@ -17,12 +17,10 @@
 		9F5B1EE71A3040990054DE3D /* Breeds.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F5B1ED61A3040990054DE3D /* Breeds.storyboard */; };
 		9F5B1EE81A3040990054DE3D /* MSABreedsRouterImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1EDA1A3040990054DE3D /* MSABreedsRouterImplementation.m */; };
 		9F5B1EE91A3040990054DE3D /* MSABreedsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1EDE1A3040990054DE3D /* MSABreedsDetailViewController.m */; };
-		9F5B1EEA1A3040990054DE3D /* MSABreedsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1EE11A3040990054DE3D /* MSABreedsNavigationController.m */; };
 		9F5B1EEB1A3040990054DE3D /* MSABreedsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1EE41A3040990054DE3D /* MSABreedsTableViewController.m */; };
 		9F5B1EFC1A3040A30054DE3D /* MSABestCatAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1EEE1A3040A30054DE3D /* MSABestCatAssembly.m */; };
 		9F5B1EFD1A3040A30054DE3D /* BestCat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F5B1EF01A3040A30054DE3D /* BestCat.storyboard */; };
 		9F5B1EFE1A3040A30054DE3D /* MSABestCatRouterImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1EF41A3040A30054DE3D /* MSABestCatRouterImplementation.m */; };
-		9F5B1EFF1A3040A30054DE3D /* MSABestCatNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1EF81A3040A30054DE3D /* MSABestCatNavigationController.m */; };
 		9F5B1F001A3040A30054DE3D /* MSABestCatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1EFB1A3040A30054DE3D /* MSABestCatViewController.m */; };
 		9F5B1F141A3040A90054DE3D /* MSAPhotosAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1F031A3040A90054DE3D /* MSAPhotosAssembly.m */; };
 		9F5B1F151A3040A90054DE3D /* Photos.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F5B1F051A3040A90054DE3D /* Photos.storyboard */; };
@@ -34,7 +32,6 @@
 		9F5B1F2F1A3040B10054DE3D /* MSAWarningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F5B1F1E1A3040B10054DE3D /* MSAWarningViewController.xib */; };
 		9F5B1F301A3040B10054DE3D /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F5B1F1F1A3040B10054DE3D /* Settings.storyboard */; };
 		9F5B1F311A3040B10054DE3D /* MSASettingsRouterImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1F231A3040B10054DE3D /* MSASettingsRouterImplementation.m */; };
-		9F5B1F321A3040B10054DE3D /* MSASettingsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1F271A3040B10054DE3D /* MSASettingsNavigationController.m */; };
 		9F5B1F331A3040B10054DE3D /* MSASettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1F2A1A3040B10054DE3D /* MSASettingsTableViewController.m */; };
 		9F5B1F341A3040B10054DE3D /* MSAWarningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B1F2D1A3040B10054DE3D /* MSAWarningViewController.m */; };
 		9F7672E21A286A7F0026E606 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7672E11A286A7F0026E606 /* main.m */; };
@@ -69,8 +66,6 @@
 		9F5B1EDA1A3040990054DE3D /* MSABreedsRouterImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsRouterImplementation.m; sourceTree = "<group>"; };
 		9F5B1EDD1A3040990054DE3D /* MSABreedsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsDetailViewController.h; sourceTree = "<group>"; };
 		9F5B1EDE1A3040990054DE3D /* MSABreedsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsDetailViewController.m; sourceTree = "<group>"; };
-		9F5B1EE01A3040990054DE3D /* MSABreedsNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsNavigationController.h; sourceTree = "<group>"; };
-		9F5B1EE11A3040990054DE3D /* MSABreedsNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsNavigationController.m; sourceTree = "<group>"; };
 		9F5B1EE31A3040990054DE3D /* MSABreedsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABreedsTableViewController.h; sourceTree = "<group>"; };
 		9F5B1EE41A3040990054DE3D /* MSABreedsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABreedsTableViewController.m; sourceTree = "<group>"; };
 		9F5B1EED1A3040A30054DE3D /* MSABestCatAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatAssembly.h; sourceTree = "<group>"; };
@@ -79,8 +74,6 @@
 		9F5B1EF21A3040A30054DE3D /* MSABestCatRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatRouter.h; sourceTree = "<group>"; };
 		9F5B1EF31A3040A30054DE3D /* MSABestCatRouterImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatRouterImplementation.h; sourceTree = "<group>"; };
 		9F5B1EF41A3040A30054DE3D /* MSABestCatRouterImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABestCatRouterImplementation.m; sourceTree = "<group>"; };
-		9F5B1EF71A3040A30054DE3D /* MSABestCatNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatNavigationController.h; sourceTree = "<group>"; };
-		9F5B1EF81A3040A30054DE3D /* MSABestCatNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABestCatNavigationController.m; sourceTree = "<group>"; };
 		9F5B1EFA1A3040A30054DE3D /* MSABestCatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSABestCatViewController.h; sourceTree = "<group>"; };
 		9F5B1EFB1A3040A30054DE3D /* MSABestCatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSABestCatViewController.m; sourceTree = "<group>"; };
 		9F5B1F021A3040A90054DE3D /* MSAPhotosAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPhotosAssembly.h; sourceTree = "<group>"; };
@@ -102,8 +95,6 @@
 		9F5B1F211A3040B10054DE3D /* MSASettingsRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsRouter.h; sourceTree = "<group>"; };
 		9F5B1F221A3040B10054DE3D /* MSASettingsRouterImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsRouterImplementation.h; sourceTree = "<group>"; };
 		9F5B1F231A3040B10054DE3D /* MSASettingsRouterImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSASettingsRouterImplementation.m; sourceTree = "<group>"; };
-		9F5B1F261A3040B10054DE3D /* MSASettingsNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsNavigationController.h; sourceTree = "<group>"; };
-		9F5B1F271A3040B10054DE3D /* MSASettingsNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSASettingsNavigationController.m; sourceTree = "<group>"; };
 		9F5B1F291A3040B10054DE3D /* MSASettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSASettingsTableViewController.h; sourceTree = "<group>"; };
 		9F5B1F2A1A3040B10054DE3D /* MSASettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSASettingsTableViewController.m; sourceTree = "<group>"; };
 		9F5B1F2C1A3040B10054DE3D /* MSAWarningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAWarningViewController.h; sourceTree = "<group>"; };
@@ -225,7 +216,6 @@
 			isa = PBXGroup;
 			children = (
 				9F5B1EDC1A3040990054DE3D /* MSABreedsDetailViewController */,
-				9F5B1EDF1A3040990054DE3D /* MSABreedsNavigationController */,
 				9F5B1EE21A3040990054DE3D /* MSABreedsTableViewController */,
 			);
 			path = "View Controllers";
@@ -238,15 +228,6 @@
 				9F5B1EDE1A3040990054DE3D /* MSABreedsDetailViewController.m */,
 			);
 			path = MSABreedsDetailViewController;
-			sourceTree = "<group>";
-		};
-		9F5B1EDF1A3040990054DE3D /* MSABreedsNavigationController */ = {
-			isa = PBXGroup;
-			children = (
-				9F5B1EE01A3040990054DE3D /* MSABreedsNavigationController.h */,
-				9F5B1EE11A3040990054DE3D /* MSABreedsNavigationController.m */,
-			);
-			path = MSABreedsNavigationController;
 			sourceTree = "<group>";
 		};
 		9F5B1EE21A3040990054DE3D /* MSABreedsTableViewController */ = {
@@ -288,19 +269,9 @@
 		9F5B1EF51A3040A30054DE3D /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				9F5B1EF61A3040A30054DE3D /* MSABestCatNavigationController */,
 				9F5B1EF91A3040A30054DE3D /* MSABestCatViewController */,
 			);
 			path = "View Controllers";
-			sourceTree = "<group>";
-		};
-		9F5B1EF61A3040A30054DE3D /* MSABestCatNavigationController */ = {
-			isa = PBXGroup;
-			children = (
-				9F5B1EF71A3040A30054DE3D /* MSABestCatNavigationController.h */,
-				9F5B1EF81A3040A30054DE3D /* MSABestCatNavigationController.m */,
-			);
-			path = MSABestCatNavigationController;
 			sourceTree = "<group>";
 		};
 		9F5B1EF91A3040A30054DE3D /* MSABestCatViewController */ = {
@@ -407,20 +378,10 @@
 		9F5B1F241A3040B10054DE3D /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				9F5B1F251A3040B10054DE3D /* MSASettingsNavigationController */,
 				9F5B1F281A3040B10054DE3D /* MSASettingsTableViewController */,
 				9F5B1F2B1A3040B10054DE3D /* MSAWarningViewController */,
 			);
 			path = "View Controllers";
-			sourceTree = "<group>";
-		};
-		9F5B1F251A3040B10054DE3D /* MSASettingsNavigationController */ = {
-			isa = PBXGroup;
-			children = (
-				9F5B1F261A3040B10054DE3D /* MSASettingsNavigationController.h */,
-				9F5B1F271A3040B10054DE3D /* MSASettingsNavigationController.m */,
-			);
-			path = MSASettingsNavigationController;
 			sourceTree = "<group>";
 		};
 		9F5B1F281A3040B10054DE3D /* MSASettingsTableViewController */ = {
@@ -729,9 +690,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F5B1EFF1A3040A30054DE3D /* MSABestCatNavigationController.m in Sources */,
 				9F5B1F171A3040A90054DE3D /* MSAPhotoGalleryCollectionViewCell.m in Sources */,
-				9F5B1F321A3040B10054DE3D /* MSASettingsNavigationController.m in Sources */,
 				9F5B1EE51A3040990054DE3D /* MSAJsonGeneratorBreedsClient.m in Sources */,
 				9F5B1ECD1A3040920054DE3D /* MSARouter.m in Sources */,
 				9F5B1F161A3040A90054DE3D /* MSAPhotosRouterImplementation.m in Sources */,
@@ -747,7 +706,6 @@
 				9F5B1F001A3040A30054DE3D /* MSABestCatViewController.m in Sources */,
 				9FB7F0C31A2DFE710062E52B /* UIViewController+Routing.m in Sources */,
 				9F5B1EEB1A3040990054DE3D /* MSABreedsTableViewController.m in Sources */,
-				9F5B1EEA1A3040990054DE3D /* MSABreedsNavigationController.m in Sources */,
 				9FB7F0D51A2DFF750062E52B /* MSAStoryboardsIdentifiers.m in Sources */,
 				9F5B1ECC1A3040920054DE3D /* MSACatBreed.m in Sources */,
 				9F5B1F2E1A3040B10054DE3D /* MSASettingsAssembly.m in Sources */,

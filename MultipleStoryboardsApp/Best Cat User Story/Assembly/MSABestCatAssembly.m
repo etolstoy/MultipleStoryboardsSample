@@ -12,7 +12,6 @@
 #import "MSABestCatRouterImplementation.h"
 #import "MSAPhotosAssembly.h"
 #import "MSAMainAssembly.h"
-#import "MSABestCatNavigationController.h"
 #import "MSABestCatRouter.h"
 
 @interface MSABestCatAssembly ()
@@ -22,10 +21,6 @@
 @end
 
 @implementation MSABestCatAssembly
-
-- (MSABestCatNavigationController *)bestCatNavigationController {
-    return [TyphoonDefinition withClass:[MSABestCatNavigationController class]];
-}
 
 - (MSABestCatViewController *)bestCatViewController {
     return [TyphoonDefinition withClass:[MSABestCatViewController class] configuration:^(TyphoonDefinition *definition) {
@@ -38,9 +33,6 @@
 
 - (id<MSABestCatRouter>)bestCatRouter {
     return [TyphoonDefinition withClass:[MSABestCatRouterImplementation class] configuration:^(TyphoonDefinition *definition) {
-        [definition useInitializer:@selector(initWithNavigationController:) parameters:^(TyphoonMethod *initializer) {
-            [initializer injectParameterWith:[self bestCatNavigationController]];
-        }];
         [definition injectProperty:@selector(photosAssembly) with:[_mainAssembly photosAssembly]];
     }];
 }

@@ -26,12 +26,6 @@ static NSString *const BreedPhotosSegueUserInfoKey = @"breedPhotosSegueUserInfo"
 
 @implementation MSABreedsRouterImplementation
 
-#pragma mark - Initialization
-
-- (instancetype)initWithNavigationController:(UINavigationController *)navigationController {
-    return [super initWithNavigationController:navigationController];
-}
-
 #pragma mark - MSARoutingProtocol Methods
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
@@ -44,9 +38,10 @@ static NSString *const BreedPhotosSegueUserInfoKey = @"breedPhotosSegueUserInfo"
     } else if ([segue.identifier isEqualToString:sMSAPhotoGalleryViewController_Photos]) {
         MSACatBreed *catBreed = [[segue.sourceViewController segueUserInfo:segue] objectForKey:BreedPhotosSegueUserInfoKey];
         
+        MSABreedsDetailViewController *sourceViewController = segue.sourceViewController;
         MSAPhotoGalleryViewController *destinationViewController = segue.destinationViewController;
         destinationViewController.catBreed = catBreed;
-        destinationViewController.router = [self.photosAssembly photosRouterWithNavigationController:self.mainNavigationController];
+        destinationViewController.router = [self.photosAssembly photosRouterWithNavigationController:sourceViewController.navigationController];
     } else if ([segue.identifier isEqualToString:sWarningSegue]) {
         MSAWarningViewController *destinationController = segue.destinationViewController;
         destinationController.router = self;

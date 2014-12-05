@@ -80,6 +80,7 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="reply" id="aAf-jO-km5">
                             <connections>
                                 <action selector="warningButtonClicked:" destination="AlW-aw-Tlq" id="t6r-uM-p8w"/>
+                                <segue destination="AlW-aw-Tlq" kind="push" id="5kh-ZA-9V5"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -94,7 +95,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="40h-xA-uPe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1161" y="-436"/>
+            <point key="canvasLocation" x="1135" y="-344"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ybj-ch-y9F">
@@ -117,15 +118,12 @@
         <!--Породы-->
         <scene sceneID="fy1-13-njJ">
             <objects>
-                <navigationController id="vrc-9p-T2p" customClass="MSABreedsNavigationController" sceneMemberID="viewController">
+                <navigationController id="vrc-9p-T2p" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Породы" id="TZT-w5-q3q"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="NoJ-CG-AYK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="typhoonKey" value="breedsNavigationController"/>
-                    </userDefinedRuntimeAttributes>
                     <connections>
                         <segue destination="XdZ-CX-t2D" kind="relationship" relationship="rootViewController" id="x4Q-N9-ZyO"/>
                     </connections>
@@ -140,4 +138,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="Yer-KS-316"/>
+    </inferredMetricsTieBreakers>
 </document>

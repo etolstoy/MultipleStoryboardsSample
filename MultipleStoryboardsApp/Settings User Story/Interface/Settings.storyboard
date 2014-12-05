@@ -59,15 +59,12 @@
         <!--Настройки-->
         <scene sceneID="wp4-1F-y0s">
             <objects>
-                <navigationController id="A6H-OJ-j9O" customClass="MSASettingsNavigationController" sceneMemberID="viewController">
+                <navigationController id="A6H-OJ-j9O" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Настройки" id="CHh-fp-V4v"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="FJD-om-iSU">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="typhoonKey" value="settingsNavigationController"/>
-                    </userDefinedRuntimeAttributes>
                     <connections>
                         <segue destination="B9K-Fu-U7j" kind="relationship" relationship="rootViewController" id="Agw-cX-d3Q"/>
                     </connections>

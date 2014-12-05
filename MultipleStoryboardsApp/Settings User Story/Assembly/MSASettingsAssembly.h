@@ -8,10 +8,6 @@
 
 #import "TyphoonAssembly.h"
 
-@class MSASettingsNavigationController;
-
 @interface MSASettingsAssembly : TyphoonAssembly
-
-- (MSASettingsNavigationController *)settingsNavigationController;
 
 @end

@@ -16,7 +16,6 @@
 #import "MSABreedsDetailViewController.h"
 #import "MSAPhotosAssembly.h"
 #import "MSAMainAssembly.h"
-#import "MSABreedsNavigationController.h"
 
 @interface MSABreedsAssembly ()
 
@@ -25,10 +24,6 @@
 @end
 
 @implementation MSABreedsAssembly
-
-- (MSABreedsNavigationController *)breedsNavigationController {
-    return [TyphoonDefinition withClass:[MSABreedsNavigationController class]];
-}
 
 - (MSABreedsTableViewController *)breedsTableViewController {
     return [TyphoonDefinition withClass:[MSABreedsTableViewController class] configuration:^(TyphoonDefinition *definition) {
@@ -45,9 +40,6 @@
 
 - (id<MSABreedsRouter>)breedsRouter {
     return [TyphoonDefinition withClass:[MSABreedsRouterImplementation class] configuration:^(TyphoonDefinition *definition) {
-        [definition useInitializer:@selector(initWithNavigationController:) parameters:^(TyphoonMethod *initializer) {
-            [initializer injectParameterWith:[self breedsNavigationController]];
-        }];
         [definition injectProperty:@selector(photosAssembly) with:[_mainAssembly photosAssembly]];
     }];
 }

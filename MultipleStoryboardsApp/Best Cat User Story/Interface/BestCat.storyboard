@@ -7,15 +7,12 @@
         <!--Лучший кот-->
         <scene sceneID="e7V-rD-cuh">
             <objects>
-                <navigationController id="Gj7-IS-ZDg" customClass="MSABestCatNavigationController" sceneMemberID="viewController">
+                <navigationController id="Gj7-IS-ZDg" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Лучший кот" id="9hh-uJ-5da"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="LmC-r7-zhj">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="typhoonKey" value="bestCatNavigationController"/>
-                    </userDefinedRuntimeAttributes>
                     <connections>
                         <segue destination="QDM-LZ-Vb5" kind="relationship" relationship="rootViewController" id="n0O-7L-DlC"/>
                     </connections>

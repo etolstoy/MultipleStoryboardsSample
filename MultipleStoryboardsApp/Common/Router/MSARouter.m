@@ -15,16 +15,7 @@
 
 @implementation MSARouter
 
-#pragma mark - Initialization
-
-- (instancetype)initWithNavigationController:(UINavigationController *)navigationController {
-    if (self = [super init]) {
-        self.mainNavigationController = navigationController;
-    }
-    return self;
-}
-
-#pragma mark -
+#pragma mark - Dismissing View Controller
 
 - (void)dismissCurrentViewController:(UIViewController *)viewController
                             animated:(BOOL)animated {

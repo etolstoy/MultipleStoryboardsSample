@@ -16,9 +16,7 @@
 @implementation MSAPhotosAssembly
 
 - (id<MSAPhotosRouter>)photosRouterWithNavigationController:(UINavigationController *)navigationController {
-    return [[MSAPhotosRouterImplementation alloc] initWithNavigationController:navigationController];
+    return [[MSAPhotosRouterImplementation alloc] init];
 }
-
-
 
 @end

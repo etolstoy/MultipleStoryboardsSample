@@ -8,12 +8,10 @@
 
 #import "TyphoonAssembly.h"
 
-@class MSABestCatNavigationController;
 @class MSABestCatViewController;
 
 @interface MSABestCatAssembly : TyphoonAssembly
 
-- (MSABestCatNavigationController *)bestCatNavigationController;
 - (MSABestCatViewController *)bestCatViewController;
 
 @end

@@ -10,11 +10,9 @@
 
 @class MSABreedsTableViewController;
 @class MSABreedsDetailViewController;
-@class MSABreedsNavigationController;
 
 @interface MSABreedsAssembly : TyphoonAssembly
 
-- (MSABreedsNavigationController *)breedsNavigationController;
 - (MSABreedsTableViewController *)breedsTableViewController;
 - (MSABreedsDetailViewController *)breedsDetailViewController;
 

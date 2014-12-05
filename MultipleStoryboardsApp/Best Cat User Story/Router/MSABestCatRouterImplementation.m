@@ -24,12 +24,6 @@ static NSString *const PhotoViewSegueUserInfoKey = @"photoViewSegueUserInfo";
 
 @implementation MSABestCatRouterImplementation
 
-#pragma mark - Initialization
-
-- (instancetype)initWithNavigationController:(UINavigationController *)navigationController {
-    return [super initWithNavigationController:navigationController];
-}
-
 #pragma mark - MSARoutingProtocol Methods
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {

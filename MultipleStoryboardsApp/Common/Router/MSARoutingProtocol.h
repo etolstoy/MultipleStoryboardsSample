@@ -10,8 +10,6 @@
 
 @protocol MSARoutingProtocol <NSObject>
 
-- (instancetype)initWithNavigationController:(UINavigationController *)navigationController;
-
 - (void)dismissCurrentViewController:(UIViewController *)viewController
                             animated:(BOOL)animated;
 
