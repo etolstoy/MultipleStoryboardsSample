@@ -15,9 +15,6 @@
 #import "MSABreedsRouter.h"
 #import "MSAStoryboardsIdentifiers.h"
 
-static NSString *const BreedDetailSegueUserInfoKey = @"breedDetailSegueUserInfo";
-static NSString *const BreedPhotosSegueUserInfoKey = @"breedPhotosSegueUserInfo";
-
 @class MSACatBreed;
 
 @interface MSABreedsRouterImplementation () <MSABreedsRouter>
@@ -29,23 +26,7 @@ static NSString *const BreedPhotosSegueUserInfoKey = @"breedPhotosSegueUserInfo"
 #pragma mark - MSARoutingProtocol Methods
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if ([segue.identifier isEqualToString:sBreedDetailSegue]) {
-        MSACatBreed *catBreed = [[segue.sourceViewController segueUserInfo:segue] objectForKey:BreedDetailSegueUserInfoKey];
-        
-        MSABreedsDetailViewController *destinationViewController = segue.destinationViewController;
-        destinationViewController.catBreed = catBreed;
-        destinationViewController.router = self;
-    } else if ([segue.identifier isEqualToString:sMSAPhotoGalleryViewController_Photos]) {
-        MSACatBreed *catBreed = [[segue.sourceViewController segueUserInfo:segue] objectForKey:BreedPhotosSegueUserInfoKey];
-        
-        MSABreedsDetailViewController *sourceViewController = segue.sourceViewController;
-        MSAPhotoGalleryViewController *destinationViewController = segue.destinationViewController;
-        destinationViewController.catBreed = catBreed;
-        destinationViewController.router = [self.photosAssembly photosRouterWithNavigationController:sourceViewController.navigationController];
-    } else if ([segue.identifier isEqualToString:sWarningSegue]) {
-        MSAWarningViewController *destinationController = segue.destinationViewController;
-        destinationController.router = self;
-    }
+    [super prepareForSegue:segue sender:self];
 }
 
 - (void)dismissCurrentViewController:(UIViewController *)viewController animated:(BOOL)animated {
@@ -56,21 +37,44 @@ static NSString *const BreedPhotosSegueUserInfoKey = @"breedPhotosSegueUserInfo"
 
 - (void)showBreedViewControllerFromSourceController:(UIViewController *)sourceController
                                        withCatBreed:(MSACatBreed *)catBreed {
-    [sourceController performSegueWithIdentifier:sBreedDetailSegue
-                                          sender:self
-                                        userInfo:@{BreedDetailSegueUserInfoKey : catBreed}];
+    __block typeof(catBreed) blockCatBreed = catBreed;
+    __weak typeof(self) weakSelf = self;
+    
+    MSAPreparationBlock block = ^void(UIStoryboardSegue *segue) {
+        __strong typeof(weakSelf) strongSelf = weakSelf;
+        MSABreedsDetailViewController *destinationViewController = segue.destinationViewController;
+        destinationViewController.catBreed = blockCatBreed;
+        destinationViewController.router = strongSelf;
+    };
+    
+    [sourceController performSegueWithIdentifier:sBreedDetailSegue sender:self preparationBlock:block];
 }
 
 - (void)showPhotosViewControllerFromSourceController:(UIViewController *)sourceController
                                         withCatBreed:(MSACatBreed *)catBreed {
-    [sourceController performSegueWithIdentifier:sMSAPhotoGalleryViewController_Photos
-                                          sender:self
-                                        userInfo:@{BreedPhotosSegueUserInfoKey : catBreed}];
+    __block typeof(catBreed) blockCatBreed = catBreed;
+    __block typeof(self.photosAssembly) blockPhotosAssembly = self.photosAssembly;
+    
+    MSAPreparationBlock block = ^void(UIStoryboardSegue *segue) {
+        MSAPhotoGalleryViewController *destinationViewController = segue.destinationViewController;
+
+        destinationViewController.catBreed = blockCatBreed;
+        destinationViewController.router = [blockPhotosAssembly photosRouter];
+    };
+    
+    [sourceController performSegueWithIdentifier:sMSAPhotoGalleryViewController_Photos sender:self preparationBlock:block];
 }
 
 - (void)showWarningViewControllerFromSourceController:(UIViewController *)sourceController {
-    [sourceController performSegueWithIdentifier:sWarningSegue
-                                          sender:self];
+    __weak typeof(self) weakSelf = self;
+    
+    MSAPreparationBlock block = ^void(UIStoryboardSegue *segue) {
+        __strong typeof(weakSelf) strongSelf = weakSelf;
+        MSAWarningViewController *destinationViewController = segue.destinationViewController;
+        destinationViewController.router = strongSelf;
+    };
+    
+    [sourceController performSegueWithIdentifier:sWarningSegue sender:self preparationBlock:block];
 }
 
 @end

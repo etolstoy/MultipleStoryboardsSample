@@ -12,8 +12,6 @@
 #import "MSABestCatRouter.h"
 #import "MSAStoryboardsIdentifiers.h"
 
-static NSString *const PhotoViewSegueUserInfoKey = @"photoViewSegueUserInfo";
-
 @class MSAPhotosAssembly;
 
 @interface MSABestCatRouterImplementation () <MSABestCatRouter>
@@ -27,13 +25,7 @@ static NSString *const PhotoViewSegueUserInfoKey = @"photoViewSegueUserInfo";
 #pragma mark - MSARoutingProtocol Methods
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if ([segue.identifier isEqualToString:sMSAPhotoViewController_Photos]) {
-        NSURL *imageURL = [[segue.sourceViewController segueUserInfo:segue] objectForKey:PhotoViewSegueUserInfoKey];
-        
-        MSAPhotoViewController *destinationViewController = segue.destinationViewController;
-        destinationViewController.photoImageURL = imageURL;
-        destinationViewController.router = self;
-    }
+    [super prepareForSegue:segue sender:self];
 }
 
 - (void)dismissCurrentViewController:(UIViewController *)viewController animated:(BOOL)animated {
@@ -44,9 +36,14 @@ static NSString *const PhotoViewSegueUserInfoKey = @"photoViewSegueUserInfo";
 
 - (void)showPhotoViewControllerFromSourceController:(UIViewController *)sourceController
                                             withURL:(NSURL *)imageURL {
-    [sourceController performSegueWithIdentifier:sMSAPhotoViewController_Photos
-                                          sender:self
-                                        userInfo:@{PhotoViewSegueUserInfoKey : imageURL}];
+    __block typeof(imageURL) blockImageURL = imageURL;
+    
+    MSAPreparationBlock block = ^void(UIStoryboardSegue *segue) {
+        MSAPhotoViewController *destinationViewController = segue.destinationViewController;
+        destinationViewController.photoImageURL = blockImageURL;
+    };
+    
+    [sourceController performSegueWithIdentifier:sMSAPhotoViewController_Photos sender:self preparationBlock:block];
 }
 
 @end

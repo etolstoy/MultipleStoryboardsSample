@@ -7,13 +7,24 @@
 //
 
 #import "MSARouter.h"
-#import "MSARoutingProtocol.h"
+#import "UIViewController+Routing.h"
 
 @interface MSARouter ()
 
 @end
 
 @implementation MSARouter
+
+#pragma mark - prepareForSegue:
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    UIViewController *sourceViewController = segue.sourceViewController;
+    MSAPreparationBlock block = [sourceViewController preparationBlockForSegue:segue];
+    
+    if (block) {
+        block(segue);
+    }
+}
 
 #pragma mark - Dismissing View Controller
 

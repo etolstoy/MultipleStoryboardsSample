@@ -9,11 +9,13 @@
 #import "TyphoonAssembly.h"
 
 @class MSAPhotoGalleryViewController;
-@class MSAPhotosRouterImplementation;
+@class MSAPhotoViewController;
 @protocol MSARoutingProtocol;
 
 @interface MSAPhotosAssembly : TyphoonAssembly
 
-- (id<MSARoutingProtocol>)photosRouterWithNavigationController:(UINavigationController *)navigationController;
+- (MSAPhotoGalleryViewController *)photoGalleryViewController;
+- (MSAPhotoViewController *)photoViewController;
+- (id<MSARoutingProtocol>)photosRouter;
 
 @end

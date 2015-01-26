@@ -14,8 +14,6 @@
 
 @class MSAPhotosAssembly;
 
-static NSString *const WarningViewSegueUserInfoKey = @"warningViewSegueUserInfo";
-
 @interface MSASettingsRouterImplementation () <MSASettingsRouter>
 
 @property (strong, nonatomic) MSAPhotosAssembly *photosAssembly;
@@ -27,10 +25,7 @@ static NSString *const WarningViewSegueUserInfoKey = @"warningViewSegueUserInfo"
 #pragma mark - MSARoutingProtocol Methods
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if ([segue.identifier isEqualToString:sWarningSegue]) {
-        MSAWarningViewController *warningViewController = segue.destinationViewController;
-        warningViewController.router = self;
-    }
+    [super prepareForSegue:segue sender:self];
 }
 
 - (void)dismissCurrentViewController:(UIViewController *)viewController animated:(BOOL)animated {
@@ -40,8 +35,15 @@ static NSString *const WarningViewSegueUserInfoKey = @"warningViewSegueUserInfo"
 #pragma mark - Navigation Methods
 
 - (void)showWarningViewControllerFromSourceController:(UIViewController *)sourceController {
-    [sourceController performSegueWithIdentifier:sWarningSegue
-                                          sender:self];
+    __weak typeof(self) weakSelf = self;
+    
+    MSAPreparationBlock block = ^void(UIStoryboardSegue *segue) {
+        __strong typeof(weakSelf) strongSelf = weakSelf;
+        MSAWarningViewController *destinationViewController = segue.destinationViewController;
+        destinationViewController.router = strongSelf;
+    };
+    
+    [sourceController performSegueWithIdentifier:sWarningSegue sender:self preparationBlock:block];
 }
 
 @end

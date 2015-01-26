@@ -22,39 +22,39 @@
     objc_setAssociatedObject(self, @selector(router), router, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
-- (NSDictionary *)seguesUserInfoDictionary
+- (NSDictionary *)seguesBlockDictionary
 {
-    return objc_getAssociatedObject(self, @selector(seguesUserInfoDictionary));
+    return objc_getAssociatedObject(self, @selector(seguesBlockDictionary));
 }
 
-- (void)setSeguesUserInfoDictionary:(NSDictionary *)dict
+- (void)setSeguesBlockDictionary:(NSDictionary *)dict
 {
-    objc_setAssociatedObject(self, @selector(seguesUserInfoDictionary), dict, OBJC_ASSOCIATION_COPY_NONATOMIC);
+    objc_setAssociatedObject(self, @selector(seguesBlockDictionary), dict, OBJC_ASSOCIATION_COPY_NONATOMIC);
 }
 
-#pragma mark - Segue with User Info Implementation
+#pragma mark - Segue with Block Implementation
 
-- (void)setUserInfo:(NSDictionary *)userInfo forSegueWithIdentifier:(NSString *)identifier
+- (void)setPreparationBlock:(MSAPreparationBlock)block forSegueWithIdentifier:(NSString *)identifier
 {
-    NSMutableDictionary *dict = [[self seguesUserInfoDictionary]?:@{} mutableCopy];
-    if (userInfo) {
-        dict[identifier] = userInfo;
-    }
-    else {
+    NSMutableDictionary *dict = [[self seguesBlockDictionary]?:@{} mutableCopy];
+    if (block) {
+        dict[identifier] = [block copy];
+    } else {
         [dict removeObjectForKey:identifier];
     }
-    [self setSeguesUserInfoDictionary:dict];
+    
+    [self setSeguesBlockDictionary:dict];
 }
 
-- (void)performSegueWithIdentifier:(NSString *)identifier sender:(id)sender userInfo:(NSDictionary *)userInfo
+- (void)performSegueWithIdentifier:(NSString *)identifier sender:(id)sender preparationBlock:(MSAPreparationBlock)block
 {
-    [self setUserInfo:userInfo forSegueWithIdentifier:identifier];
+    [self setPreparationBlock:block forSegueWithIdentifier:identifier];
     [self performSegueWithIdentifier:identifier sender:sender];
 }
 
-- (NSDictionary *)segueUserInfo:(UIStoryboardSegue *)segue
+- (MSAPreparationBlock)preparationBlockForSegue:(UIStoryboardSegue *)segue
 {
-    NSDictionary *dict = [self seguesUserInfoDictionary];
+    NSDictionary *dict = [self seguesBlockDictionary];
     return dict[segue.identifier];
 }
 
@@ -85,7 +85,9 @@
     [self msa_prepareForSegue:segue sender:sender];
     
     [self.router prepareForSegue:segue sender:sender];
-    [self setUserInfo:nil forSegueWithIdentifier:segue.identifier];
+    if (segue.identifier) {
+        [self setPreparationBlock:nil forSegueWithIdentifier:segue.identifier];
+    }
 }
 
 @end

@@ -7,9 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MSARoutingProtocol.h"
 
-@interface MSARouter : NSObject
+@interface MSARouter : NSObject <MSARoutingProtocol>
 
-- (void)dismissCurrentViewController:(UIViewController *)viewController
-                            animated:(BOOL)animated;
 @end

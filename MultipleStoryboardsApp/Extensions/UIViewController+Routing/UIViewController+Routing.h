@@ -9,6 +9,13 @@
 #import <UIKit/UIKit.h>
 #import "MSARoutingProtocol.h"
 
+/**
+ *  Блок, используемый для конфигурации segue в методе prepareForSegue:
+ *
+ *  @param segue (UIStoryboardSegue *)
+ */
+typedef void (^MSAPreparationBlock)(UIStoryboardSegue *segue);
+
 @interface UIViewController (Routing)
 
 /**
@@ -21,19 +28,19 @@
  *
  *  @param identifier Identifier вызываемой segue
  *  @param sender     Sender
- *  @param userInfo   Словарь, содержащий информацию, которую нужно передать в prepareForSegue:
+ *  @param block      (^MSAPreparationBlock)(UIStoryboardSegue *segue)
  */
 - (void)performSegueWithIdentifier:(NSString *)identifier
                             sender:(id)sender
-                          userInfo:(NSDictionary *)userInfo;
+                  preparationBlock:(MSAPreparationBlock)block;
 
 /**
- *  Метод, позволяющий получить словарь, переданный с конкретной segue.
+ *  Метод, отдающий блок для конкретной segue
  *
- *  @param segue Segue, чей userInfo нужно получить
+ *  @param segue (UIStoryboardSegue *)
  *
- *  @return Словарь с информацией, переданной с segue.
+ *  @return (^MSAPreparationBlock)(UIStoryboardSegue *segue)
  */
-- (NSDictionary *)segueUserInfo:(UIStoryboardSegue *)segue;
+- (MSAPreparationBlock)preparationBlockForSegue:(UIStoryboardSegue *)segue;
 
 @end
